@@ -1,0 +1,16 @@
+---
+layout: default
+title: i38.me
+---
+
+<ul class="listing">
+
+{% for node in site.pages %}
+  {% if node.layout == "project" %}
+    <li class="listing-item">
+      <a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+
+</ul>

@@ -1,0 +1,9 @@
+excerpt_separator: ""
+markdown: kramdown
+url: http://i38.me
+title: i38
+tagline: software is beautiful
+description: i38.me
+paginate: 1
+disqus_shortname: i38
+permalink: /:title/
