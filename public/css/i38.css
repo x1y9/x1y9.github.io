@@ -81,14 +81,9 @@ tr:nth-child(even) td, tr:nth-child(even) th { background: #eee; }
   margin-right: auto;
 }
 
-@media (min-width: 38rem) {
-  .container {
-    max-width: 32rem;
-  }
-}
 @media (min-width: 56rem) {
   .container {
-    max-width: 38rem;
+    max-width: 56rem;
   }
 }
 
