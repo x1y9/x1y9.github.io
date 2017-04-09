@@ -18,7 +18,7 @@ windows x86  | [1.0.2](https://github.com/i38/i38.github.io/blob/master/public/j
 windows x64  | [1.0.2](https://github.com/i38/i38.github.io/blob/master/public/justmd/justmd-x86-1.0.2.zip?raw=true)      
 
 
-### install method
+### install 
 After download the zip, unzip and run justmd.exe
 
 
