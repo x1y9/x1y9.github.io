@@ -6,7 +6,7 @@ layout: project
 ---
 
 
-![](../public/images/justmd.png)
+![](../public/images/justmd.png) 
 
 ## sync scroll
 ![](../public/images/sync-scroll.gif)
@@ -20,20 +20,34 @@ layout: project
 ## paste word
 ![](../public/images/paste-word.gif)
 
+
 ## more
+* UML support
+* Tex match support
 * export html
 * export pdf
 * optimized performance for large file edit
 
 
-## buy&download
+## download
 
-Windows version(Windows 7/8.1/10) 32bit/64bit: only $9.9
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="RL2QNY944XDCA">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+release  | download 
+------   | ------    
+windows x64  | [1.1 (35M)](https://github.com/i38/i38.github.io/blob/master/public/justmd/justmd-win32-x64-1.1.7z?raw=true)      
+
+
+## install 
+After download, unzip and run justmd.exe
+
+
+## support
+
+Any question or comment, please:
+* comment on this page
+* send email to hi@i38.me
+
+
+
+
 
 
