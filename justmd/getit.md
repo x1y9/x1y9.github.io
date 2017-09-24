@@ -14,12 +14,11 @@ download the lastest version of justmd here
 
 release  | download 
 ------   | ------
-windows x86  | [1.0.2](https://github.com/i38/i38.github.io/blob/master/public/justmd/justmd-x64-1.0.2.zip?raw=true)     
-windows x64  | [1.0.2](https://github.com/i38/i38.github.io/blob/master/public/justmd/justmd-x86-1.0.2.zip?raw=true)      
+windows x64  | [1.1.0](https://github.com/i38/i38.github.io/raw/master/public/justmd/justmd-win32-x64-v1.1.0.7z)
 
 
 ### install 
-After download the zip, unzip and run justmd.exe
+After download, unzip and run justmd.exe
 
 
 ## support

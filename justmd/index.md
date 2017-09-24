@@ -33,7 +33,7 @@ layout: project
 
 release  | download 
 ------   | ------    
-windows x64  | [1.1 (35M)](https://github.com/i38/i38.github.io/blob/master/public/justmd/justmd-win32-x64-1.1.7z?raw=true)      
+windows x64  | [1.1.0 (35M)](https://github.com/i38/i38.github.io/raw/master/public/justmd/justmd-win32-x64-v1.1.0.7z)      
 
 
 ## install 
