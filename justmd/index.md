@@ -40,7 +40,7 @@ OSX  |  [1.1.1 (50M)](https://github.com/i38/i38.github.io/raw/master/public/jus
 Linux x64  | [1.1.1 (50M)](https://github.com/i38/i38.github.io/raw/master/public/justmd/justmd-linux-x64-v1.1.1.tar.gz)      
 
 ## install 
-After download, unzip and run justmd.exe
+After download, unzip and run justmd
 
 
 ## support
