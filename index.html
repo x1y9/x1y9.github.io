@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: Our projects/apps
 ---
 
 <ul class="listing">
@@ -8,7 +8,7 @@ title: home
 {% for node in site.pages %}
   {% if node.layout == "project" %}
     
-      <h3><img src="/public/images/{{ node.title }}.png"> <a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a> <small>{{ node.tagline }}</small></h3>
+      <h3><img style="width:64px" src="/public/images/{{ node.title }}.png"> <a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a> <small>{{ node.tagline }}</small></h3>
     
   {% endif %}
 {% endfor %}
