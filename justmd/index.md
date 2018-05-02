@@ -33,11 +33,11 @@ layout: project
 
 release  | download 
 ------   | ------    
-windows x64 | [1.1.1 (35M)](https://github.com/i38/i38.github.io/raw/master/public/justmd/justmd-win32-x64-v1.1.1.7z)      
+windows x64 | [1.1.1 (35M)](https://github.com/i38/justmd/releases/download/v1.1.1/justmd-win32-x64-v1.1.1.7z)      
 ------   | ------  
-OSX  |  [1.1.1 (50M)](https://github.com/i38/i38.github.io/raw/master/public/justmd/justmd-osx-v1.1.1.zip)      
+OSX  |  [1.1.1 (50M)](https://github.com/i38/justmd/releases/download/v1.1.1/justmd-osx-v1.1.1.zip)
 ------   | ------  
-Linux x64  | [1.1.1 (50M)](https://github.com/i38/i38.github.io/raw/master/public/justmd/justmd-linux-x64-v1.1.1.tar.gz)      
+Linux x64  | [1.1.1 (50M)](https://github.com/i38/justmd/releases/download/v1.1.1/justmd-linux-x64-v1.1.1.tar.gz)      
 
 ## install 
 After download, unzip and run justmd
