@@ -1,7 +1,7 @@
 ---
 published: true
 title: justmd
-tagline: a markdown editor
+tagline: open source markdown editor
 layout: project
 ---
 
@@ -42,6 +42,8 @@ Linux x64  | [1.1.1 (50M)](https://github.com/i38/i38.github.io/raw/master/publi
 ## install 
 After download, unzip and run justmd
 
+## source code
+get source code at [github](https://github.com/i38/justmd)
 
 ## support
 
