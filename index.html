@@ -6,9 +6,10 @@ title: Our projects
 <ul class="listing">
 
 {% for node in site.pages %}
-  {% if node.layout == "project" %}
+  {% if node.layout == "product" %}
     
-      <h3><img style="width:64px" src="/public/images/{{ node.title }}.png"> <a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a> <small>{{ node.tagline }}</small></h3>
+      <h3><a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a></h3> 
+      <p>{{ node.tagline }}</p>
     
   {% endif %}
 {% endfor %}

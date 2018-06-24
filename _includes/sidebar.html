@@ -10,7 +10,7 @@
 
   <nav class="sidebar-nav">
     {% for node in site.pages  %}
-        {% if node.layout == "page" %}
+        {% if node.layout == "product" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
         {% endif %}
     {% endfor %}
