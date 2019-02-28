@@ -5,7 +5,7 @@ tagline: open source markdown editor
 layout: project
 ---
 
-see [github](https://github.com/i38/justmd)
+see [github](https://github.com/x1y9/justmd)
 
 
 

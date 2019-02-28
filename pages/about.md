@@ -1,8 +1,8 @@
 ---
 published: true
-title: About i38
+title: About me
 tagline: 
 layout: page
 ---
 
-contact with me: hi AT i38.me
+contact with me: x1y9 AT hotmail.com
