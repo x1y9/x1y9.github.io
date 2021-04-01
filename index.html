@@ -1,17 +1,7 @@
 ---
 layout: default
-title: Projects/我的作品
+title: 我的作品
 ---
-
-
-{% for node in site.pages %}
-  {% if node.layout == "product" %}
-    
-      <h3><a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a></h3> 
-      <p>{{ node.tagline }}</p>
-    
-  {% endif %}
-{% endfor %}
 
 <h3>
   <a href="https://app.mi.com/details?id=me.i38.gesture">微动手势 <img width="24px" src="/public/images/android.png"/></a>
@@ -38,7 +28,15 @@ title: Projects/我的作品
 </h3>
 <p>培养好的习惯，每日打卡。</p>
 
+{% for node in site.pages %}
+  {% if node.layout == "product" %}
+    
+      <h3><a href="{{ node.url }}" title="{{ node.title }}">{{ node.title }}</a></h3> 
+      <p>{{ node.tagline }}</p>
+    
+  {% endif %}
+{% endfor %}
 
-
-
+<hr/>
+<p>x1y9 AT hotmail.com</p>
 
