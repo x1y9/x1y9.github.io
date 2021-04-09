@@ -64,3 +64,6 @@ layout: page
 
 ## 数据处理
 1. [SciDAVis](http://scidavis.sourceforge.net/) : 数据处理，替代Origin
+
+## 娱乐
+1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序
