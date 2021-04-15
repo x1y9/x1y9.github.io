@@ -31,5 +31,6 @@ layout: page
 
 ## 编程
 1. [online json viewer](http://jsonviewer.stack.hu/) 在线json格式化，查看工具
+1. [online xml formatter](https://www.webtoolkitonline.com/xml-formatter.html) 在线xml格式化
 1. [regex101](https://regex101.com/) 正则表达式测试
 1. [generatedata](http://www.generatedata.com/) 根据给定的要求生成大量随机数据
