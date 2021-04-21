@@ -64,7 +64,7 @@ HAP是Ability的部署包，HarmonyOS应用代码围绕Ability组件展开，它
 
 四种模拟器，代表四种设备类型，我要验证我的手机应用，自然就选了P40，启动很快，也不占用本地内存，很好。点击IDE里的调试，就可以运行到模拟器中了。模拟器上有个倒计时，应该是云端模拟器不能占用太长的时间，超时会被释放。
 
-尝试了一下调试，怎么也设置不了断点，按照文档做了各种设置都不行，只好去华为开发者网站提交一个问题，很快第二天收到了回复，问题修复并提供了升级包下载。同时看了一下华为的文档，如果要真机调试，需要先申请调试证书，并配置签名信息，也就是说，估计华为的签名策略会收紧，向苹果看齐，未来鸿蒙的应用市场可能只有官方一家。
+尝试了一下调试，怎么也设置不了断点，按照文档做了各种设置都不行，只好去华为开发者网站提交一个问题，很快第二天收到了回复，问题修复并提供了升级包下载。升级后问题解决，但远程调试的体验确实不佳，很慢，所以实际开发鸿蒙应用，还是需要一个真机，同时看了一下华为的文档，如果要真机调试，需要先申请调试证书，并配置签名信息，也就是说，估计华为的签名策略会收紧，向苹果看齐，未来鸿蒙的应用市场可能只有官方一家。
 
 ## 安卓兼容性
 
@@ -96,14 +96,71 @@ HAP是Ability的部署包，HarmonyOS应用代码围绕Ability组件展开，它
 |       |              安卓 |     鸿蒙 |
 | ------|-------------------| -------- |
 |项目配置|AndroidManifest.xml|config.json|
-|应用标识 |package|bundle|
-|字符资源|strings.xml|string.json|
-|调试shell |adb|hdc   |
+|应用    |Application       |AbilityPackage
+|上下文  |Context           |AbilityContext
+|页面    |Activity          |AbilitySlice|
+|服务    |Service           |Ability
+|字符资源|strings.xml       |string.json|
+|调试shell |adb             |hdc   |
 |gradle配置 |build.gradle|build.gradle|
 
+## 模块划分
+因为鸿蒙分布式的特性，鸿蒙的模块分的更细（方便流转和快速加载），官方文档中有一句重要的描述：`HarmonyOS支持应用以Ability为单位进行部署`。
+
+可以这样来分解：
+* 一个应用包括多个Ablity，需要在config.json中一一声明。
+* Ablity有多种，比如ui类的Page，还有无ui的Data和Service。
+* 'Page'不是一个页面，而是多个页面AbilitySlice的汇总，这个术语不太好。
+* 多个Slice中，有一个为主，其他slice则需要通过addActionRoute和一个字符串action来绑定，如果slice需要被外部调用，action还要在config.json里声明。
+```
+setMainRoute(MainSlice.class.getName());
+addActionRoute("action.pay", PaySlice.class.getName());
+addActionRoute("action.scan", ScanSlice.class.getName());
+
+...config.json...
+"skills":[{"actions":["action.pay","action.scan"]}]
+```
+* Page间可以通过Intent跳转，跳转可以直接指定Bundle和Ability(显式跳转)，也可以通过Action匹配到AbilitySlice(隐式跳转)，这个和安卓比较接近，举例如下：
+```
+Intent intent = new Intent();
+intent.setOperation(new Intent.OperationBuilder()
+        .withDeviceId("")
+        .withBundleName("com.demoapp")
+        .withAbilityName("com.demoapp.FooAbility")
+        .build());
+startAbility(intent);
+
+intent.setOperation(new Intent.OperationBuilder()
+        .withAction(Intent.ACTION_QUERY_WEATHER)
+        .build());
+startAbilityForResult(intent, REQ_CODE_QUERY_WEATHER);
+```
+
+## UI和布局
 看一下项目的布局文件和源码，UI部分代码需要完全重写了，不可能兼容安卓的Layout和控件了，大部分的API都不一致了，只是有些在安卓中可以找到一个依稀的影子，但接口都是不一样的。
 
 这说明了一个问题，如果不是以安卓兼容模式运行，现有的安卓应用要想移植到鸿蒙，工作量还是很大的，基本上需要完全重写。
+
+鸿蒙除了支持Java，还支持JS UI，这时鸿蒙比较有特色的一个地方。
+
+## Page和AbilitySlice
+
+这是鸿蒙比安卓复杂的地方，Page包括多个Slice，page本身的生命周期是这样的：
+
+![](../public/images/2021-04-21-11-05-28.png)
+
+每个slice也是这个状态机，但是两个slice间跳转的时候，每个slice的状态的迁移是有顺序的，比如从A迁移到B:
+
+A.onInactive() -> B.onStart() -> B.onActive() -> A.onBackground()
+
+slice之间可以通过present或presentForResult跳转
+```
+button.setClickedListener(listener -> present(new TargetSlice(), new Intent()));
+```
+
+上面这个new Intent似乎只是用来传递参数，这时不需要action，也就是说如果slice不需要被外部调用，可以随便起一个action名，也不用在config.json里注册，但可惜不能留空，留空会报错。
+
+一个小测试发现，如果两个slice使用同一个layout，则slice页面内容会互相修改。
 
 ## 总结
 
