@@ -112,6 +112,7 @@ HAP是Ability的部署包，HarmonyOS应用代码围绕Ability组件展开，它
 * Ablity有多种，比如ui类的Page，还有无ui的Data和Service。
 * 'Page'不是一个页面，而是多个页面AbilitySlice的汇总，这个术语不太好。
 * 多个Slice中，有一个为主，其他slice则需要通过addActionRoute和一个字符串action来绑定，如果slice需要被外部调用，action还要在config.json里声明。
+
 ```
 setMainRoute(MainSlice.class.getName());
 addActionRoute("action.pay", PaySlice.class.getName());
@@ -120,7 +121,9 @@ addActionRoute("action.scan", ScanSlice.class.getName());
 ...config.json...
 "skills":[{"actions":["action.pay","action.scan"]}]
 ```
+
 * Page间可以通过Intent跳转，跳转可以直接指定Bundle和Ability(显式跳转)，也可以通过Action匹配到AbilitySlice(隐式跳转)，这个和安卓比较接近，举例如下：
+
 ```
 Intent intent = new Intent();
 intent.setOperation(new Intent.OperationBuilder()

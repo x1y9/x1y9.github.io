@@ -31,6 +31,7 @@ layout: page
 
 ## 媒体
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF阅读工具，多标签页。
+1. [cpdf](https://github.com/coherentgraphics/cpdf-binaries): PDF命令行工具，比如拆分、合并、增加页码等功能。
 1. [MPC-HC](https://mpc-hc.org/) : 非常轻量的播放器，CPU占用极低，适合笔记本使用。
 1. [Vlc](http://www.videolan.org/vlc/) : 兼容性很好的播放器
 1. [IrfanView](http://www.irfanview.com/) : 超轻量且支持格式极多的图片查看器。
