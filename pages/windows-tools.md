@@ -8,8 +8,9 @@ layout: page
 
 
 ## 工具
-1. [ConEmu](https://conemu.github.io/) : 多标签页的命令行，用来替换CMD
+1. [ConEmu](https://conemu.github.io/) : 多标签页的命令行，用来替换CMD。
 1. [Clink](https://mridgers.github.io/clink/) : 支持CMD记录历史，可以和ConEmu集成
+1. [Windows Terminal](https://github.com/microsoft/terminal) : 微软自己的Terminal，对中文支持更好，但字体有时发虚。
 1. [Classic Shell](http://www.classicshell.net/) : Windows8下用来找回开始菜单，win10可以不用了。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索
@@ -25,7 +26,7 @@ layout: page
 1. [Unison](http://unison-binaries.inria.fr/) : 文件目录同步
 1. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘
 1. [nssm](https://nssm.cc/) 把任何程序转为Windows服务
-1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，神器。
+1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板，神器。
 1. [ImageMagick](https://imagemagick.org/index.php) 如果要在命令行处理图片，比如缩放、格式转换，就这个了。
 1. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
 
@@ -47,6 +48,7 @@ layout: page
 1. [CodeBlocks](http://www.codeblocks.org/) : 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
 1. [Visual Studio Code](https://code.visualstudio.com/) : 大部分项目的IDE
 1. [git](https://git-scm.com/) : 版本控制和linux工具集
+1. [gitui](https://github.com/extrawurst/gitui) : 命令行下的git客户端，浏览版本历史挺好用的。
 
 ## 设计
 1. [Just Color Picker](http://annystudio.com/software/colorpicker/) : 取色工具
