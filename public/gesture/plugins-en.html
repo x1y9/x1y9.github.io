@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-    <title>微动手势插件库</title>
+    <title>Micro Gesture plugins
+	</title>
 	<style>
 	code {width: 100%;word-break: break-all;font-size:15px;}
 	h4 {margin-bottom:3px;font-size:20px;}
@@ -13,93 +14,93 @@
   </head>
   <body>
 
-<p>点击并复制某个代码，然后返回微动手势中粘贴即可，其中标记<red>超级捷径</red>的需要微动较高版本才支持，并需要启动高级服务。</p>
+<p>Click and copy a code, then go back to the Micro Gesture and paste it. The one marked <red>Super Shortcut</red> requires a high version of Micro Gesture to be supported, and requires advanced services to be started.</p>
 
-<h4>微信-付款码<red>超级捷径</red></h4>
-<code>ss:[{"a":"com.tencent.mm"},{"n":"我"},{"n":"支付"},{"n":"收付款"}]</code>
+<h4>WeChat - Pay Merchant <red>Super Shortcut</red></h4>
+<code>ss:[{"a":"com.tencent.mm"},{"n":"Me"},{"n":"Pay"},{"n":"Money"}]</code>
 
-<h4>微信-朋友圈<red>超级捷径</red></h4>
-<code>ss:[{"a":"com.tencent.mm"},{"n":"发现"},{"n":"朋友圈"}]</code>
+<h4>WeChat - Moments <red>Super Shortcut</red></h4>
+<code>ss:[{"a":"com.tencent.mm"},{"n":"Discover"},{"n":"Moments"}]</code>
 
-<h4>微信-粤康码</h4>
+<h4>WeChat - 粤康码</h4>
 <code>view:weixin://dl/business/?t=QDZVQEO2z9f</code>
 
-<h4>微信-直接打开行程卡(需要根据分辨率需改坐标)<red>超级捷径</red></h4>
+<h4>WeChat - 行程卡(Need to change the coordinates according to the resolution) <red>Super Shortcut</red></h4>
 <code>ss:[{"a":"com.tencent.mm"},{"n":"行程卡"},{"a":"click:500:1500","d":"3000"},{"a":"click:500:1700","d":500}]</code>
 
-<h4>手机-拨打指定的电话(修改123456为你想拨打的电话)</h4>
+<h4>Phone - Call the specified number (modify 123456 as the number you want to call)</h4>
 <code>intent:123456#Intent;scheme=tel;action=android.intent.action.DIAL;end</code>
 
-<h4>手机-给指定的电话发送短信(修改123456为你想发短信的号码)</h4>
+<h4>Phone - Send SMS to the specified phone (modify 123456 as the number you want to send SMS to)</h4>
 <code>intent:123456#Intent;scheme=smsto;action=android.intent.action.SENDTO;end</code>
 
-<h4>浏览器-打开指定网址(修改baidu为你想要的网址)</h4>
+<h4>Browser - open the specified URL (modify baidu to the URL you want)</h4>
 <code>intent://www.baidu.com#Intent;scheme=http;end</code>
 
-<h4>支付宝-直接打开行程卡</h4>
+<h4>Alipay-open trip card directly</h4>
 <code>view:alipays://platformapi/startapp?appId=2021002170600786&page=pages%2FsuccessResponce%2FsuccessResponce</code>
 
-<h4>支付宝-信用卡还款</h4>
+<h4>Alipay - Credit Card Repayment</h4>
 <code>intent://platformapi/startapp?appId=09999999#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-充值中心</h4>
+<h4>Alipay - Recharge Center</h4>
 <code>intent://platformapi/startapp?appId=10000003#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-彩票</h4>
+<h4>Alipay -彩票</h4>
 <code>intent://platformapi/startapp?appId=10000011#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-转账</h4>
+<h4>Alipay - 转账</h4>
 <code>intent://platformapi/startapp?appId=20000116#Intent;scheme=alipayqr;end</code>
 
-<h4>支付宝-个人收钱</h4>
+<h4>Alipay - 个人收钱</h4>
 <code>intent://platformapi/startapp?appId=20000123#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-股票</h4>
+<h4>Alipay - 股票</h4>
 <code>intent://platformapi/startapp?appId=20000134#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-记账本</h4>
+<h4>Alipay - 记账本</h4>
 <code>intent://platformapi/startapp?appId=20000168#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-生活缴费</h4>
+<h4>Alipay - 生活缴费</h4>
 <code>intent://platformapi/startapp?appId=20000193#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-我的快递</h4>
+<h4>Alipay - 我的快递</h4>
 <code>intent://platformapi/startapp?appId=20000754#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-滴滴</h4>
+<h4>Alipay - 滴滴</h4>
 <code>intent://platformapi/startapp?appId=20000778#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-乘车码</h4>
+<h4>Alipay - 乘车码</h4>
 <code>intent://platformapi/startapp?appId=200011235#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-蚂蚁森林</h4>
+<h4>Alipay - 蚂蚁森林</h4>
 <code>intent://platformapi/startapp?appId=60000002#Intent;scheme=alipays;end</code>
 
-<h4>支付宝-蚂蚁庄园</h4>
+<h4>Alipay - 蚂蚁庄园</h4>
 <code>intent://platformapi/startapp?appId=66666674#Intent;scheme=alipays;end</code>
 
-<h4>淘宝-我的订单</h4>
+<h4>Taobao - My order</h4>
 <code>intent://taobao.trade.order/orderlist.htm#Intent;scheme=taobao;end</code>
 
-<h4>微博-发微博</h4>
+<h4>Weibo - Send weibo</h4>
 <code>intent://sendweibo#Intent;scheme=sinaweibo;end</code>
 
-<h4>微博-扫码</h4>
+<h4>Weibo - Scan</h4>
 <code>intent://qrcode#Intent;scheme=sinaweibo;end</code>
 
-<h4>京东-我的订单</h4>
+<h4>Jingdong - My order</h4>
 <code>intent://virtual?params=%7B%22category%22:%22jump%22,%22des%22:%22orderlist%22%7D#Intent;scheme=openApp.jdMobile;end</code>
 
-<h4>MIUI-小米捷径(需要桌面上放一个小米捷径的入口)<red>超级捷径</red></h4>
+<h4>MIUI- Xiaomi shortcut <red>Super Shortcut</red></h4>
 <code>ss:[{"a":"3"},{"a":"2","p":"com.android.systemui"},{"n":"小米捷径"}]</code>
 
-<h4>MIUI-控制中心(根据分辨率修改坐标参数)</h4>
+<h4>MIUI - Control center(Need to change the coordinates according to the resolution)</h4>
 <code>N:715:10:715:100:50</code>
 
-<h4>MIUI-清理后台<red>超级捷径</red></h4>
+<h4>MIUI- Clear tasks <red>Super Shortcut</red></h4>
 <code>ss:[{"a":"3"},{"p":"com.miui.home","n":"#clearAnimView"}]</code>
 
-<h4>华为-手电筒(仅在EMUI10上工作)</h4>
+<h4>EMUI- Torch(only work on EMUI 10)</h4>
 <code>intent:#Intent;component=com.huawei.HwMultiScreenShot/com.android.systemui.flashlight.FlashlightActivity;end</code>
 
 <h4> </h4>
