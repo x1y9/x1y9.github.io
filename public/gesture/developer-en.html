@@ -19,188 +19,181 @@
 * The beginning of intent: is the Android intent url, which can be entered directly as a plugin.<br/>
 * The beginning of ss: is a super shortcut of Micro Gesture, which can be interpreted as a set of commands executed continuously, which is the most distinctive part of Micro Gesture and is described in detail below.<br/><br/>
 
-Note that plugins are <red>case sensitive</red> and that English punctuation must be used for punctuation in the format. The automation feature for Micro Gesture also supports triggering a continuous action, also using several of the above plugins. <br/>
+Note that plugins are <red>case sensitive</red>. The automation feature for Micro Gesture also supports triggering a plugin, also using several of the above plugins. <br/>
 </code>
 
 <h4>Super Shortcut</h4>
 <code>Super shortcuts are supported after <red>version 4.3.4</red> of Micro Gesture, as a simple example.<br/>
 <red>ss:[{"a":"com.tencent.mm"}]</red><br/>
-就是一个简单的超级捷径，用来启动微信。这里ss:后面的中括号括起来的部分是一个json格式的数组，json格式详细说明请请参考附录二。<br/><br/>
-每个超级捷径都是用<red>中括号</red>括起来的一组指令，其中单条指令则是以<red>大括号</red>括起来的一个json对象，对象包括一些属性，比如"a"就是一个属性，表示这条指令要做的动作，后面的"com.tencent.mm"就是这个动作的值，这是一个安卓版微信的package id，就表示启动微信。下面会详细解释插件指令的格式。
+It is a simple super shortcut to launch WeChat. Here the part enclosed in brackets after ss: is a json format array, please refer to Appendix II for detailed description of json format.<br/><br/>
+Each super shortcut is a set of actions enclosed in <red>[]</red>, where a single action is a json object enclosed in <red>{}</red>, and the object includes some properties, for example, "a" is a property that indicates the action to be done by this instruction, followed by "com.tencent.mm" which is the value of this action. This is the package id of an Android version of WeChat, which means start WeChat. The following will explain the format of the plugin command in detail.
 </code>
 
-<h4>指令对象</h4>
-<code>每个指令对象，可以包括以下几个属性:<br/>
-1. "a"表示要执行的动作，这个属性最复杂，除了上面所述的安卓package id，还可以取很多值，参考附录一，但是注意这个值<red>区分大小写</red>，不要弄混。<br/>
-2. "d"表示延时，单位为毫秒，在微动手势的<red>5.5.4版本</red>之前，这个延时分为正负延时，正延时是在执行后，负延时是在执行前延时，<red>5.5.4版本</red>之后不再区分，统一为执行前延时，负值也不再有意义。<br/>
-3. "n"表示要匹配的屏幕元素。<br/>
-4. "p"表示要匹配的屏幕元素所在的package。<br/>
+<h4>Action Object</h4>
+<code>Each action object can include the following properties:<br/>
+1. "a" indicates the action to be performed, this attribute is the most complicated, besides the Android package id described above, it can also take many values, refer to Appendix I, but pay attention to this value <red> is case-sensitive</red>.<br/>
+2. "d" indicates the delay time in milliseconds, this delay was divided into positive and negative delay, positive delay was after execution, negative delay was before execution delay, after <red>5.5.4</red> it is no longer distinguished, it is unified as pre-execution delay, and negative values are no longer meaningful. <br/>
+3. "n" indicates the screen element to be matched. <br/>
+4. "p" indicates the package where the screen element to be matched is located.<br/>
 </code>
 
-<h4>连续动作</h4>
-<code>根据指令对象的定义，我们可以定义一些连续指令，比如：<br/>
+<h4>Continuous action</h4>
+<code>According to the definition of action object, we can define some continuous instructions, such as<br/>
 <red>ss:[{"a":"2"},{"a":"click:150:150","d":300}]</red><br/>
-表示先回到主屏，再点击屏幕上150，150这个坐标点，这里两个指令都用大括号括起来，并以逗号分隔就可以了。<br/>
-另外注意这里第二个指令加了一个d延时300毫秒，是考虑回主屏通常有动画，所以加一个延时确保动画已经完成。
+It means go back to the main screen first, then click on the screen 150, 150(coordinate point), here both instructions are enclosed in curly brackets and separated by a comma on it.<br/>
+Also note that the second action here adds a "d" delay of 300 milliseconds, is to consider back to the main screen usually has animation, so add a delay to ensure that the animation has been completed.
 </code>
 
-<h4>界面匹配</h4>
-<code>有的时候我们希望匹配界面的某个元素，再执行相应的动作，比如：<br/>
-<red>ss:[{"a":"com.tencent.mm"},{"a":"k","n":"发现"},{"a":"k:10","n":"朋友圈"}]</red><br/>
-这条插件有三个指令，第一条是通过package id启动微信，第二条指令有个n属性，<red>"n":"发现"</red>就表示匹配"发现"这个界面元素，匹配成功后回执行"k"动作，参考附录一，我们知道k动作就是点击这个匹配到的元素，所以相当于是在微信启动以后，点击"发现"，然后第三条指令，就是匹配"朋友圈"并点击，这里的点击写成k:10是因为微信的界面嵌套过于复杂，需要控制点击深度，请参考下面的点击模式。所以整个这条超级捷径的作用就是一步进入微信朋友圈。<br/><br/>
+<h4>UI Matching</h4>
+<code>There are times when we want to match an element of the interface and then perform the corresponding action, e.g.<br/>
+<red>ss:[{"a":"com.tencent.mm"},{"a":"k","n":"Discover"},{"a":"k:10","n":"Moments"}]</red><br/>
+This plug-in has three instructions, the first one is to start WeChat by package id, the second instruction has an n attribute, <red>"n": "Discover"</red> means match "Discover" this interface element, after the successful match execute the "k" action, refer to Appendix I, we know that the k action is to click on this matched element, so the equivalent is after the start of WeChat. Click "Discover", then the third instruction is to match "Moments" and click, the click here is written as k:10 because the interface nesting of WeChat is too complex and needs to control the depth of the click, please refer to the following click mode. So the entire role of this super shortcut is to enter the WeChat Moments in one step.<br/><br/>
 
-注意，这里的两个匹配指令都不需要加延时了，因为都是在匹配成功才点击，而匹配成功的时候，界面已经加载好了，所以不需要延时，另外，因为匹配后通常都是普通的点击，我们可以省略普通的点击动作，整个插件即简化为：<br/>
-<red>ss:[{"a":"com.tencent.mm"},{"n":"发现"},{"a":"k:10","n":"朋友圈"}]</red><br/>
+Note that the two matching instructions here do not need to add a delay, because they are all clicked only when the match is successful, and when the match is successful, the interface has been loaded, so there is no need to delay, in addition, because after the match is usually a click, we can omit the click action, the entire plug-in that is simplified as follows<br/>
+<red>ss:[{"a":"com.tencent.mm"},{"n":"Discover"},{"a":"k:10","n":"Moments"}]</red><br/>
 </code>
 
-<h4>匹配模式</h4>
-<code>匹配界面元素有多种方式：<br/>
-* 严格匹配，比如<red>{"n":"发现"}</red>就是仅匹配一个内容正好为"发现"的元素。<br/>
-* 模糊匹配，比如<red>{"n":"~发现"}</red>就是匹配内容包含"发现"的元素，如果有多个元素，返回第一个匹配的。<br/>
-* 查找匹配，比如<red>{"n":"^发现"}</red>这是一种特殊方式，如果界面上有这个元素，但上面两种都不匹配，可以用这个试试。<br/>
-* id匹配，比如<red>{"n":"#action"}</red>就是匹配一个id为"action"的元素，这个id是安卓界面元素的一个属性。<br/>
+<h4>Matching mode</h4>
+<code>There are various ways to match UI elements.<br/>
+* Strict matching, such as <red>{"n": "found"}</red> is only matching an element whose content is exactly "found".<br/>
+* Fuzzy matching, for example <red>{"n":"~found"}</red> is to match the element whose content contains "found", and if there are more than one element, return the first one that matches.<br/>
+* Id match, for example <red>{"n": "#action"}</red> matches an element with the id "action", which is an attribute of the Android UI element.<br/>
+* Find match, e.g. <red>{"n":"^found"}</red> This is a special way to try it if the element is present in the UI but neither of the two above match.<br/>
 
 </code>
 
-<h4>匹配过滤器</h4>
-<code>某些情况下如果匹配了多个界面元素，可以通过加filter过滤器("f"属性)来选择想要的元素，过滤器以分号分割多个条件，条件可以是v(可见),c(可点击),e(可编辑),w(宽度),h(高度),x/y(中心坐标),x1/y1/x2/y2(左上和右下角坐标)，下面分别解释：<br/>
-* 可见过滤，比如<red>v</red>就是仅匹配屏幕上可见的元素，也可以写成v=1，如果要匹配不可见元素，需要写成v=0。<br/>
-* 位置过滤，比如<red>x1=800</red>就是仅匹配中心x坐标位于800的元素。<br/>
-* 大小过滤，比如<red>w>100;h=200</red>就是仅匹配宽度大于100，且高度等于200的元素。<br/><br/>
-举个完整的例子，<red>{"n":"发现","f":"v;x=800"}</red>就是仅匹配屏幕上可见并且中心x坐标为800的"发现"元素，忽略其他"发现"。
+<h4>Matching filters</h4>
+<code>In some cases if more than one UI element is matched, the desired element can be selected by adding the filter ("f" attribute), which splits multiple conditions with a semicolon, the conditions can be v (visible), c(clickable), e(editable), w(width), h(height), x/y(center coordinates), x1/y1/x2/y2(top left and bottom right coordinates). The following are explained separately.<br/>
+* A visible filter, such as <red>v</red> is to match only elements that are visible on the screen, which can also be written as v=1. If you want to match invisible elements, you need to write v=0.<br/>
+* Position filtering, for example <red>x1=800</red> is to match only elements whose center x coordinate is at 800.<br/>
+* A size filter, such as <red>w>100;h=200</red> is to match only elements whose width is greater than 100 and whose height is equal to 200.<br/><br/>
+For a complete example, <red>{"n": "found", "f": "v;x=800"}</red> matches only the "found" elements that are visible on the screen and have a center x coordinate of 800, ignoring other "found" elements.
 </code>
 
-<h4>像素匹配</h4>
-<code> 由于安卓无障碍的限制，某些应用的界面元素难以匹配，尤其是一些使用webview的应用，比如微信小程序，支付宝小程序等，对于这类应用的匹配，<red>5.6.0版本</red>微动手势提供的另一种匹配模式，像素匹配，这种模式使用屏幕上的像素逐点匹配，可以匹配预先定义的任意个像素点，理论上这种模式可以应对任何类型的应用，像素匹配依然使用"n"属性，但是以@打头，后面加上坐标和颜色，比如：<br/>
-* <red>{"n":"@100,100,ffffff"}</red>就匹配100,100这个白色像素点，颜色格式是十六进制RGB格式，ffffff就是白色。<br/>
-* <red>{"n":"@100,100,a0a0a0,100,101,ececec"}</red>匹配两个像素点，分别为100,100和100,101，两个颜色不同的像素匹配可以极大降低误匹配的概率。<br/><br/>
+<h4>Pixel Matching</h4>
+<code>Due to the limitations of Android accessibility, it is difficult to match UI elements of some apps, especially some apps that use webview, such as WeChat/Alipay mini programs, etc. For matching such apps, <red>5.6.0</red> of Micro Gesture provides another matching mode, pixel matching, which uses pixel-by-pixel matching on the screen and can match any pixel defined in advance. The pixel match still uses the "n" attribute, but starts with @, followed by the coordinates and color, e.g.<br/>
+* <red>{"n":"@100,100,fffff"}</red> would match the white pixel point 100,100, the color format is hexadecimal RGB format, fffff is white.<br/>
+* <red>{"n":"@100,100,a0a0a0,100,101,ececec"}</red> matches two pixel points, 100,100 and 100,101, respectively. Matching two pixels with different colors can greatly reduce the probability of false matches.<br/><br/>
 
-由于安卓的限制，像素匹配但需要在先微动实验室里启用并给与授权，并且在每次重启微动后都需要授权，像素匹配模式下过滤器是无效的。<br/>
+Due to Android limitations, pixel matching needs to be enabled and given authorization in Micro Gesture Lab first, and requires authorization after every restart of Micro Gesture, pixel matching mode filters are not valid.<br/>
 </code>
 
-<h4>点击模式</h4>
-<code>大部分匹配成功后执行的动作都是点击，也就是"k"动作，这个动作可以通过参数控制点击模式<br/>
-* 缺省模式，比如<red>{"n":"发现"}</red>会在匹配成功后直接点击这个元素，如果元素不可点击，尝试点击父元素。<br/>
-* 深度模式，比如<red>{"a":"k:5","n":"发现"}</red>在上面的基础上，最多递归5级父元素。<br/>
-* 坐标模式，比如<red>{"a":"k:0","n":"发现"}</red>不再递归父元素，如果元素不可以点击，就使用元素在屏幕上的位置来计算一个中心坐标进行模拟点击。<br/>
+<h4>Click Mode</h4>
+<code>Most of the actions performed after a successful match are clicks, or "k" action, which can be controlled by parameters for the click mode:<br/>
+* Default mode, e.g. <red>{"n": "found"}</red> will click this element directly after a successful match, and try to click the parent element if the element is unclickable.<br/>
+* Deep mode, e.g. <red>{"a": "k:5", "n": "found"}</red> recurses up to 5 levels of parent elements on top of the above.<br/>
+* Coordinate mode, e.g. <red>{"a": "k:0", "n": "found"}</red> no longer recurses the parent element, and uses the element's position on the screen to compute a center coordinate for simulated clicks if the element is not clickable.<br/>
 </code>
 
-<h4>变量</h4>
-<code>一些支持参数的命令，可以使用变量作为参数的一部分，微动目前支持的全局变量有：<br/>
-* {trigger}，标识自动化的触发器来源，比如通知触发，就表示通知的内容，界面触发，就表示界面的文字。<br/>
-* {date}，表示当前日期，比如<red>V:{date}</red>指令可以插入当前的日期。<br/>
-* {time}，表示当前时间。<br/>
-* {datetime}，表示当前日期和时间。<br/><br/>
+<h4>Variables</h4>
+<code>Some actions that support parameters can use variables as part of the parameters. The global variables currently supported by Micro Gesture are:<br/>
+* {trigger}, identifies the source of the automation trigger, such as notification trigger, which indicates the content of the notification, and UI trigger, which indicates the text of the interface.<br/>
+* {date} for the current date, e.g. the <red>V:{date}</red> command inserts the current date.<br/>
+* {time}, the current time.<br/>
+* {datetime}, the current date and time.<br/><br/>
 
-变量可以使用re命令进行正则表达式转换，生成新的变量，格式为re:源变量:新变量:group:正则表达式，举例如下：<br/>
-* <red>re:trigger:code:0:[0-9]{4,6}</red>就是在<red>trigger</red>变量中识别出4到6位数字，并放入一个新的<red>code</red>变量中。<br/>
+Variables can be converted to regular expressions using the <red>re</red> command to generate new variables in the format re:source:target:group:regular-expression, as an example.<br/>
+* <red>re:trigger:code:0:[0-9]{4,6}</red> is to identify 4 to 6 digits in the <red>trigger</red> variable and put them into a new <red>code</red> variable.<br/>
 </code>
 
-<h4>应用举例</h4>
-<code><red>ss:[{"a":"com.tencent.mm"},{"n":"发现"},{"n":"小程序","d":1000},{"n":"^我的小程序"}]</red><br/>
-这个超级捷径用于直接打开微信我的小程序界面，有几点说明：<br/>
-* 第三步点击"小程序"前延时1秒，是因为微信这个界面有个动态加载过程，过早点击，会进入其他功能项，所以必须延时后点击。<br/>
-* 第四步匹配需要用^模式，否则匹配不了，这是因为微信这个界面很复杂导致的。<br/><br/>
+<h4>Usage examples</h4>
+<code><red>ss:[{"a":"com.tencent.mm"},{"n":"Discover"},{"n":"Mini Programs","d":1000},{"n":"^My Mini Programs"}]</red><br/>
+This super shortcut is used to open the WeChat My Mini Programs directly.<br/>
+* The third step is to delay 1 second before clicking on the "Mini Programs" because the interface of WeChat has a dynamic loading process, so if you click too early, you will enter other functional items, so you must delay the click.<br/>
+* The fourth step of matching needs to use ^ mode, otherwise it won't match, which is caused by the complexity of this interface of WeChat.<br/><br/>
 </code>
 
 <code><red>ss:[{"a":"3"},{"p":"com.miui.home","n":"#clearAnimView"}]</red><br/>
-这个超级捷径用于触发MIUI的后台清理动作。<br/>
-* 第一步的指令3，请参考附录一，这是用来打开多任务界面。<br/>
-* 第二步就是触发清理按钮，这个按钮是有id的，所以直接使用#来匹配id，但安卓的控件id是带package的，所以用"p"属性指定package。<br/><br/>
+This super shortcut is used to trigger MIUI's background cleanup action.<br/>
+* For the first step of command "3", please refer to Appendix I. This is used to open the multitasking screen.<br/>
+* The second step is to trigger the cleanup button, the button has an id, so use # to match the id directly, but the Android control id is with package, so use the "p" property to specify the package.<br/><br/>
 </code>
 
 <code><red>ss:[{"a":"com.tencent.mm"},{"n":"行程卡"},{"a":"click:500:1500","d":"3000"},{"a":"click:500:1700","d":500}]</red><br/>
-这个捷径用于打开微信的行程卡，执行之前先确保手工打开过一次。<br/>
-* 第三步是通过模拟点击选中“同意...”选框，为了等待页面加载完成，需要等待足够的时间，这里是等了3秒，点击的坐标需要根据特定手机布局进行修改。<br/>
-* 最后一步click的坐标同样需要根据布局调整，加上一个延时500毫秒，是因为上一步的点击同意后，这个按钮要等一会才能点击。<br/><br/>
+This shortcut is used to open the trip card of WeChat, make sure you have opened it once manually before executing it.<br/>
+* The third step is to check the "Agree..." checkbox by simulating a click. Check the box, in order to wait for the page to load, you need to wait enough time, here is waiting for 3 seconds, click the coordinates need to be modified according to the specific phone layout.<br/>
+* The coordinates of the last click step also need to be adjusted according to the layout, plus a delay of 500 milliseconds, because the button has to wait a while before it can be clicked after the click of the previous step agrees.<br/><br/>
 </code>
 
-<code><red>ss:[{"a":"com.android.browser"},{"n":"京东"},{"n":"^京东超市"}]</red><br/>
-这个捷径用于打开网页版的京东超市。<br/>
-* 第二步匹配的京东来自于浏览器首页上一个京东书签，如果你的浏览器首页没有这个书签，这一步就会超时。<br/>
-* 第三步此时已经打开京东首页，要匹配浏览器里的元素"京东超市"，必须使用^模式。<br/><br/>
+<code><red>ss:[{"a":"com.android.browser"},{"n":"Jingdong"},{"n":"^京东超市"}]</red><br/>
+This shortcut is used to open the web version of Jingdong Supermarket.<br/>
+* The second step matches Jingdong from a Jingdong bookmark on your browser home page, if your browser home page does not have this bookmark, this step will time out.<br/>
+* The third step at this time has opened the home page of Jingdong, to match the elements in the browser, you must use ^ mode.<br/><br/>
 </code>
 
-<code><red>ss:[{"a":"re:trigger:code:0:[0-9]{4,6}"},{"a":"X:{code}"}]</red><br/>
-这个捷径用于验证码自动复制，需要在微动的自动化里添加一条通知触发，识别短信App，匹配"验证码"，然后触发上面这个动作。<br/>
-* 第一步的re命令用于在完整的短信中匹配出4到6位数字的验证码。<br/>
-* 然后通过X命令设置到剪贴板里，这里通过变量的方式引用了上一步正则表达式的结果<red>{code}</red>。<br/><br/>
-</code>
-
-<h4>附录一：支持的动作</h4>
+<h4>Appendix I: Supporting Actions</h4>
 <code>
-注: 老版本微动手势不一定支持下表的所有动作和参数，所有的动作名称和参数都是<red>区分大小写</red>的，如果有参数，大部分参数使用<red>英文冒号</red>来分割。<br/>
-"1" - 返回<br/>
-"2" - 主页<br/>
-"3" - 多任务<br/>
-"4" - 下拉通知<br/>
-"C" - 下拉通知，再触发一次关闭通知<br/>
-"5" - 快速设置<br/>
-"6" - 上一任务<br/>
-"7" - 电源菜单<br/>
-"8" - 语音助手<br/>
-"9" - 分屏<br/>
-"a" - 播放暂停<br/>
-"n" - 播放下一曲<br/>
-"r" - 播放上一曲<br/>
-"b" - 支付宝扫码<br/>
-"c" - 支付宝付款码<br/>
-"d" - 微信扫码<br/>
-"e" - 截屏<br/>
-"f" - 弹出面板<br/>
-"g" - 屏幕上划，参考附录三。<br/>
-"h" - 屏幕下划，参考附录三。<br/>
-"i" - 屏幕左划，参考附录三。<br/>
-"j" - 屏幕右划，参考附录三。<br/>
-"G" - 滚动条上滚动，参考附录三。<br/>
-"H" - 滚动条下滚动，参考附录三。<br/>
-"k" - 点击匹配到的界面元素<br/>
-"l" - 锁屏<br/>
-"m" - 触发飞鼠等工具，参考参考附录六<br/>
-"o" - 音量加<br/>
-"q" - 音量减<br/>
-"u" - 弹出音量调节界面<br/>
-"p" - 暂停体感手势，再触发一次可以恢复。<br/>
-"s" - 停止所有手势<br/>
-"t" - 强制横屏<br/>
-"K" - 强制竖屏<br/>
-"v" - 设置自动亮度<br/>
-"w" - 亮度增加<br/>
-"x" - 亮度减低<br/>
-"y" - 切换输入法<br/>
-"A" - 自动旋转 <br/>
-"B" - 不自动旋转<br/>
-"D" - 开关wifi<br/>
-"E" - 开关蓝牙<br/>
-"U" - 开关定位<br/>
-"L" - 开关NFC<br/>
-"F" - 开关闪光灯<br/>
-"I" - 左手单手模式<br/>
-"M" - 右手单手模式  <br/>
-"J" - 铃声模式<br/>
-"O" - 网络控制面板<br/>
-"P" - 微信付款码<br/>
-"Q" - 保持屏幕常亮<br/>
-"R" - 屏幕禁止触摸<br/>
-"click" - 屏幕点击，参考附录三。<br/>
-"N" - 任意划屏， 参考附录三。<br/>
-"V" - 输入文本，<red>5.4.6版本</red>支持，参考附录四。<br/>
-"W" - 发送通知，<red>5.5.3版本</red>支持，参考附录四。<br/>
-"X" - 设置剪贴板，<red>5.5.5版本</red>支持，参考附录四。<br/>
-"T" - 模拟多点触摸，<red>5.5.3版本</red>支持，参考附录五。<br/>
+Note: Older versions of micro gestures do not necessarily support all the actions and parameters in the table below. All action names and parameters are <red> case-sensitive</red>, and if there are parameters, most of them are split using <red>colons</red>.<br/>
+"1" - Back<br/>
+"2" - Home<br/>
+"3" - Recent tasks<br/>
+"4" - Notification<br/>
+"C" - Notification toggle<br/>
+"5" - Quick settings<br/>
+"6" - Last Task<br/>
+"7" - Power Menu<br/>
+"8" - Assistant<br/>
+"9" - Split screen<br/>
+"a" - Play/Pause<br/>
+"n" - Next<br/>
+"r" - Previous<br/>
+"b" - Alipay Scan<br/>
+"c" - Alipay Payment Code<br/>
+"d" - Wechat Scan<br/>
+"e" - Screenshot<br/>
+"f" - Panel<br/>
+"g" - Screen swipe up, refer to Appendix III.<br/>
+"h" - Screen swipe down, refer to Appendix III.<br/>
+"i" - Screen swipe left, refer to Appendix III.<br/>
+"j" - Screen swipe right, refer to Appendix III.<br/>
+"G" - Scroll up,refer to Appendix III.<br/>
+"H" - Scroll down,refer to Appendix III.<br/>
+"k" - Click matching element<br/>
+"l" - Lock screen<br/>
+"m" - Trigger tools such as flying mouse, refer to Appendix VI<br/>
+"o" - Volume up<br/>
+"q" - Volume down<br/>
+"u" - Volume adjust<br/>
+"p" - Pause/Resume the gesture.<br/>
+"s" - Stop all gestures.<br/>
+"t" - Force Landscape<br/>
+"K" - Force Portrait<br/>
+"v" - Toggle auto brightness<br/>
+"w" - Brightness up<br/>
+"x" - Brightness down<br/>
+"y" - Switch IME<br/>
+"A" - Toggle screen rotation<br/>
+"B" - Toggle auto-rotation<br/>
+"D" - Toggle Wifi<br/>
+"E" - Toggle Bluetooth<br/>
+"U" - Toggle Location<br/>
+"L" - Toggle NFC<br/>
+"F" - Toggle Torch<br/>
+"I" - Toggle left one-handed mode<br/>
+"M" - Toggle right one-handed mode<br/>
+"J" - Toogle ring mode<br/>
+"O" - Network panel<br/>
+"P" - Wechat payment code<br/>
+"Q" - Keep screen on<br/>
+"R" - Prohibit touching<br/>
+"click" - For screen clicks, refer to Appendix III.<br/>
+"N" - Arbitrary touch screen, refer to Appendix III.<br/>
+"V" - Input text, <red>supported by version 5.4.6</red>, refer to Appendix IV.<br/>
+"W" - Sending notifications, <red>supported by version 5.5.3</red>, refer to Appendix IV.<br/>
+"X" - Set clipboard, <red>supported by version 5.5.5</red>, refer to Appendix IV.<br/>
+"T" - Simulation of multi-touch, <red>supported by version 5.5.3</red>, refer to Appendix V.<br/>
 </code>
 
-<h4>附录二：JSON格式</h4>
-<code>
-JSON是一种轻量的数据表示方法，采用key:value的方式记录数据，非常直观，也容易扩展。key是属性名，必须用双引号引起来，value是属性值，可以是以下类型之一：<br/>
-* 数字（整数或浮点数）<br/>
-* 字符串（在双引号中）<br/>
-* 逻辑值（true 或 false）<br/>
-* 数组（在方括号中）<br/>
-* 对象（在花括号中）<br/>
+<h4>Appendix II: JSON format</h4>
+<code>JSON is a lightweight data representation method that uses key:value to record data, which is very intuitive and easy to extend. key is the attribute name, which must be caused by double quotes, and value is the attribute value, which can be one of the following types.<br/>
+* Numbers (integer or floating point)<br/>
+* String (in double quotes)<br/>
+* Logical value (true or false)<br/>
+* Arrays (in square brackets)<br/>
+* Object (in brackets)<br/>
 * null<br/><br/>
 
-JSON的数组和对象是可以嵌套的，进而表示复杂的数据，比如：
+JSON arrays and objects are nestable, and thus represent complex data, e.g.
 <pre>
 {
 "employees": [
@@ -210,35 +203,34 @@ JSON的数组和对象是可以嵌套的，进而表示复杂的数据，比如�
  ]
 }
 </pre>
-这是一个对象，只有一个属性employees，取值是一个数组（中括号括起来的部分），数组中有三个对象（大括号括起来的部分），每个对象又包括两个属性，分别为firstName和lastName。
+This is an object with only one property employees, which takes the value of an array (the part enclosed in middle brackets), and three objects in the array (the part enclosed in curly brackets), each of which includes two more properties, firstName and lastName.
 </code>
 
-<h4>附录三：重复模拟手势</h4>
-<code>微动手势的<red>5.4.6版本</red>之后一些模拟手势的指令可以通过参数控制是否模拟多次手势，这些指令包括g,h,i,j,G,H,click,N，其中g,h,i,j,G,H都是滚屏的指令，他们的区别是g,h,i,j是模拟了一个滑动手势，四条指令分别对应四个方向，G,H则是通过调节控件的滚动条，并且只支持上下方向。这些指令的具体格式如下：<br/>
-* g,h,i,j的参数为:长度:时长:次数:延时，比如<red>g:0.5:200:3:100</red>表示用200毫秒滑动半个屏幕(0.5乘以屏幕高度)，连续3次滑动，每次间隔100毫秒。<br/>
-* G,H的参数为:次数:延时，比如<red>G:5:100</red>表示连续5次上滚动，间隔100毫秒，这两条指令通过滚动条来滚动，所以没办法控制单次滚动的幅度，但在控件滚动到头之后之后会自动停止。<br/>
-* click点击指令，参数为:x坐标:y坐标:时长:次数:延时，比如<red>click:150:150:800:3:1000</red>表示在坐标点150,150长按800毫秒，连续执行3次，每次延时1000毫秒。<br/>
-* N划屏指令，参数为:x1:y1:x2:y2:时长:次数:延时，比如<red>N:150:150:200:300:100:5:500</red>表示在从坐标点150,150滑动到200:300，连续执行5次，每次延时500毫秒。<br/>
+<h4>Appendix III: Repetition of simulated gestures</h4>
+<code>Micro Gesture after <red>version 5.4.6</red> some instructions that simulate gestures can be controlled by parameters whether to simulate multiple gestures, these instructions include g,h,i,j,G,H,click,N, where g,h,i,j,G,H are all instructions for scrolling, the difference between them is that g,h,i,j is simulating a swipe gesture, the four instructions correspond to four directions, G,H is by adjusting the scroll bar, and only supports the up and down direction. The exact format of these commands is as follows.<br/>
+* click command with parameters<red>:x:y:duration:times:delay</red>, for example <red>click:150:150:800:3:1000</red> means long click at coordinate point 150,150 for 800 milliseconds, executed 3 times, each time with 1000 milliseconds delay.<br/>
+* N command with parameters<red>:x1:y1:x2:y2:duration:times:delay</red>, for example <red>N:150:150:200:300:100:5:500</red> means sliding from coordinate point 150,150 to 200:300, executing 5 times with 500 milliseconds delay each time.<br/>
 <br/>
-这些重复指令一旦执行，想要中断，有两个方法：<br/>
-* 触发微动手势的p或s指令，也就是暂停或停止，这两个指令都会终止正在执行的重复手势。<br/>
-* 如果是在超级捷径中，连续滚动指令后面接着一条n指令，即匹配节点的点击，一旦匹配成功并点击，就会终止正在执行的重复手势。<br/>
+Once these repetitive instructions are executed and you want to interrupt, there are two ways to do so.<br/>
+* The "p" or "s" command that triggers a pause or stop, both of which terminate the repeating gesture being executed.<br/>
+* In the case of super shortcuts, a continuous scroll command followed by an n command, i.e. a click on the matching node, terminates the repeating gesture being executed once the match is successful and clicked.<br/>
 </code>
 
-<h4>附录四：文本参数及变量替换</h4>
-<code>微动手势的W,V,X等命令，可以携带一个文本参数，这个参数里可以使用任意的变量，变量是用大括号括起来放在参数里的，在执行的时候，变量会被替换为当前的取值。也可以在参数里使用多个变量拼接起来，举几个例子：<br/>
-* <red>V:{date}{time}</red>，可以把当前日期和时间插入当前界面中的编辑框里。<br/>
-* <red>W:执行成功</red>，可以在超级捷径的最后加一条这个命令，用于发送一条执行成功的通知。<br/>
-* <red>X:{code}</red>，把code变量的内容，复制到剪贴板里。<br/><br/>
+<h4>Appendix IV: Text Parameters and Variable Substitution</h4>
+<code>Micro Gesture actions such as W,V,X, can carry a text parameter, this parameter can use any variable, the variable is enclosed in curly brackets in the parameter, in the execution, the variable will be replaced with the current value. It is also possible to use multiple variables in a parameter, for example.<br/>
+* <red>V:{date}{time}</red> to insert the current date and time into the edit box in the current screen.<br/>
+* <red>W:Execution successful</red>, you can add this command at the end of a super shortcut to send a notification of successful execution.<br/>
+* <red>X:{code}</red>, take the contents of the code variable and copy it to the clipboard.<br/><br/>
 </code>
 
-<h4>附录五：模拟多点触摸</h4>
-<code>T指令可以模拟一个多点触摸手势，参数需要携带多个手指的坐标位置，比如<red>T:10:10:20:20:90:90:100:100:300</red> 表示第一个手指从10:10滑到20:20，第二个手指从90:90滑到100:100，时长300毫秒，如果有更多手指，可以在时长前面继续增加。<br/><br/>
-多点触摸暂时不支持重复多次。
+<h4>Appendix V: Simulation of multi-touch</h4>
+<code>The T command can simulate a multi-touch gesture with parameters that carry the coordinate positions of multiple fingers, for example <red>T:10:10:20:20:90:90:100:100:300</red> means the first finger slides from 10:10 to 20:20 and the second finger slides from 90:90 to 100:100 for 300 milliseconds, and if there are more If there are more fingers, you can continue to increase in front of the duration.<br/><br/>
+
+Multi-touch does not support repetitions for now.
 </code>
 
-<h4>附录六：开发者工具</h4>
-<code>微动手势的<red>5.6.1版本</red>之后增加了布局查看和屏幕取色两个开发者工具，这两个工具和飞鼠公用一个命令字m，通过参数来区分，m或者m:0为飞鼠，m:1为布局查看工具，m:2为取色工具。<br/>
+<h4>Appendix VI: Developer Tools</h4>
+<code>After the <red>5.6.1 version</red>, two developer tools have been added, layout view and screen color picking. These two tools and the flying mouse share a common command word m, which is distinguished by parameters, m or m:0 for the flying mouse, m:1 for the layout view tool, and m:2 for the color picking tool.<br/>
 </code>
 
 </code>
