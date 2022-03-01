@@ -75,7 +75,9 @@ For a complete example, <red>{"n": "found", "f": "v;x=800"}</red> matches only t
 * <red>{"n":"@100,100,fffff"}</red> would match the white pixel point 100,100, the color format is hexadecimal RGB format, fffff is white.<br/>
 * <red>{"n":"@100,100,a0a0a0,100,101,ececec"}</red> matches two pixel points, 100,100 and 100,101, respectively. Matching two pixels with different colors can greatly reduce the probability of false matches.<br/><br/>
 
-Due to Android limitations, pixel matching needs to be enabled and given authorization in Micro Gesture Lab first, and requires authorization after every restart of Micro Gesture, pixel matching mode filters are not valid.<br/>
+Due to Android limitations, pixel matching needs to be enabled and given authorization in Micro Gesture Lab first, and requires authorization after every restart of Micro Gesture, Also note that:<br/>
+* The filter is not valid in pixel matching mode.<br/>
+* Pixel matching is only available in super shortcut, and is not supported in element matching of automation.<br/>
 </code>
 
 <h4>Click Mode</h4>
