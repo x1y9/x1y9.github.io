@@ -19,7 +19,7 @@ layout: page
 1. [HxD](https://mh-nexus.de/en/hxd/) : 十六进制编辑器
 1. [Emeditor](https://www.emeditor.com/download/) : 通用编辑器，免费版够用了，如果下载port版本，通常我要在shell:sendto下面增加它的快捷方式。
 1. [Insomnia](http://dlaa.me/blog/post/10104830) : 防止休眠
-1. [Ditto](http://ditto-cp.sourceforge.net/) : 多剪贴板
+1. [Ditto](http://ditto-cp.sourceforge.net/) : 多剪贴板，Windows10以后可以不需要了。
 1. [CCleaner](https://www.piriform.com/ccleaner) : 垃圾文件清理，老版本很好用，新版不行了，嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
 1. [AllDup](http://www.alldup.de) : 免费portable的重复文件查找，功能强大，图像重复查找很棒。
 1. [TreeSizeFree](https://www.jam-software.com/treesize_free/) : 磁盘空间管理，windirstat也不错。 
@@ -37,8 +37,9 @@ layout: page
 1. [Vlc](http://www.videolan.org/vlc/) : 兼容性很好的播放器
 1. [IrfanView](http://www.irfanview.com/) : 超轻量且支持格式极多的图片查看器。
 1. [GreenShot](http://getgreenshot.org/) : 截屏工具，picpick也很不错。
-1. [LICEcap](https://www.cockos.com/licecap/) : 制作动态GIF
-1. [FFmpeg](https://ffmpeg.org/) : 转换音视频
+1. [LICEcap](https://www.cockos.com/licecap/) : 录制动态GIF。
+1. [FFmpeg](https://ffmpeg.org/) : 转换音视频格式的命令行工具。
+1. [WaveShop](http://waveshop.sourceforge.net/) : 轻量的音频编辑工具。
 1. [OBS](https://obsproject.com/) : 直播和录制视频，比ShareX性能要好。
 
 ## 编程

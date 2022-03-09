@@ -181,7 +181,7 @@ Note: Older versions of micro gestures do not necessarily support all the action
 "click" - For screen clicks, refer to Appendix III.<br/>
 "N" - Arbitrary touch screen, refer to Appendix III.<br/>
 "V" - Input text, <red>supported by version 5.4.6</red>, refer to Appendix IV.<br/>
-"W" - Sending notifications, <red>supported by version 5.5.3</red>, refer to Appendix IV.<br/>
+"W" - Sending notifications, <red>supported by version 5.6.3</red>, refer to Appendix IV.<br/>
 "X" - Set clipboard, <red>supported by version 5.5.5</red>, refer to Appendix IV.<br/>
 "T" - Simulation of multi-touch, <red>supported by version 5.5.3</red>, refer to Appendix V.<br/>
 </code>
@@ -221,7 +221,7 @@ Once these repetitive instructions are executed and you want to interrupt, there
 <h4>Appendix IV: Text Parameters and Variable Substitution</h4>
 <code>Micro Gesture actions such as W,V,X, can carry a text parameter, this parameter can use any variable, the variable is enclosed in curly brackets in the parameter, in the execution, the variable will be replaced with the current value. It is also possible to use multiple variables in a parameter, for example.<br/>
 * <red>V:{date}{time}</red> to insert the current date and time into the edit box in the current screen.<br/>
-* <red>W:Execution successful</red>, you can add this command at the end of a super shortcut to send a notification of successful execution.<br/>
+* <red>W:1:Execution successful</red>, send a notification of successful execution, the first parameter is the notification channel, currently supports four channels, namely 1,2,3,4.<br/>
 * <red>X:{code}</red>, take the contents of the code variable and copy it to the clipboard.<br/><br/>
 </code>
 
