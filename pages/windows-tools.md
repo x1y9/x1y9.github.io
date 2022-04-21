@@ -14,20 +14,21 @@ layout: page
 1. [Classic Shell](http://www.classicshell.net/) : Windows8下用来找回开始菜单，win10可以不用了。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索
-1. [UltraSearch](https://www.jam-software.com/ultrasearch/) 文件内容搜索
+1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
+1. [F2](https://github.com/ayoisaiah/f2) 最好的命令行批量改名工具，支持预览和正则表达式。
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义 
 1. [HxD](https://mh-nexus.de/en/hxd/) : 十六进制编辑器
-1. [Emeditor](https://www.emeditor.com/download/) : 通用编辑器，免费版够用了，如果下载port版本，通常我要在shell:sendto下面增加它的快捷方式。
+1. [Emeditor](https://www.emeditor.com/download/) : 最好的通用编辑器，免费版够用了，Portable版本要在shell:sendto下面增加它的快捷方式。
+1. [LibreOffice](https://www.libreoffice.org/) : 代替微软Office，Portable版本不错，同样要在shell:sendto下增加快捷方式。
 1. [Insomnia](http://dlaa.me/blog/post/10104830) : 防止休眠
 1. [Ditto](http://ditto-cp.sourceforge.net/) : 多剪贴板，Windows10以后可以不需要了。
-1. [CCleaner](https://www.piriform.com/ccleaner) : 垃圾文件清理，老版本很好用，新版不行了，嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
+1. [CCleaner](https://www.piriform.com/ccleaner) : 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
 1. [AllDup](http://www.alldup.de) : 免费portable的重复文件查找，功能强大，图像重复查找很棒。
-1. [TreeSizeFree](https://www.jam-software.com/treesize_free/) : 磁盘空间管理，windirstat也不错。 
+1. [TreeSizeFree](https://www.jam-software.com/treesize_free/) : 磁盘空间管理，在shell:sendto下增加快捷方式后很好用。 
 1. [Unison](http://unison-binaries.inria.fr/) : 文件目录同步
 1. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘
 1. [nssm](https://nssm.cc/) 把任何程序转为Windows服务
 1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板，神器。
-1. [ImageMagick](https://imagemagick.org/index.php) 如果要在命令行处理图片，比如缩放、格式转换，就这个了。
 1. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
 
 ## 媒体
@@ -36,6 +37,7 @@ layout: page
 1. [MPC-HC](https://mpc-hc.org/) : 非常轻量的播放器，CPU占用极低，适合笔记本使用。
 1. [Vlc](http://www.videolan.org/vlc/) : 兼容性很好的播放器
 1. [IrfanView](http://www.irfanview.com/) : 超轻量且支持格式极多的图片查看器。
+1. [ImageMagick](https://imagemagick.org/index.php) 如果要在命令行处理图片，比如缩放、格式转换，就这个了。
 1. [GreenShot](http://getgreenshot.org/) : 截屏工具，picpick也很不错。
 1. [LICEcap](https://www.cockos.com/licecap/) : 录制动态GIF。
 1. [FFmpeg](https://ffmpeg.org/) : 转换音视频格式的命令行工具。
@@ -44,9 +46,10 @@ layout: page
 
 ## 编程
 1. [Anaconda](https://www.eclipse.org/) : Python环境和第三方库，如果不需要庞大的库，miniconda更合适。
-1. [Java](https://adoptopenjdk.net/releases.html) : 一般情况下openjdk就可以了。
-1. [eclipse](https://www.eclipse.org/) : Java IDE
+1. [Java](https://adoptopenjdk.net/releases.html) : 一般情况下Openjdk就可以了。
+1. [Eclipse](https://www.eclipse.org/) : Java IDE
 1. [CodeBlocks](http://www.codeblocks.org/) : 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
+1. [lazarus](https://www.lazarus-ide.org/) : Delphi的开源版本，做GUI小工具不错。
 1. [Visual Studio Code](https://code.visualstudio.com/) : 大部分项目的IDE
 1. [git](https://git-scm.com/) : 版本控制和linux工具集
 1. [gitui](https://github.com/extrawurst/gitui) : 命令行下的git客户端，浏览版本历史挺好用的。
