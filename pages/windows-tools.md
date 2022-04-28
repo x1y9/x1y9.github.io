@@ -25,10 +25,12 @@ layout: page
 1. [CCleaner](https://www.piriform.com/ccleaner) : 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
 1. [AllDup](http://www.alldup.de) : 免费portable的重复文件查找，功能强大，图像重复查找很棒。
 1. [TreeSizeFree](https://www.jam-software.com/treesize_free/) : 磁盘空间管理，在shell:sendto下增加快捷方式后很好用。 
-1. [Unison](http://unison-binaries.inria.fr/) : 文件目录同步
+1. [Unison](http://unison-binaries.inria.fr/) : 文件目录同步, 双向rsync
+1. [syncthing](https://syncthing.net/) : 多服务器同步
 1. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘
 1. [nssm](https://nssm.cc/) 把任何程序转为Windows服务
 1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板，神器。
+1. [Snapdrop](https://snapdrop.net/) pc手机分享文件和文本。
 1. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
 
 ## 媒体
