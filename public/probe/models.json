@@ -25,8 +25,12 @@
     "YOK-AN10":["$h.honorv40/spec","$g.honor_v40_5g-10687.php"],
     "RNA-AN00":["$g.honor_50_pro-10958.php"],
     "LGE-AN00":["$g.honor_magic4-11389.php"],
+    "LGE-AN20":["$g.honor_magic4_ultimate-11432.php"],
     "LSA-AN00":["$g.honor_60-11255.php"],
     "TNA-AN00":["$g.honor_60_pro-11248.php"],
+    "FNE-AN00":["$g.honor_70-11575.php"],
+    "SDY-AN00":["$g.honor_70_pro-11576.php"],
+    "HPB-AN00":["$g.honor_70_pro+-11577.php"],
 
     "OCE-AN10":["$u.mate40/specs","$g.huawei_mate_40-10553.php"],
     "NOH-AN00":["$u.mate40-pro/specs","$g.huawei_mate_40_pro-10528.php"],
@@ -42,6 +46,8 @@
     "ELS-AN10":["$u.p40-pro-plus/specs","$g.huawei_p40_pro+-10118.php"],
     "ELE-AL00;ELE-TL00":["$u.p30/specs","$g.huawei_p30-9530.php"],
     "VOG-AL00;VOG-AL10;VOG-TL00":["$u.p30-pro/specs","$g.huawei_p30_pro-9635.php"],
+    "ABR-AL60":["$g.huawei_p50e-11428.php"],
+    "ABR-AL00":["$g.huawei_p50-10788.php"],
     "JAD-AL50":["$g.huawei_p50_pro-11029.php"],
     "ANG-AN00":["$g.huawei_nova_8_5g-10645.php"],
     "BRQ-AN00":["$g.huawei_nova_8_pro_5g-10642.php"],
@@ -60,6 +66,10 @@
     "M2012K11C":["$g.xiaomi_redmi_k40_pro-10727.php"],
     "22041211AC":["$g.xiaomi_redmi_k50-11430.php"],
     "21121210C":["$g.xiaomi_redmi_k50_gaming-11362.php"],
+    "22081212C":["$g.xiaomi_redmi_k50_ultra-11580.php"],
+    "2201117T":["$g.xiaomi_redmi_note_11-11336.php"],
+    "22041216C":["$g.xiaomi_redmi_note_11t_pro-11550.php"],
+    "22041216UC":["$g.xiaomi_redmi_note_11t_pro+-11549.php"],
 
     "Mi 6#":["$g.xiaomi_mi_6-8507.php"],
     "Mi 8#":["$g.xiaomi_mi_8-9065.php"],
@@ -74,9 +84,13 @@
     "M2011J18C":["$g.xiaomi_mi_mix_fold-10817.php"],
     "21051182C":["$g.xiaomi_pad_5-11042.php"],
     "M2105K81AC":["$g.xiaomi_pad_5_pro-11043.php"],
+    "2109119BC":["$g.xiaomi_civi_1s-11487.php"],
     "2201123C":["$g.xiaomi_12-11285.php"],
     "2201122C":["$g.xiaomi_12_pro-11287.php"],
     "2112123AC":["$g.xiaomi_12x-11292.php"],
+    "2206123SC":["$g.xiaomi_12s-11645.php"],
+    "2206122SC":["$g.xiaomi_12s_pro-11651.php"],
+    "2203121C":["$g.xiaomi_12s_ultra-11614.php"],
 
     "SM-N970":["$g.samsung_galaxy_note10-9788.php"],
     "SM-N971":["$g.samsung_galaxy_note10_5g-9789.php"],
@@ -92,6 +106,9 @@
     "SM-S901":["$g.samsung_galaxy_s22_5g-11253.php"],
     "SM-S906":["$g.samsung_galaxy_s22+_5g-11252.php"],
     "SM-S908":["$g.samsung_galaxy_s22_ultra_5g-11251.php"],
+    "SM-F916":["$g.samsung_galaxy_z_fold2_5g-10342.php"],
+    "SM-F926":["$g.samsung_galaxy_z_fold3_5g-10906.php"],
+    "SM-F936":["$g.samsung_galaxy_z_fold4-11737.php"],
 
     "PDEM30":["$g.oppo_find_x2_pro-9529.php"],
     "PCLM10":["$g.oppo_reno_ace-9894.php"],
@@ -103,12 +120,16 @@
     "RMX3031":["$g.realme_gt_neo-10812.php"],
     "RMX3370":["$g.realme_gt_neo2-11074.php"],
     "RMX3560":["$g.realme_gt_neo3-11436.php"],
+    "RMX3366":["$g.realme_gt_explorer_master-11023.php"],
+    "RMX3551":["$g.realme_gt2_explorer_master-11613.php"],
+    "PFEM10":["$g.oppo_find_x5_pro-11236.php"],
 
     "V1981A":["$g.vivo_iqoo_neo3_5g-10201.php"],
     "V2055A":["$g.vivo_iqoo_neo5-10795.php"],
     "V2183A":["$g.vivo_x80-11492.php"],
     "V2185A;V2145":["$g.vivo_x80_pro-11407.php"],
-
+    "V2217A":["$g.vivo_iqoo_10-11703.php"],
+    "V2218A":["$g.vivo_iqoo_10_pro-11701.php"],
 
     "#16s#":["$g.meizu_16s-9424.php"],
     "#16s Pro#":["$g.meizu_16s_pro-9792.php"],
@@ -123,5 +144,6 @@
     "LE2121;LE2125":["$o.9-pro/spec","$g.oneplus_9_pro-10806.php"],
     "LE2100":["$o.9r/spec","$g.oneplus_9r-10807.php"],
 
+    "NX702J":["$g.zte_nubia_z40s_pro-11698.php"],
     "XQ-AT51;XQ-AT52":["$g.sony_xperia_1_ii-10096.php"]
 }
