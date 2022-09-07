@@ -82,9 +82,16 @@ Due to Android limitations, pixel matching needs to be enabled and given authori
 
 <h4>Click Mode</h4>
 <code>Most of the actions performed after a successful match are clicks, or "k" action, which can be controlled by parameters for the click mode:<br/>
-* Default mode, e.g. <red>{"n": "found"}</red> will click this element directly after a successful match, and try to click the parent element if the element is unclickable.<br/>
-* Deep mode, e.g. <red>{"a": "k:5", "n": "found"}</red> recurses up to 5 levels of parent elements on top of the above.<br/>
-* Coordinate mode, e.g. <red>{"a": "k:0", "n": "found"}</red> no longer recurses the parent element, and uses the element's position on the screen to compute a center coordinate for simulated clicks if the element is not clickable.<br/>
+* Normal mode (with parameter 0), e.g. <red>{"a": "k:0", "n": "found"}</red>, triggers a click directly if the element is clickable, otherwise it uses the element's position on the screen to compute a center coordinate for simulating a click.<br/>
+* Parent mode (parameter greater than 0), for example, <red>{"a": "k:5", "n": "found"}</red>, if the element can be clicked, directly trigger the click, otherwise recursive upward level by level to see if the parent element can be clicked, up to 5 levels of recursive parent elements, this mode will not simulating coordinate click.<br/>
+* Coordinate mode (with parameters less than 0), such as <red>{"a": "k:-1", "n": "found"}</red>, will use the element's position on the screen directly after a successful match to compute a center coordinate for simulating a click, regardless of whether the element is clickable or not.<br/><br/>
+
+If there are no parameters, then there are two more cases.<br/>
+* In automation, the above normal mode is used by default, because in automation scenarios, many times you need to simulate coordinate clicks to succeed.<br/>
+* In Super Shortcut, the above Parent mode is used by default(k:9), because in Super Shortcut scenarios, element-based clicks are more common, but you can adapt your own scenario by adding parameters to the code.<br/>
+
+After <red>version 5.6.7</red> an offset click was added, which takes two parameters and indicates the offset in xy coordinates at the element centroid, for example:<br/>
+<red>{"a": "k:10:-50", "n": "found"}</red> will then add 10 to x and subtract 50 from y based on the center coordinates of the matched element and simulate a click.
 </code>
 
 <h4>Variables</h4>
@@ -232,7 +239,17 @@ Multi-touch does not support repetitions for now.
 </code>
 
 <h4>Appendix VI: Developer Tools</h4>
-<code>After the <red>5.6.1 version</red>, two developer tools have been added, layout view and screen color picking. These two tools and the flying mouse share a common command word m, which is distinguished by parameters, m or m:0 for the flying mouse, m:1 for the layout view tool, and m:2 for the color picking tool.<br/>
+<code>After <red>5.6.1 version</red>, two developer tools have been added, layout view and screen color picking. These two tools and the flying mouse share a common command word m, which is distinguished by parameters, m or m:0 for the flying mouse, m:1 for the layout view tool, and m:2 for the color picking tool.<br/>
+</code>
+
+<h4>Appendix VII: Switching parameters</h4>
+<code>After <red>version 5.6.7</red>, the parameters of some switch commands have been added. The parameters can be 0/off for off, 1/on for on, or without parameters for toggle, and the following commands support switch parameters.<br/>
+* Wifi<br/>
+* Bluetooth<br/>
+* Location<br/>
+* NFC<br/>
+* Torch<br/>
+For example, <red>E:0</red> means Bluetooth off, <red>E:1</red> or <red>E:on</red> means Bluetooth on, and <red>E</red> without parameters toggles Bluetooth.<br/>
 </code>
 
 </code>
