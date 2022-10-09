@@ -51,6 +51,8 @@
     "JAD-AL50":["$g.huawei_p50_pro-11029.php"],
     "ANG-AN00":["$g.huawei_nova_8_5g-10645.php"],
     "BRQ-AN00":["$g.huawei_nova_8_pro_5g-10642.php"],
+    "CET-AL00;CET-LX9":["$g.huawei_mate_50-11857.php"],
+    "DCO-AL00;DCO-LX9":["$g.huawei_mate_50_pro-11856.php"],
 
     "M2010J19SC":["$g.xiaomi_redmi_note_9_4g-10609.php"],
     "M2007J22C":["$g.xiaomi_redmi_note_9_5g-10581.php"],
@@ -111,6 +113,7 @@
     "SM-F936":["$g.samsung_galaxy_z_fold4-11737.php"],
 
     "PDEM30":["$g.oppo_find_x2_pro-9529.php"],
+    "PEDM00":["$g.oppo_find_x3-10786.php"],
     "PCLM10":["$g.oppo_reno_ace-9894.php"],
     "PGAM10":["$g.oppo_reno8_pro-11542.php"],
     "PEXM00":["$g.oppo_k9-10894.php"],
@@ -130,6 +133,7 @@
     "V2185A;V2145":["$g.vivo_x80_pro-11407.php"],
     "V2217A":["$g.vivo_iqoo_10-11703.php"],
     "V2218A":["$g.vivo_iqoo_10_pro-11701.php"],
+    "V2188A":["$g.vivo_iqoo_z5_(2022)-11539.php"],
 
     "#16s#":["$g.meizu_16s-9424.php"],
     "#16s Pro#":["$g.meizu_16s_pro-9792.php"],
@@ -145,5 +149,10 @@
     "LE2100":["$o.9r/spec","$g.oneplus_9r-10807.php"],
 
     "NX702J":["$g.zte_nubia_z40s_pro-11698.php"],
-    "XQ-AT51;XQ-AT52":["$g.sony_xperia_1_ii-10096.php"]
+
+    "XQ-AT51;XQ-AT52":["$g.sony_xperia_1_ii-10096.php"],
+
+    "GLUOG;G8VOU":["$g.google_pixel_6_pro-10918.php"],
+    "GVU6C;GQML3":["$g.google_pixel_7-11903.php"],
+    "GP4BC;GE2AE":["$g.google_pixel_7_pro-11908.php"]
 }
