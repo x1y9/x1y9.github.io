@@ -26,7 +26,7 @@ Note that plugins are <red>case sensitive</red>. The automation feature for Micr
 <code>Super shortcuts are supported after <red>version 4.3.4</red> of Micro Gesture, as a simple example.<br/>
 <red>ss:[{"a":"com.tencent.mm"}]</red><br/>
 It is a simple super shortcut to launch WeChat. Here the part enclosed in brackets after ss: is a json format array, please refer to Appendix II for detailed description of json format.<br/><br/>
-Each super shortcut is a set of actions enclosed in <red>[]</red>, where a single action is a json object enclosed in <red>{}</red>, and the object includes some properties, for example, "a" is a property that indicates the action to be done by this instruction, followed by "com.tencent.mm" which is the value of this action. This is the package id of an Android version of WeChat, which means start WeChat. The following will explain the format of the plugin command in detail.
+Each super shortcut is a set of actions enclosed in <red>[]</red>, where a single action is a json object enclosed in <red>{}</red>, and the object includes some properties, for example, "a" is a property that indicates the action to be done by this action, followed by "com.tencent.mm" which is the value of this action. This is the package id of an Android version of WeChat, which means start WeChat. The following will explain the format of the plugin command in detail.
 </code>
 
 <h4>Action Object</h4>
@@ -35,22 +35,26 @@ Each super shortcut is a set of actions enclosed in <red>[]</red>, where a singl
 2. "d" indicates the delay time in milliseconds, this delay was divided into positive and negative delay, positive delay was after execution, negative delay was before execution delay, after <red>5.5.4</red> it is no longer distinguished, it is unified as pre-execution delay, and negative values are no longer meaningful. <br/>
 3. "n" indicates the screen element to be matched. <br/>
 4. "p" indicates the package where the screen element to be matched is located.<br/>
+5. "t" indicates the timeout of this command, in milliseconds, which cannot exceed 8000ms (8 seconds), and the entire super shortcut will be aborted if it exceeds 8 seconds. <br/>
+6. "j" means jump (<red>5.7.0</red>), you can jump N actions according to the execution result of the previous action, the value is two numbers, indicating the number of actions to jump on success and failure, for example {"j":"1,2"} means that the previous match is successful, one jumps down, and if it fails, it jumps down 2 actions. Note that if you want the match to fail, the previous match action must set timeout. <br/>
 </code>
 
 <h4>Continuous action</h4>
-<code>According to the definition of action object, we can define some continuous instructions, such as<br/>
+<code>According to the definition of action object, we can define some continuous actions, such as<br/>
 <red>ss:[{"a":"2"},{"a":"click:150:150","d":300}]</red><br/>
-It means go back to the main screen first, then click on the screen 150, 150(coordinate point), here both instructions are enclosed in curly brackets and separated by a comma on it.<br/>
+It means go back to the main screen first, then click on the screen 150, 150(coordinate point), here both actions are enclosed in curly brackets and separated by a comma on it.<br/>
 Also note that the second action here adds a "d" delay of 300 milliseconds, is to consider back to the main screen usually has animation, so add a delay to ensure that the animation has been completed.
 </code>
 
 <h4>UI Matching</h4>
 <code>There are times when we want to match an element of the interface and then perform the corresponding action, e.g.<br/>
 <red>ss:[{"a":"com.tencent.mm"},{"a":"k","n":"Discover"},{"a":"k:10","n":"Moments"}]</red><br/>
-This plug-in has three instructions, the first one is to start WeChat by package id, the second instruction has an n attribute, <red>"n": "Discover"</red> means match "Discover" this interface element, after the successful match execute the "k" action, refer to Appendix I, we know that the k action is to click on this matched element, so the equivalent is after the start of WeChat. Click "Discover", then the third instruction is to match "Moments" and click, the click here is written as k:10 because the interface nesting of WeChat is too complex and needs to control the depth of the click, please refer to the following click mode. So the entire role of this super shortcut is to enter the WeChat Moments in one step.<br/><br/>
+This plug-in has three actions, the first one is to start WeChat by package id, the second action has an n attribute, <red>"n": "Discover"</red> means match "Discover" this interface element, after the successful match execute the "k" action, refer to Appendix I, we know that the k action is to click on this matched element, so the equivalent is after the start of WeChat. Click "Discover", then the third action is to match "Moments" and click, the click here is written as k:10 because the interface nesting of WeChat is too complex and needs to control the depth of the click, please refer to the following click mode. So the entire role of this super shortcut is to enter the WeChat Moments in one step.<br/><br/>
 
-Note that the two matching instructions here do not need to add a delay, because they are all clicked only when the match is successful, and when the match is successful, the interface has been loaded, so there is no need to delay, in addition, because after the match is usually a click, we can omit the click action, the entire plug-in that is simplified as follows<br/>
-<red>ss:[{"a":"com.tencent.mm"},{"n":"Discover"},{"a":"k:10","n":"Moments"}]</red><br/>
+Note that the two matching actions here do not need to add a delay, because they are all clicked only when the match is successful, and when the match is successful, the interface has been loaded, so there is no need to delay, in addition, because after the match is usually a click, we can omit the click action, the entire plug-in that is simplified as follows<br/>
+<red>ss:[{"a":"com.tencent.mm"},{"n":"Discover"},{"a":"k:10","n":"Moments"}]</red><br/><br/>
+
+We can also add conditional actions to execute different actions when the match succeeds and fails, such as <red>ss:[{"a":"2"},{"n":"Alipay","t":2000 },{"j":"0,1"},{"n":"WeChat"}]</red> means go back to the desktop, try to click Alipay, if there is no match, click WeChat.
 </code>
 
 <h4>Matching mode</h4>
@@ -216,11 +220,11 @@ This is an object with only one property employees, which takes the value of an 
 </code>
 
 <h4>Appendix III: Repetition of simulated gestures</h4>
-<code>Micro Gesture after <red>version 5.4.6</red> some instructions that simulate gestures can be controlled by parameters whether to simulate multiple gestures, these instructions include g,h,i,j,G,H,click,N, where g,h,i,j,G,H are all instructions for scrolling, the difference between them is that g,h,i,j is simulating a swipe gesture, the four instructions correspond to four directions, G,H is by adjusting the scroll bar, and only supports the up and down direction. The exact format of these commands is as follows.<br/>
+<code>Micro Gesture after <red>version 5.4.6</red> some actions that simulate gestures can be controlled by parameters whether to simulate multiple gestures, these actions include g,h,i,j,G,H,click,N, where g,h,i,j,G,H are all actions for scrolling, the difference between them is that g,h,i,j is simulating a swipe gesture, the four actions correspond to four directions, G,H is by adjusting the scroll bar, and only supports the up and down direction. The exact format of these commands is as follows.<br/>
 * click command with parameters<red>:x:y:duration:times:delay</red>, for example <red>click:150:150:800:3:1000</red> means long click at coordinate point 150,150 for 800 milliseconds, executed 3 times, each time with 1000 milliseconds delay.<br/>
 * N command with parameters<red>:x1:y1:x2:y2:duration:times:delay</red>, for example <red>N:150:150:200:300:100:5:500</red> means sliding from coordinate point 150,150 to 200:300, executing 5 times with 500 milliseconds delay each time.<br/>
 <br/>
-Once these repetitive instructions are executed and you want to interrupt, there are two ways to do so.<br/>
+Once these repetitive actions are executed and you want to interrupt, there are two ways to do so.<br/>
 * The "p" or "s" command that triggers a pause or stop, both of which terminate the repeating gesture being executed.<br/>
 * In the case of super shortcuts, a continuous scroll command followed by an n command, i.e. a click on the matching node, terminates the repeating gesture being executed once the match is successful and clicked.<br/>
 </code>
@@ -229,7 +233,7 @@ Once these repetitive instructions are executed and you want to interrupt, there
 <code>Micro Gesture actions such as W,V,X, can carry a text parameter, this parameter can use any variable, the variable is enclosed in curly brackets in the parameter, in the execution, the variable will be replaced with the current value. It is also possible to use multiple variables in a parameter, for example.<br/>
 * <red>V:{date}{time}</red> to insert the current date and time into the edit box in the current screen.<br/>
 * <red>W:1:Execution successful</red>, send a notification of successful execution, the first parameter is the notification channel, currently supports four channels, namely 1,2,3,4.<br/>
-* <red>X:{code}</red>, take the contents of the code variable and copy it to the clipboard.<br/><br/>
+* <red>X:{code}</red>, take the contents of the code variable and copy it to the clipboard.<br/>
 </code>
 
 <h4>Appendix V: Simulation of multi-touch</h4>
