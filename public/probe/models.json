@@ -32,6 +32,10 @@
     "SDY-AN00":["$g.honor_70_pro-11576.php"],
     "HPB-AN00":["$g.honor_70_pro+-11577.php"],
     "ADT-AN00":["$g.honor_x40_gt-11933.php"],
+    "ANN-AN00":["$g.honor_80-11993.php"],
+    "ANP-AN00":["$g.honor_80_pro-11992.php"],
+    "GIA-AN8":["$g.honor_80_se-11995.php"],
+    "FRI-AN00":["$g.honor_magic_vs-11991.php"],
 
     "OCE-AN10":["$u.mate40/specs","$g.huawei_mate_40-10553.php"],
     "NOH-AN00":["$u.mate40-pro/specs","$g.huawei_mate_40_pro-10528.php"],
@@ -135,6 +139,9 @@
     "V2217A":["$g.vivo_iqoo_10-11703.php"],
     "V2218A":["$g.vivo_iqoo_10_pro-11701.php"],
     "V2188A":["$g.vivo_iqoo_z5_(2022)-11539.php"],
+    "V2241A":["$g.vivo_x90-11990.php"],
+    "V2242A":["$g.vivo_x90_pro-11989.php"],
+    "V2227A":["$g.vivo_x90_pro+-11979.php"],
 
     "#16s#":["$g.meizu_16s-9424.php"],
     "#16s Pro#":["$g.meizu_16s_pro-9792.php"],
