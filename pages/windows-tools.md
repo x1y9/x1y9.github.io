@@ -19,7 +19,7 @@ layout: page
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义 
 1. [HxD](https://mh-nexus.de/en/hxd/) : 十六进制编辑器
 1. [Emeditor](https://www.emeditor.com/download/) : 最好的通用编辑器，免费版够用了，Portable版本要在shell:sendto下面增加它的快捷方式。
-1. [LibreOffice](https://www.libreoffice.org/) : 代替微软Office，Portable版本不错，同样要在shell:sendto下增加快捷方式。
+1. [LibreOffice](https://www.libreoffice.org/) : 代替微软Office，这个需要安装，不要用portable版本。
 1. [Insomnia](http://dlaa.me/blog/post/10104830) : 防止休眠
 1. [Ditto](http://ditto-cp.sourceforge.net/) : 多剪贴板，Windows10以后可以不需要了。
 1. [CCleaner](https://www.piriform.com/ccleaner) : 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
@@ -40,19 +40,20 @@ layout: page
 1. [Vlc](http://www.videolan.org/vlc/) : 兼容性很好的播放器
 1. [IrfanView](http://www.irfanview.com/) : 超轻量且支持格式极多的图片查看器。
 1. [ImageMagick](https://imagemagick.org/index.php) 如果要在命令行处理图片，比如缩放、格式转换，就这个了。
-1. [GreenShot](http://getgreenshot.org/) : 截屏工具，picpick也很不错。
+1. [GreenShot](http://getgreenshot.org/) : 截屏工具，picpick也很不错，Windows10内置的Win+shift+S一般也够用。
 1. [LICEcap](https://www.cockos.com/licecap/) : 录制动态GIF。
 1. [FFmpeg](https://ffmpeg.org/) : 转换音视频格式的命令行工具。
 1. [WaveShop](http://waveshop.sourceforge.net/) : 轻量的音频编辑工具。
 1. [OBS](https://obsproject.com/) : 直播和录制视频，比ShareX性能要好。
+2. [MeshLab](https://www.meshlab.net/) : 各种3d文件查看，编辑和算法处理。
 
 ## 编程
-1. [Anaconda](https://www.eclipse.org/) : Python环境和第三方库，如果不需要庞大的库，miniconda更合适。
+1. [WinPython](https://winpython.github.io/) : Python环境和第三方库，比Anaconda更portable，且License友好。
 1. [Java](https://adoptopenjdk.net/releases.html) : 一般情况下Openjdk就可以了。
 1. [Eclipse](https://www.eclipse.org/) : Java IDE
 1. [CodeBlocks](http://www.codeblocks.org/) : 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
 1. [lazarus](https://www.lazarus-ide.org/) : Delphi的开源版本，做GUI小工具不错。
-1. [Visual Studio Code](https://code.visualstudio.com/) : 大部分项目的IDE
+1. [Visual Studio Code](https://code.visualstudio.com/) : 大部分项目的IDE，Markdown编辑也非常好用。
 1. [git](https://git-scm.com/) : 版本控制和linux工具集
 1. [gitui](https://github.com/extrawurst/gitui) : 命令行下的git客户端，浏览版本历史挺好用的。
 
