@@ -95,6 +95,7 @@
     "2206122SC":["$g.xiaomi_12s_pro-11651.php"],
     "2203121C":["$g.xiaomi_12s_ultra-11614.php"],
     "2211133C":["xiaomi_13-12013.php"],
+    "2210132C":["xiaomi_13_pro-11962.php"],
 
     "SM-N970":["$g.samsung_galaxy_note10-9788.php"],
     "SM-N971":["$g.samsung_galaxy_note10_5g-9789.php"],
@@ -155,10 +156,17 @@
     "IN2023;IN2020;IN2021;IN2025":["$g.oneplus_8_pro-9919.php"],
     "LE2121;LE2125":["$g.oneplus_9_pro-10806.php"],
     "LE2100":["$g.oneplus_9r-10807.php"],
+    "PGKM10":["$g.oneplus_ace-11488.php"],
+    "PHK110":["$g.oneplus_ace_2-12103.php"],
+    "PHB110;CPH2449;CPH2447":["$g.oneplus_11-11893.php"],
 
+    "NX701J":["$g.zte_nubia_z40_pro-11379.php"],
     "NX702J":["$g.zte_nubia_z40s_pro-11698.php"],
+    "NX711J":["$g.zte_nubia_z50-12031.php"],
+    "NX712J":["$g.zte_nubia_z50_ultra-12157.php"],
 
     "XQ-AT51;XQ-AT52":["$g.sony_xperia_1_ii-10096.php"],
+    "XQCQ62;XQ-CQ72;XQCQ54":["$g.sony_xperia_5_iv-11838.php"],
 
     "GLUOG;G8VOU":["$g.google_pixel_6_pro-10918.php"],
     "GVU6C;GQML3":["$g.google_pixel_7-11903.php"],
