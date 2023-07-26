@@ -11,7 +11,6 @@ layout: page
 1. [ConEmu](https://conemu.github.io/) : 多标签页的命令行，用来替换CMD。
 1. [Clink](https://mridgers.github.io/clink/) : 支持CMD记录历史，可以和ConEmu集成
 1. [Windows Terminal](https://github.com/microsoft/terminal) : 微软自己的Terminal，对中文支持更好，但字体有时发虚。
-1. [Classic Shell](http://www.classicshell.net/) : Windows8下用来找回开始菜单，win10可以不用了。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索
 1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
@@ -32,6 +31,8 @@ layout: page
 1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板，神器。
 1. [Snapdrop](https://snapdrop.net/) pc手机分享文件和文本。
 1. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
+1. [gImageReader](https://github.com/manisandro/gImageReader) : 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
+
 
 ## 媒体
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF阅读工具，多标签页。
@@ -45,7 +46,7 @@ layout: page
 1. [FFmpeg](https://ffmpeg.org/) : 转换音视频格式的命令行工具。
 1. [WaveShop](http://waveshop.sourceforge.net/) : 轻量的音频编辑工具。
 1. [OBS](https://obsproject.com/) : 直播和录制视频，比ShareX性能要好。
-2. [MeshLab](https://www.meshlab.net/) : 各种3d文件查看，编辑和算法处理。
+1. [MeshLab](https://www.meshlab.net/) : 各种3d文件查看，编辑和算法处理。
 
 ## 编程
 1. [WinPython](https://winpython.github.io/) : Python环境和第三方库，比Anaconda更portable，且License友好。
@@ -76,4 +77,10 @@ layout: page
 1. [SciDAVis](http://scidavis.sourceforge.net/) : 数据处理，替代Origin
 
 ## 娱乐
-1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序
+1. [dosbox](https://sourceforge.net/projects/dosbox/) : dos模拟器，玩老游戏和程序
+
+## Windows修补
+Windows总有一些用着不舒服的地方，可以找一些修补工具。
+1. [Windows11 安装](https://4sysops.com/archives/install-windows-10-11-22h2-without-microsoft-account/) : 跳过安装时的微软账号登录，简单的说就是Shift-F10加一条命令`oobe\BypassNRO`。 
+1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) :简单的说就是一条命令: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` 
+1. [Classic Shell](http://www.classicshell.net/) : Windows8下用来找回开始菜单，win10及以上可以不用了。

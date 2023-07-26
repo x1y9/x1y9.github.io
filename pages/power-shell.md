@@ -4,7 +4,7 @@ title: Power shell
 layout: page
 ---
 
-长久以来，我都是命令行的重度用户，在Windows下通常是使用cmd作为命令行工具，不过现在我推荐使用Windows Terminal + Powershell这个组合，这个组合终于补上了Windows相对于Linux的一个重要短板。并且Powershell借鉴了ksh的语法，所以对于Linux用户，很多语法是比较自然的。
+长久以来，我都是命令行的重度用户，在Windows下通常是使用cmd作为命令行工具，这里记录一下微软推荐的PowerShell的一点心得，虽然我还没有适应。
 
 ## 安装
 
