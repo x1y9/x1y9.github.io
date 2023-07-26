@@ -11,6 +11,7 @@ layout: page
 * 在管理员模式下，先运行`set-executionpolicy remotesigned`以打开安全限制
 * 安装fzf，然后安装wrapper，`Install-Module PSFzf`
 `notead $profile`，加入以下内容
+
 ```
 Import-Module PSFzf
 
