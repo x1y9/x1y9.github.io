@@ -12,7 +12,8 @@ layout: page
 1. [Clink](https://mridgers.github.io/clink/) : 支持CMD记录历史，可以和ConEmu集成
 1. [Windows Terminal](https://github.com/microsoft/terminal) : 微软自己的Terminal，对中文支持更好，但字体有时发虚。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
-1. [Everything](https://www.voidtools.com/) 快速文件搜索
+1. [Everything](https://www.voidtools.com/) 快速文件搜索，内置的HttpServer也很好用。
+1. [LocalSend](https://localsend.org) 局域网文件分享
 1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
 1. [F2](https://github.com/ayoisaiah/f2) 最好的命令行批量改名工具，支持预览和正则表达式。
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义 
@@ -29,9 +30,8 @@ layout: page
 1. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘
 1. [nssm](https://nssm.cc/) 把任何程序转为Windows服务
 1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板，神器。
-1. [Snapdrop](https://snapdrop.net/) pc手机分享文件和文本。
-1. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
-1. [gImageReader](https://github.com/manisandro/gImageReader) : 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
+2. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
+3. [gImageReader](https://github.com/manisandro/gImageReader) : 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
 
 
 ## 媒体
