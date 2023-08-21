@@ -8,8 +8,7 @@ layout: page
 
 
 ## 工具
-1. [ConEmu](https://conemu.github.io/) : 多标签页的命令行，用来替换CMD。
-1. [Clink](https://mridgers.github.io/clink/) : 支持CMD记录历史，可以和ConEmu集成
+1. [Clink](https://github.com/chrisant996/clink) : 支持CMD记录历史，可以和Windows Terminal集成。
 1. [Windows Terminal](https://github.com/microsoft/terminal) : 微软自己的Terminal，对中文支持更好，但字体有时发虚。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索
