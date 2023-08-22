@@ -54,6 +54,7 @@ layout: page
 1. [CodeBlocks](http://www.codeblocks.org/) : 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
 1. [lazarus](https://www.lazarus-ide.org/) : Delphi的开源版本，做GUI小工具不错。
 1. [Visual Studio Code](https://code.visualstudio.com/) : 大部分项目的IDE，Markdown编辑也非常好用。
+1. [DotPeek](https://www.jetbrains.com/decompiler/) : Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
 1. [git](https://git-scm.com/) : 版本控制和linux工具集
 1. [gitui](https://github.com/extrawurst/gitui) : 命令行下的git客户端，浏览版本历史挺好用的。
 
