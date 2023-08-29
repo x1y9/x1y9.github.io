@@ -8,8 +8,7 @@ layout: page
 
 
 ## 工具
-1. [ConEmu](https://conemu.github.io/) : 多标签页的命令行，用来替换CMD。
-1. [Clink](https://mridgers.github.io/clink/) : 支持CMD记录历史，可以和ConEmu集成
+1. [Clink](https://github.com/chrisant996/clink) : 支持CMD记录历史，可以和Windows Terminal集成。
 1. [Windows Terminal](https://github.com/microsoft/terminal) : 微软自己的Terminal，对中文支持更好，但字体有时发虚。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索，内置的HttpServer也很好用。
@@ -55,6 +54,7 @@ layout: page
 1. [CodeBlocks](http://www.codeblocks.org/) : 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
 1. [lazarus](https://www.lazarus-ide.org/) : Delphi的开源版本，做GUI小工具不错。
 1. [Visual Studio Code](https://code.visualstudio.com/) : 大部分项目的IDE，Markdown编辑也非常好用。
+1. [DotPeek](https://www.jetbrains.com/decompiler/) : Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
 1. [git](https://git-scm.com/) : 版本控制和linux工具集
 1. [gitui](https://github.com/extrawurst/gitui) : 命令行下的git客户端，浏览版本历史挺好用的。
 
