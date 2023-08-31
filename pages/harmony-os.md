@@ -1,6 +1,6 @@
 ---
 published: true
-title: 鸿蒙OS初探
+title: 鸿蒙OS
 layout: page
 ---
 
