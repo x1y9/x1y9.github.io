@@ -10,32 +10,32 @@ layout: page
 
 kindle底层是一套封闭的Linux系统，相对大部分安卓阅读器的优点就是省电省资源，缺点就是无法安装应用，每个型号的配置如下：
 
-| Model                   | Launch             | Display                                                     | CPU                                 | Memory | Storage              | Battery   |
-| ----------------------- | ------------------ | ----------------------------------------------------------- | ----------------------------------- | ------ | -------------------- | --------- |
-| Kindle                  | November 19, 2007  | 6-inch, 600 × 800 pixels, 167 PPI density, 4-level          | Marvell Xscale PXA255 400 MHz, ARM9 | 64 MB  | 256/180 MB           | 1,530 mAh |
-| Kindle 2                | February 23, 2009  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX31 532 MHz, ARM11     | 32 MB  | 2/1.4 GB             | 1,530 mAh |
-| Kindle 2 International  | October 19, 2009   | 7-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX31 532 MHz, ARM12     | 32 MB  | 2/1.4 GB             | 1,530 mAh |
-| Kindle DX               | June 10, 2009      | 9.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level      | Freescale i.MX31 532 MHz, ARM13     | 128 MB | 4/3 GB               | 1,530 mAh |
-| Kindle DX International | January 6, 2010    | 10.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level     | Freescale i.MX31 532 MHz, ARM14     | 128 MB | 4/3 GB               | 1,530 mAh |
-| Kindle DX Graphite      | July 1, 2010       | 11.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level     | Freescale i.MX31 532 MHz, ARM15     | 128 MB | 4/3 GB               | 1,530 mAh |
-| Kindle Keyboard         | August 27, 2010    | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX35 532 MHz, ARM11     | 256 MB | 4/3 GB               | 1,750 mAh |
-| Kindle 4                | September 28, 2011 | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 2/1.25 GB            | 890 mAh   |
-| Kindle Touch            | November 15, 2011  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 4/3 GB               | 1,420 mAh |
-| Kindle 5                | September 6, 2012  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 2/1.25 GB            | 890 mAh   |
-| Kindle Paperwhite       | October 1, 2012    | 6-inch, 768 × 1024 pixels, 212 PPI density, 16-level,LED    | Freescale i.MX508 800 MHz           | 256 MB | 4/3 GB               | 1,420 mAh |
-| Kindle Paperwhite 2     | September 30, 2013 | 6-inch, 768 × 1024 pixels, 212 PPI density, 16-level,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 256 MB | 2/1.25               | 2,420 mAh |
-| Kindle 7                | October 2, 2014    | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale/NXP i.MX6 SoloLite 1 GHz  | 256 MB | 4/3 GB               | 890 mAh   |
-| Kindle Voyage           | November 4, 2014   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4/3 GB               | 1,320mAh  |
-| Kindle Paperwhite 3     | June 30, 2015      | 7-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 513 MB | 4/3 GB               | 1,420 mAh |
-| Kindle Oasis            | April 27, 2016     | 8-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 514 MB | 4/3 GB               | 1,535 mAh |
-| Kindle 8                | June 22, 2016      | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale/NXP i.MX6 SoloLite 1 GHz  | 515 MB | 4/3 GB               | 890 mAh   |
-| Kindle Oasis 2          | October 31, 2017   | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 516 MB | 8/6 GB or 32/30 GB   | 1,000 mAh |
-| Kindle Paperwhite 4     | November 7, 2018   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 517 MB | 9/6 GB or 32/30 GB   | 1,500 mAh |
-| Kindle 10               | April 10, 2019     | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level, LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 518 MB | 8/6 GB               | 1,040 mAh |
-| Kindle Oasis 3          | July 24, 2019      | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 519 MB | 8/6 GB or 32/30 GB   | 1,130 mAh |
-| Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236 x 1648 pixels, 300 PPI density, 16-level,LED | Mediatek MT81101 GHz                | 520 MB | 8GB or16 GB          | 1,700 mAh |
-| Kindle 11               | October 12, 2022   | 6-inch, 1072 × 1448 pixels, 300 PPI, 16-level ,LED          | TBA                                 | TBA    | 16 GB                | 1,040 mAh |
-| Kindle Scribe           | November 30, 2022  | 10.2-inch, 1860 x 2480 pixels, 300 PPI, 16-level,LED        | TBA                                 | TBA    | 16 GB,32 GB or 64 GB | 3,000 mAh |
+| Model                   | Launch             | Display                                                     | CPU                                 | Memory | Storage     | Battery   |
+| ----------------------- | ------------------ | ----------------------------------------------------------- | ----------------------------------- | ------ | ----------- | --------- |
+| Kindle                  | November 19, 2007  | 6-inch, 600 × 800 pixels, 167 PPI density, 4-level          | Marvell Xscale PXA255 400 MHz, ARM9 | 64 MB  | 256 MB      | 1,530 mAh |
+| Kindle 2                | February 23, 2009  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX31 532 MHz, ARM11     | 32 MB  | 2 GB        | 1,530 mAh |
+| Kindle 2 International  | October 19, 2009   | 7-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX31 532 MHz, ARM12     | 32 MB  | 2 GB        | 1,530 mAh |
+| Kindle DX               | June 10, 2009      | 9.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level      | Freescale i.MX31 532 MHz, ARM13     | 128 MB | 4 GB        | 1,530 mAh |
+| Kindle DX International | January 6, 2010    | 10.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level     | Freescale i.MX31 532 MHz, ARM14     | 128 MB | 4 GB        | 1,530 mAh |
+| Kindle DX Graphite      | July 1, 2010       | 11.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level     | Freescale i.MX31 532 MHz, ARM15     | 128 MB | 4 GB        | 1,530 mAh |
+| Kindle Keyboard         | August 27, 2010    | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX35 532 MHz, ARM11     | 256 MB | 4 GB        | 1,750 mAh |
+| Kindle 4                | September 28, 2011 | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 2 GB        | 890 mAh   |
+| Kindle Touch            | November 15, 2011  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 4 GB        | 1,420 mAh |
+| Kindle 5                | September 6, 2012  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 2 GB        | 890 mAh   |
+| Kindle Paperwhite       | October 1, 2012    | 6-inch, 768 × 1024 pixels, 212 PPI density, 16-level,LED    | Freescale i.MX508 800 MHz           | 256 MB | 4 GB        | 1,420 mAh |
+| Kindle Paperwhite 2     | September 30, 2013 | 6-inch, 768 × 1024 pixels, 212 PPI density, 16-level,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 256 MB | 2 GB        | 2,420 mAh |
+| Kindle 7                | October 2, 2014    | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale/NXP i.MX6 SoloLite 1 GHz  | 256 MB | 4 GB        | 890 mAh   |
+| Kindle Voyage           | November 4, 2014   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 1,320mAh  |
+| Kindle Paperwhite 3     | June 30, 2015      | 7-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 1,420 mAh |
+| Kindle Oasis            | April 27, 2016     | 8-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 1,535 mAh |
+| Kindle 8                | June 22, 2016      | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 890 mAh   |
+| Kindle Oasis 2          | October 31, 2017   | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 512 MB | 8/32 GB     | 1,000 mAh |
+| Kindle Paperwhite 4     | November 7, 2018   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 8/32 GB     | 1,500 mAh |
+| Kindle 10               | April 10, 2019     | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level, LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 8 GB        | 1,040 mAh |
+| Kindle Oasis 3          | July 24, 2019      | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 512 MB | 8/32 GB     | 1,130 mAh |
+| Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236 x 1648 pixels, 300 PPI density, 16-level,LED | Mediatek MT81101 GHz                | 512 MB | 8/16 GB     | 1,700 mAh |
+| Kindle 11               | October 12, 2022   | 6-inch, 1072 × 1448 pixels, 300 PPI, 16-level ,LED          | 1 GHz single-core                   | 512 MB | 16 GB       | 1,040 mAh |
+| Kindle Scribe           | November 30, 2022  | 10.2-inch, 1860 x 2480 pixels, 300 PPI, 16-level,LED        | MediaTek MT8113                     | 1G MB  | 16/32/64 GB | 3,000 mAh |
 
 ## 应用
 
