@@ -7,9 +7,9 @@ layout: page
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子：
 
 ## 新闻
-1. [联合早报](https://www.zaobao.com.sg/cn) 比较常看的一个新闻站
-1. [日经中文网](https://cn.nikkei.com/) 中立，客观
-1. [FT中文](https://www.ftchinese.com/) 财经新闻较好
+1. [联合早报](https://www.zaobao.com.sg/cn) 比较常看的一个新闻站。
+1. [日经中文网](https://cn.nikkei.com/) 中立，客观。
+1. [FT中文](https://www.ftchinese.com/) 财经新闻较好。
    
 ## 文件和下载
 1. [maildrop](https://maildrop.cc/) 给你一个临时邮箱，用来注册一些暂时用的服务。
@@ -19,10 +19,12 @@ layout: page
 1. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
 
 ## 对比和评测
-1. [speedtest](https://www.speedtest.cn/) 测试网速
-1. [userbenchmark](https://cpu.userbenchmark.com/) cpu、gpu、ssd之类的性能测试数据
-1. [cpubenchmark](https://www.cpubenchmark.net/) cpu规格和性能测试数据，非常全
-1. [alternativeto](https://alternativeto.net/) 寻找某个软件的替代软件的好地方
+1. [GSMArena](https://www.gsmarena.com/) 丰富且准确的手机数据库。
+1. [NanoReview](https://nanoreview.net/) 智能手机/soc评测。
+1. [speedtest](https://www.speedtest.cn/) 测试网速。
+1. [userbenchmark](https://cpu.userbenchmark.com/) cpu、gpu、ssd之类的性能测试数据。
+1. [cpubenchmark](https://www.cpubenchmark.net/) cpu规格和性能测试数据，非常全。
+1. [alternativeto](https://alternativeto.net/) 寻找某个软件的替代软件的好地方。
 
 ## 语言
 1. [deepL](https://www.deepl.com/) 挺好的翻译工具。
