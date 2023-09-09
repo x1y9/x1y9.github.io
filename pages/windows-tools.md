@@ -10,6 +10,7 @@ layout: page
 ## 工具
 1. [Clink](https://github.com/chrisant996/clink) : 支持CMD记录历史，可以和Windows Terminal集成。
 1. [Windows Terminal](https://github.com/microsoft/terminal) : 微软自己的Terminal，对中文支持更好，但字体有时发虚。
+1. [Google password](https://passwords.google.com/) 和Chrome和指纹集成后，管理密码变得非常方便和安全。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索，内置的HttpServer也很好用。
 1. [LocalSend](https://localsend.org) 局域网文件分享
