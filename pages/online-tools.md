@@ -7,8 +7,8 @@ layout: page
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子。
 
 ## 新闻
-1. [联合早报](https://www.zaobao.com.sg/cn) 比较常看的一个新闻站。
-1. [日经中文网](https://cn.nikkei.com/) 中立，客观。
+1. [联合早报](https://www.zaobao.com.sg/cn) 常看的一个新闻站。
+1. [日经中文网](https://cn.nikkei.com/) 比较客观。
 1. [FT中文](https://www.ftchinese.com/) 财经新闻较好。
    
 ## 文件和下载
@@ -27,9 +27,10 @@ layout: page
 1. [alternativeto](https://alternativeto.net/) 寻找某个软件的替代软件的好地方。
 
 ## 语言
-1. [deepL](https://www.deepl.com/) 挺好的翻译工具。
+1. [deepL](https://www.deepl.com/) 挺好的翻译工具，免费版有每日使用限制。
+1. [Google Translate](https://translate.google.com/) 谷歌的在线翻译，没有什么使用限制。
 1. [duolingo](https://www.duolingo.com) 学外语的网站。
-1. [英语听力材料](https://www.tingclass.net/zt/mp3/) 挺全的听力资料下载。
+1. [听力课堂](https://www.tingclass.net/zt/mp3/) 挺全的听力资料下载。
 
 ## 设计
 1. [photopea](https://www.photopea.com/) 在线的photoshop替代者，和ps非常接近，比很多本地软件做的都好。
@@ -46,6 +47,9 @@ layout: page
 1. [online xml formatter](https://www.webtoolkitonline.com/xml-formatter.html) 在线xml格式化
 1. [regex101](https://regex101.com/) 正则表达式测试
 1. [generatedata](http://www.generatedata.com/) 根据给定的要求生成大量随机数据
+
+## 娱乐
+1. [咪咕体育](https://www.miguvideo.com/p/schedule/) 看直播和回放的赛事，比较全。
 
 ## 其他
 1. [soopat](http://www.soopat.com/) 专利检索，看专利内容的话，Goolge就挺好。
