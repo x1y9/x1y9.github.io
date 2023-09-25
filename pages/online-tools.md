@@ -18,6 +18,10 @@ layout: page
 1. [itellyou](https://msdn.itellyou.cn/) 微软资源下载检索。
 1. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
 
+## 网络服务
+1. [Dynv6](https://dynv6.com/) 动态域名
+1. [Vultr](https://www.vultr.com/) VPS服务
+    
 ## 对比和评测
 1. [GSMArena](https://www.gsmarena.com/) 丰富且准确的手机数据库。
 1. [NanoReview](https://nanoreview.net/) 智能手机/soc评测。
