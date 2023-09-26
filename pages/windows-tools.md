@@ -13,7 +13,6 @@ layout: page
 1. [Google password](https://passwords.google.com/) 和Chrome和指纹集成后，管理密码变得非常方便和安全。
 1. [7Zip](http://www.7-zip.org/) : 压缩工具
 1. [Everything](https://www.voidtools.com/) 快速文件搜索，内置的HttpServer也很好用。
-1. [LocalSend](https://localsend.org) 局域网文件分享
 1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
 1. [F2](https://github.com/ayoisaiah/f2) 最好的命令行批量改名工具，支持预览和正则表达式。
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义 
@@ -64,11 +63,13 @@ layout: page
 1. [yed](https://www.yworks.com/products/yed) : 流程图等制作
 
 ## 网络
+1. [LocalSend](https://localsend.org) 局域网文件分享
+1. [Aria2](https://github.com/aria2/aria2): 命令行下载工具
 1. [ipScan](http://angryip.org/) : IP搜索
-1. [Putty](http://www.putty.org/) : SSH客户端
+1. [Putty](http://www.putty.org/) : SSH/串口客户端
 1. [MobaXTerm](http://mobaxterm.mobatek.net/) SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
 1. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
-1. [eMule](https://www.emule-project.net) : 下载 
+1. [eMule](https://www.emule-project.net) : 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) : Mysql/mariadb 客户端
