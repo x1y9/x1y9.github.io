@@ -7,9 +7,10 @@ layout: page
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子。
 
 ## 新闻
-1. [联合早报](https://www.zaobao.com.sg/cn) 常看的一个新闻站。
-1. [日经中文网](https://cn.nikkei.com/) 比较客观。
-1. [FT中文](https://www.ftchinese.com/) 财经新闻较好。
+1. [观察者](https://www.guancha.cn/)
+1. [联合早报](https://www.zaobao.com.sg/cn) 
+1. [日经中文网](https://cn.nikkei.com/) 
+1. [FT中文](https://www.ftchinese.com/) 
    
 ## 文件和下载
 1. [maildrop](https://maildrop.cc/) 给你一个临时邮箱，用来注册一些暂时用的服务。
@@ -17,10 +18,12 @@ layout: page
 1. [urlgot](https://v.urlgot.cn/) 下载某些视频网站的视频。
 1. [itellyou](https://msdn.itellyou.cn/) 微软资源下载检索。
 1. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
+1. [Anna's Archive](https://annas-archive.org/) 电子书
 
 ## 网络服务
 1. [Dynv6](https://dynv6.com/) 动态域名
 1. [Vultr](https://www.vultr.com/) VPS服务
+1. [RackNerd](https://racknerd.com/) 另一个VPS，支持换IP。
     
 ## 对比和评测
 1. [GSMArena](https://www.gsmarena.com/) 丰富且准确的手机数据库。
