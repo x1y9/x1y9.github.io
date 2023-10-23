@@ -86,4 +86,5 @@ Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. [Windows11 安装](https://4sysops.com/archives/install-windows-10-11-22h2-without-microsoft-account/) : 跳过安装时的微软账号登录，简单的说就是Shift-F10加一条命令`oobe\BypassNRO`。 
 1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) :简单的说就是一条命令: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` 
 1. [Classic Shell](http://www.classicshell.net/) : Windows8下用来找回开始菜单，win10及以上可以不用了。
+1. [VC运行时](https://github.com/abbodi1406/vcredist) : 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次行全部安装。
 1. Windows11更新了微软输入法会导致很多键盘快捷键失效(比如Shift-F6), 要在输入法设置里兼容老版本才可以。
