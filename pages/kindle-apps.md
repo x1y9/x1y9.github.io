@@ -33,8 +33,8 @@ Kindle底层是一套封闭的Linux系统，相对大部分安卓阅读器的优
 | Kindle Paperwhite 4     | November 7, 2018   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 8/32 GB     | 1,500 mAh |
 | Kindle 10               | April 10, 2019     | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level, LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 8 GB        | 1,040 mAh |
 | Kindle Oasis 3          | July 24, 2019      | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 512 MB | 8/32 GB     | 1,130 mAh |
-| Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236 x 1648 pixels, 300 PPI density, 16-level,LED | Mediatek MT81101 GHz                | 512 MB | 8/16 GB     | 1,700 mAh |
-| Kindle 11               | October 12, 2022   | 6-inch, 1072 × 1448 pixels, 300 PPI, 16-level ,LED          | 1 GHz single-core                   | 512 MB | 16 GB       | 1,040 mAh |
+| Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236 x 1648 pixels, 300 PPI density, 16-level,LED | Mediatek MT8110z                    | 512 MB | 8/16 GB     | 1,700 mAh |
+| Kindle 11               | October 12, 2022   | 6-inch, 1072 × 1448 pixels, 300 PPI, 16-level ,LED          | MediaTek MT8113                     | 512 MB | 16 GB       | 1,040 mAh |
 | Kindle Scribe           | November 30, 2022  | 10.2-inch, 1860 x 2480 pixels, 300 PPI, 16-level,LED        | MediaTek MT8113                     | 1G MB  | 16/32/64 GB | 3,000 mAh |
 
 ## 应用
@@ -66,4 +66,4 @@ kindle自带Lua脚本语言，你可以在Kindle直接编写Lua程序，通过ss
 * 重新安装[jailbreak_hotfix](https://www.mobileread.com/forums/showthread.php?t=225030)，尽量下载新版本，解开后的bin文件复制到kindle根目录下，然后点升级，这一步一定不要省略。
 * 重新安装[MRPI（MR Package Installer）](https://www.mobileread.com/forums/showthread.php?t=225030)，这个只需要复制到根目录下即可。
 * 重新安装[KUAL](https://www.mobileread.com/forums/showthread.php?t=225030)，这个是菜单界面的插件启动器，通过上面的MRPI的一条命令来安装。
-* 重新[安装KOReader](https://github.com/koreader/koreader/wiki/%E5%9C%A8Kindle%E4%B8%8A%E5%AE%89%E8%A3%85%E5%92%8C%E8%BF%90%E8%A1%8CKOReader)，只需要复制两个目录，然后就可以通过KUAL启动KOReader了。
+* 重新安装[KOReader](https://github.com/koreader/koreader/wiki/%E5%9C%A8Kindle%E4%B8%8A%E5%AE%89%E8%A3%85%E5%92%8C%E8%BF%90%E8%A1%8CKOReader)，只需要复制两个目录，然后就可以通过KUAL启动KOReader了。
