@@ -1,5 +1,5 @@
 ## My projects
-* [Micro Gesture](https://github.com/x1y9/justmd/) - Innovative Android motion gesture navigation.
+* [Micro Gesture](https://play.google.com/store/apps/details?id=me.i38.gesture) - Innovative Android motion gesture navigation.
 * [Battery Guard](https://play.google.com/store/apps/details?id=com.x1y9.battery) - A battery saver android app.
 
 ## My open source projects
