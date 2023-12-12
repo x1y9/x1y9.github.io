@@ -21,8 +21,9 @@ layout: page
 1. [Anna's Archive](https://annas-archive.org/) 电子书
 
 ## 网络服务
-1. [Dynv6](https://dynv6.com/) 动态域名
-1. [Vultr](https://www.vultr.com/) VPS服务
+1. [NameCheap](https://www.namecheap.com/) 一直在用的域名服务，支持动态域名。
+1. [Dynv6](https://dynv6.com/) 免费动态域名。
+1. [Vultr](https://www.vultr.com/) VPS服务。
 1. [RackNerd](https://racknerd.com/) 另一个VPS，支持换IP。
     
 ## 对比和评测
@@ -33,9 +34,10 @@ layout: page
 1. [cpubenchmark](https://www.cpubenchmark.net/) cpu规格和性能测试数据，非常全。
 1. [alternativeto](https://alternativeto.net/) 寻找某个软件的替代软件的好地方。
 
-## 语言
+## 外语
 1. [deepL](https://www.deepl.com/) 挺好的翻译工具，免费版有每日使用限制。
 1. [Google Translate](https://translate.google.com/) 谷歌的在线翻译，没有什么使用限制。
+1. [Anki](https://ankiweb.net/shared/decks) Anki的共享词库站，很全的免费单词库。
 1. [duolingo](https://www.duolingo.com) 学外语的网站。
 1. [听力课堂](https://www.tingclass.net/zt/mp3/) 挺全的听力资料下载。
 

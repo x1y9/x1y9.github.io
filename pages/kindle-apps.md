@@ -52,7 +52,7 @@ Kindle底层是一套封闭的Linux系统，相对大部分安卓阅读器的优
 
 2. [FileBrowser](https://github.com/filebrowser/filebrowser) 这是一个基于http的文件管理器，方便书籍的上传下载，再也不需要数据线了，通常直接安装[插件版](https://github.com/ngxson/hobby-kindle-http-file-server)即可，内置了FileBrowser的二进制执行文件，通过KUAL的菜单来启动。
 
-3. [游戏]()，理论上Arm版本的Linux游戏就可以在Kindle上运行，比如[Tetris](https://github.com/xfangfang/gtktetris_kindle)。
+3. 游戏，理论上Arm版本的Linux游戏就可以在Kindle上运行，比如[Tetris](https://github.com/xfangfang/gtktetris_kindle)。
 
 
 ## 编程
