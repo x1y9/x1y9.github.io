@@ -28,7 +28,7 @@ layout: page
 1. [syncthing](https://syncthing.net/) : 多服务器同步
 1. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘
 1. [nssm](https://nssm.cc/) 把任何程序转为Windows服务
-1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板，神器。
+1. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
 2. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
 3. [gImageReader](https://github.com/manisandro/gImageReader) : 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
 
@@ -57,6 +57,7 @@ layout: page
 1. [DotPeek](https://www.jetbrains.com/decompiler/) : Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
 1. [git](https://git-scm.com/) : 版本控制和linux工具集
 1. [gitui](https://github.com/extrawurst/gitui) : 命令行下的git客户端，浏览版本历史挺好用的。
+2. [stdump](https://github.com/odinserj/stdump) .net程序dump工具
 
 ## 设计
 1. [Just Color Picker](http://annystudio.com/software/colorpicker/) : 取色工具
@@ -64,12 +65,13 @@ layout: page
 
 ## 网络
 1. [LocalSend](https://localsend.org) 局域网文件分享
-1. [Aria2](https://github.com/aria2/aria2): 命令行下载工具
-1. [ipScan](http://angryip.org/) : IP搜索
-1. [Putty](http://www.putty.org/) : SSH/串口客户端
-1. [MobaXTerm](http://mobaxterm.mobatek.net/) SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
+1. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
+1. [ipScan](http://angryip.org/)  IP搜索
+1. [Putty](http://www.putty.org/)  SSH/串口客户端
+1. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
 1. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
-1. [eMule](https://www.emule-project.net) : 下载非常冷门的资源 
+2. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务
+3. [eMule](https://www.emule-project.net) : 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) : Mysql/mariadb 客户端

@@ -13,6 +13,7 @@ layout: page
 1. [FT中文](https://www.ftchinese.com/) 
    
 ## 文件和下载
+1. [ApkMirror](https://www.apkmirror.com/) 下载apk
 1. [maildrop](https://maildrop.cc/) 给你一个临时邮箱，用来注册一些暂时用的服务。
 1. [droplr](https://d.pr/) 临时中转文件。
 1. [urlgot](https://v.urlgot.cn/) 下载某些视频网站的视频。
@@ -59,6 +60,7 @@ layout: page
 
 ## 娱乐
 1. [咪咕体育](https://www.miguvideo.com/p/schedule/) 看直播和回放的赛事，比较全。
+2. [优直播](https://www.yoozhibo.net/) 体育赛事汇总站。
 
 ## 其他
 1. [soopat](http://www.soopat.com/) 专利检索，看专利内容的话，Goolge就挺好。
