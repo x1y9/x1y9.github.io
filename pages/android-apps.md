@@ -10,8 +10,3 @@ layout: page
 
 1. [LocalSend](https://localsend.org) 局域网文件分享
 
-
-
-
-
-## ios修补
