@@ -10,32 +10,32 @@ layout: page
 
 Kindle底层是一套封闭的Linux系统，相对大部分安卓阅读器的优点就是省电省资源，缺点就是无法安装应用，每个型号的配置如下：
 
-| Model                   | Launch             | Display                                                     | CPU                                 | Memory | Storage     | Battery   |
-| ----------------------- | ------------------ | ----------------------------------------------------------- | ----------------------------------- | ------ | ----------- | --------- |
-| Kindle                  | November 19, 2007  | 6-inch, 600 × 800 pixels, 167 PPI density, 4-level          | Marvell Xscale PXA255 400 MHz, ARM9 | 64 MB  | 256 MB      | 1,530 mAh |
-| Kindle 2                | February 23, 2009  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX31 532 MHz, ARM11     | 32 MB  | 2 GB        | 1,530 mAh |
-| Kindle 2 International  | October 19, 2009   | 7-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX31 532 MHz, ARM12     | 32 MB  | 2 GB        | 1,530 mAh |
-| Kindle DX               | June 10, 2009      | 9.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level      | Freescale i.MX31 532 MHz, ARM13     | 128 MB | 4 GB        | 1,530 mAh |
-| Kindle DX International | January 6, 2010    | 10.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level     | Freescale i.MX31 532 MHz, ARM14     | 128 MB | 4 GB        | 1,530 mAh |
-| Kindle DX Graphite      | July 1, 2010       | 11.7-inch, 824 x 1200 pixels, 150 PPI density, 16-level     | Freescale i.MX31 532 MHz, ARM15     | 128 MB | 4 GB        | 1,530 mAh |
-| Kindle Keyboard         | August 27, 2010    | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX35 532 MHz, ARM11     | 256 MB | 4 GB        | 1,750 mAh |
-| Kindle 4                | September 28, 2011 | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 2 GB        | 890 mAh   |
-| Kindle Touch            | November 15, 2011  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 4 GB        | 1,420 mAh |
-| Kindle 5                | September 6, 2012  | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale i.MX508 800 MHz           | 256 MB | 2 GB        | 890 mAh   |
-| Kindle Paperwhite       | October 1, 2012    | 6-inch, 768 × 1024 pixels, 212 PPI density, 16-level,LED    | Freescale i.MX508 800 MHz           | 256 MB | 4 GB        | 1,420 mAh |
-| Kindle Paperwhite 2     | September 30, 2013 | 6-inch, 768 × 1024 pixels, 212 PPI density, 16-level,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 256 MB | 2 GB        | 2,420 mAh |
-| Kindle 7                | October 2, 2014    | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale/NXP i.MX6 SoloLite 1 GHz  | 256 MB | 4 GB        | 890 mAh   |
-| Kindle Voyage           | November 4, 2014   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 1,320mAh  |
-| Kindle Paperwhite 3     | June 30, 2015      | 7-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 1,420 mAh |
-| Kindle Oasis            | April 27, 2016     | 8-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 1,535 mAh |
-| Kindle 8                | June 22, 2016      | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level         | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 4 GB        | 890 mAh   |
-| Kindle Oasis 2          | October 31, 2017   | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 512 MB | 8/32 GB     | 1,000 mAh |
-| Kindle Paperwhite 4     | November 7, 2018   | 6-inch, 1072 × 1448 pixels, 300 PPI density, 16-level,LED   | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 8/32 GB     | 1,500 mAh |
-| Kindle 10               | April 10, 2019     | 6-inch, 600 × 800 pixels, 167 PPI density, 16-level, LED    | Freescale/NXP i.MX6 SoloLite 1 GHz  | 512 MB | 8 GB        | 1,040 mAh |
-| Kindle Oasis 3          | July 24, 2019      | 7-inch, 1264 × 1680 pixels, 300 PPI density, 16-level,LED   | NXP i.MX7D 1 GHz                    | 512 MB | 8/32 GB     | 1,130 mAh |
-| Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236 x 1648 pixels, 300 PPI density, 16-level,LED | Mediatek MT8110z                    | 512 MB | 8/16 GB     | 1,700 mAh |
-| Kindle 11               | October 12, 2022   | 6-inch, 1072 × 1448 pixels, 300 PPI, 16-level ,LED          | MediaTek MT8113                     | 512 MB | 16 GB       | 1,040 mAh |
-| Kindle Scribe           | November 30, 2022  | 10.2-inch, 1860 x 2480 pixels, 300 PPI, 16-level,LED        | MediaTek MT8113                     | 1G MB  | 16/32/64 GB | 3,000 mAh |
+| 型号                    | 发布时间           | 显示                                        | CPU                                | RAM    | 存储        | 电池      | 重量  |
+| ----------------------- | ------------------ | ------------------------------------------- | ---------------------------------- | ------ | ----------- | --------- | ----- |
+| Kindle                  | November 19, 2007  | 6-inch, 600x800, 167 PPI, 4级灰度           | Marvell Xscale PXA255 400 MHz      | 64 MB  | 256 MB      | 1,530 mAh | 290 g |
+| Kindle 2                | February 23, 2009  | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale i.MX31 532 MHz           | 32 MB  | 2 GB        | 1,530 mAh | 290 g |
+| Kindle 2 International  | October 19, 2009   | 7-inch, 600x800, 167 PPI, 16级灰度          | Freescale i.MX31 532 MHz           | 32 MB  | 2 GB        | 1,530 mAh | 290 g |
+| Kindle DX               | June 10, 2009      | 9.7-inch, 824x1200, 150 PPI, 16级灰度       | Freescale i.MX31 532 MHz           | 128 MB | 4 GB        | 1,530 mAh | 540 g |
+| Kindle DX International | January 6, 2010    | 10.7-inch, 824x1200, 150 PPI, 16级灰度      | Freescale i.MX31 532 MHz           | 128 MB | 4 GB        | 1,530 mAh | 540 g |
+| Kindle DX Graphite      | July 1, 2010       | 11.7-inch, 824x1200, 150 PPI, 16级灰度      | Freescale i.MX31 532 MHz           | 128 MB | 4 GB        | 1,530 mAh | 540 g |
+| Kindle Keyboard         | August 27, 2010    | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale i.MX35 532 MHz           | 256 MB | 4 GB        | 1,750 mAh | 250 g |
+| Kindle 4                | September 28, 2011 | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale i.MX508 800 MHz          | 256 MB | 2 GB        | 890 mAh   | 170 g |
+| Kindle Touch            | November 15, 2011  | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale i.MX508 800 MHz          | 256 MB | 4 GB        | 1,420 mAh | 220 g |
+| Kindle 5                | September 6, 2012  | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale i.MX508 800 MHz          | 256 MB | 2 GB        | 890 mAh   | 170 g |
+| Kindle Paperwhite       | October 1, 2012    | 6-inch, 768x1024, 212 PPI, 16级灰度,LED     | Freescale i.MX508 800 MHz          | 256 MB | 4 GB        | 1,420 mAh | 220 g |
+| Kindle Paperwhite 2     | September 30, 2013 | 6-inch, 768x1024, 212 PPI, 16级灰度,LED     | Freescale/NXP i.MX6 SoloLite 1 GHz | 256 MB | 2 GB        | 2,420 mAh | 220 g |
+| Kindle 7                | October 2, 2014    | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale/NXP i.MX6 SoloLite 1 GHz | 256 MB | 4 GB        | 890 mAh   | 190 g |
+| Kindle Voyage           | November 4, 2014   | 6-inch, 1072x1448, 300 PPI, 16级灰度,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz | 512 MB | 4 GB        | 1,320mAh  | 190 g |
+| Kindle Paperwhite 3     | June 30, 2015      | 7-inch, 1072x1448, 300 PPI, 16级灰度,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz | 512 MB | 4 GB        | 1,420 mAh | 220 g |
+| Kindle Oasis            | April 27, 2016     | 8-inch, 1072x1448, 300 PPI, 16级灰度,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz | 512 MB | 4 GB        | 1,535 mAh | 130 g |
+| Kindle 8                | June 22, 2016      | 6-inch, 600x800, 167 PPI, 16级灰度          | Freescale/NXP i.MX6 SoloLite 1 GHz | 512 MB | 4 GB        | 890 mAh   | 160 g |
+| Kindle Oasis 2          | October 31, 2017   | 7-inch, 1264x1680, 300 PPI, 16级灰度,LED    | NXP i.MX7D 1 GHz                   | 512 MB | 8/32 GB     | 1,000 mAh | 190 g |
+| Kindle Paperwhite 4     | November 7, 2018   | 6-inch, 1072x1448, 300 PPI, 16级灰度,LED    | Freescale/NXP i.MX6 SoloLite 1 GHz | 512 MB | 8/32 GB     | 1,500 mAh | 190 g |
+| Kindle 10               | April 10, 2019     | 6-inch, 600x800, 167 PPI, 16级灰度, LED     | Freescale/NXP i.MX6 SoloLite 1 GHz | 512 MB | 8 GB        | 1,040 mAh | 170 g |
+| Kindle Oasis 3          | July 24, 2019      | 7-inch, 1264x1680, 300 PPI, 16级灰度,LED    | NXP i.MX7D 1 GHz                   | 512 MB | 8/32 GB     | 1,130 mAh | 190 g |
+| Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236x1648, 300 PPI, 16级灰度,LED  | Mediatek MT8110z                   | 512 MB | 8/16 GB     | 1,700 mAh | 210 g |
+| Kindle 11               | October 12, 2022   | 6-inch, 1072x1448, 300 PPI, 16级灰度,LED    | MediaTek MT8113                    | 512 MB | 16 GB       | 1,040 mAh | 158 g |
+| Kindle Scribe           | November 30, 2022  | 10.2-inch, 1860x2480, 300 PPI, 16级灰度,LED | MediaTek MT8113                    | 1G MB  | 16/32/64 GB | 3,000 mAh | 430 g |
 
 ## 应用
 
