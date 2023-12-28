@@ -11,6 +11,9 @@ layout: page
 1. [联合早报](https://www.zaobao.com.sg/cn) 
 1. [日经中文网](https://cn.nikkei.com/) 
 1. [FT中文](https://www.ftchinese.com/) 
+
+## 购物
+1. [孔夫子](https://www.kongfz.com/) 很棒的二手书市场。
    
 ## 文件和下载
 1. [ApkMirror](https://www.apkmirror.com/) 下载apk
