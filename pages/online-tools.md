@@ -28,7 +28,7 @@ layout: page
 1. [NameCheap](https://www.namecheap.com/) 一直在用的域名服务，支持动态域名。
 1. [Dynv6](https://dynv6.com/) 免费动态域名。
 1. [Vultr](https://www.vultr.com/) VPS服务。
-1. [RackNerd](https://racknerd.com/) 另一个VPS，支持换IP。
+1. [RackNerd](https://racknerd.com/) 另一个VPS，支持换IP(收费)。
     
 ## 对比和评测
 1. [GSMArena](https://www.gsmarena.com/) 丰富且准确的手机数据库。
@@ -65,6 +65,8 @@ layout: page
 ## 娱乐
 1. [咪咕体育](https://www.miguvideo.com/p/schedule/) 看直播和回放的赛事，比较全。
 2. [优直播](https://www.yoozhibo.net/) 体育赛事汇总站。
+3. [OldmanEmu](https://www.oldmantvg.net/) 老游戏下载。
+
 
 ## 其他
 1. [soopat](http://www.soopat.com/) 专利检索，看专利内容的话，Goolge就挺好。
