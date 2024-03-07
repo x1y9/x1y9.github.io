@@ -16,7 +16,6 @@ layout: page
 1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
 1. [F2](https://github.com/ayoisaiah/f2) 最好的命令行批量改名工具，支持预览和正则表达式。
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义。 
-2. [Sikulix](https://sikulix.github.io/) 最好的GUI自动化工具，通过图片识别来支持包括网页在内的任意GUI应用。
 3. [HxD](https://mh-nexus.de/en/hxd/) 十六进制编辑器
 4. [Emeditor](https://www.emeditor.com/download/) 最好的通用编辑器，免费版够用了，Portable版本要在shell:sendto下面增加它的快捷方式。
 5. [LibreOffice](https://www.libreoffice.org/) 代替微软Office，这个需要安装，不要用portable版本。
@@ -26,7 +25,7 @@ layout: page
 9. [AllDup](http://www.alldup.de) 免费portable的重复文件查找，功能强大，图像重复查找很棒。
 10. [TreeSizeFree](https://www.jam-software.com/treesize_free/) 磁盘空间管理，在shell:sendto下增加快捷方式后很好用。 
 11. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync
-12. [syncthing](https://syncthing.net/) 多服务器同步
+12. [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 浮窗翻译，缺点是占用过多内存。
 13. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘
 14. [nssm](https://nssm.cc/) 把任何程序转为Windows服务
 15. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
@@ -57,6 +56,7 @@ layout: page
 1. [Visual Studio Code](https://code.visualstudio.com/) 大部分项目的IDE，Markdown编辑也非常好用。
 1. [DotPeek](https://www.jetbrains.com/decompiler/) Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
 1. [git](https://git-scm.com/) 版本控制和linux工具集
+1. [Sikulix](https://sikulix.github.io/) 最好的GUI自动化工具，通过图片识别来支持包括网页在内的任意GUI应用。
 1. [gitui](https://github.com/extrawurst/gitui) 命令行下的git客户端，浏览版本历史挺好用的。
 2. [stdump](https://github.com/odinserj/stdump) .net程序dump工具
 
@@ -73,8 +73,9 @@ layout: page
 1. [Putty](http://www.putty.org/)  SSH/串口客户端
 1. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
 1. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
-2. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务
-3. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+2. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
+3. [syncthing](https://syncthing.net/) 多服务器同步
+4. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端
@@ -84,7 +85,8 @@ layout: page
 1. [SciDAVis](http://scidavis.sourceforge.net/) 数据处理，替代Origin
 
 ## 娱乐
-1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序
+1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序。
+2. [BizHawk](https://github.com/TASEmulators/BizHawk) NES等模拟器，对蓝牙手柄支持相对较好。
 
 ## Windows修补
 Windows总有一些用着不舒服的地方，可以找一些修补工具。
