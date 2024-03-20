@@ -14,6 +14,7 @@ layout: page
 1. [Sharp-keys](https://github.com/randyrants/sharpkeys) 通过Windows注册表重映射键盘按键，无需后台运行，小巧的Winforms程序。
 2. [WGestures](https://github.com/yingDev/WGestures) 检测鼠标轨迹手势并执行动作，Winforms程序。
 3. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
+4. [optimizer](https://github.com/hellzerg/optimizer) 轻量的windows优化工具，单exe，2M，winforms程序。
 
 ## 算法
 1. [Map of Github](https://github.com/anvaka/map-of-github) 通过一些算法将所有github项目分类，并给出关联性，算法和render部分很有意思。
