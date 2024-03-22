@@ -14,6 +14,7 @@ layout: page
 1. [Sharp-keys](https://github.com/randyrants/sharpkeys) 通过Windows注册表重映射键盘按键，无需后台运行，小巧的Winforms程序。
 2. [WGestures](https://github.com/yingDev/WGestures) 检测鼠标轨迹手势并执行动作，Winforms程序。
 3. [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 使用windows内置的OCR引擎来复制图片里的文字，执行文件45M。
+4. [Immersive-Translate](https://github.com/immersive-translate/old-immersive-translate) chrome插件，支持PDF对照翻译，新版本不再开源了。
 
 ## windows
 1. [SophiApp](https://github.com/Sophia-Community/SophiApp) 基于WPF的Widow设置工具，现代UI。
