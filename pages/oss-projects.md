@@ -28,4 +28,4 @@ layout: page
    
 ## 算法
 1. [Map of Github](https://github.com/anvaka/map-of-github) 通过一些算法将所有github项目分类，并给出关联性，算法和render部分很有意思。
-2. [LaTeX-OCR](github.com/lukas-blecher/LaTeX-OCR) 基于AI的算法，将图片转换为Latex公式。
+2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 基于AI的算法，将图片转换为Latex公式。
