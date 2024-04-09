@@ -21,6 +21,7 @@ layout: page
 2. [optimizer](https://github.com/hellzerg/optimizer) 轻量的windows优化工具，单exe，2M，winforms程序。
 3. [privatezilla](https://github.com/builtbybel/privatezilla) windows隐私优化工具，不到1M的windforms程序。
 4. [simplewall](https://github.com/henrypp/simplewall) 用C实现的超轻量Windows Filtering Platform配置工具，不到1M。
+5. [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 任务栏或悬浮窗监测CPU/Memory/Traffic，C++实现，不到1M。
 
 ## 编程
 1. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
