@@ -83,6 +83,7 @@ layout: page
 
 ## 数据处理
 1. [SciDAVis](http://scidavis.sourceforge.net/) 数据处理，替代Origin
+2. [LaTeX-OCR](github.com/lukas-blecher/LaTeX-OCR) 一个Python命令行工具，将图片转换到Latex，可以支持直接粘贴剪贴板图片。
 
 ## 娱乐
 1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序。
