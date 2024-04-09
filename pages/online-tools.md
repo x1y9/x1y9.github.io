@@ -62,6 +62,7 @@ layout: page
 1. [generatedata](http://www.generatedata.com/) 根据给定的要求生成大量随机数据
 2. [Libraries.io](https://libraries.io/) 搜索各种第三方库，查看依赖关系很方便。
 
+
 ## 娱乐
 1. [咪咕体育](https://www.miguvideo.com/p/schedule/) 看直播和回放的赛事，比较全。
 2. [优直播](https://www.yoozhibo.net/) 体育赛事汇总站。
@@ -70,3 +71,4 @@ layout: page
 
 ## 其他
 1. [soopat](http://www.soopat.com/) 专利检索，看专利内容的话，Goolge就挺好。
+2. [Mathpix](https://snip.mathpix.com/) 将图片转换为Latex的在线工具，免费版有次数限制。
