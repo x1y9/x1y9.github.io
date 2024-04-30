@@ -61,6 +61,7 @@ layout: page
 1. [regex101](https://regex101.com/) 正则表达式测试
 1. [generatedata](http://www.generatedata.com/) 根据给定的要求生成大量随机数据
 2. [Libraries.io](https://libraries.io/) 搜索各种第三方库，查看依赖关系很方便。
+3. [动手学深度学习](https://zh.d2l.ai/) 很多大学用的AI教材的电子版
 
 
 ## 娱乐
