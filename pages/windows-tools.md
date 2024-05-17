@@ -11,7 +11,7 @@ layout: page
 1. [Clink](https://github.com/chrisant996/clink) 支持CMD记录历史，可以和Windows Terminal集成。
 1. [Windows Terminal](https://github.com/microsoft/terminal) 微软自己的Terminal，对中文支持更好，但字体有时发虚。
 1. [Google password](https://passwords.google.com/) 和Chrome和指纹集成后，管理密码变得非常方便和安全。
-1. [7Zip](http://www.7-zip.org/) 压缩工具
+1. [7Zip](http://www.7-zip.org/) 压缩工具，高级用户推荐[zstd](https://github.com/mcmilk/7-Zip-zstd)扩展版本，zstd算法非常快。
 1. [Everything](https://www.voidtools.com/) 快速文件搜索，内置的HttpServer也很好用。
 1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
 1. [F2](https://github.com/ayoisaiah/f2) 最好的命令行批量改名工具，支持预览和正则表达式。
