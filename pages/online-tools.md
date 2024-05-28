@@ -6,10 +6,13 @@ layout: page
 
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子。
 
+## AI
+1. [Poe](https://poe.com/) 可以免费访问大部分高级模型，比如GPT4-o，但是有每日次数限制。
+1. [Coze](https://www.coze.com/) 类似Poe，虽然可用的模型较少，但完全免费。
+   
 ## 新闻
 1. [观察者](https://www.guancha.cn/)
 1. [联合早报](https://www.zaobao.com.sg/cn) 
-1. [日经中文网](https://cn.nikkei.com/) 
 1. [FT中文](https://www.ftchinese.com/) 
 
 ## 购物
