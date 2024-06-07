@@ -22,6 +22,7 @@ layout: page
 3. [privatezilla](https://github.com/builtbybel/privatezilla) windows隐私优化工具，不到1M的windforms程序。
 4. [simplewall](https://github.com/henrypp/simplewall) 用C实现的超轻量Windows Filtering Platform配置工具，不到1M。
 5. [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 任务栏或悬浮窗监测CPU/Memory/Traffic，C++实现，不到1M。
+6. [winfsp](https://github.com/winfsp/winfsp) 定义了一个用户态文件系统的接口，方便给windows开发新文件系统，比如sshfs。
 
 ## 编程
 1. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
