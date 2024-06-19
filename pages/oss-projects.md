@@ -6,7 +6,7 @@ layout: page
 
 这是一些非常有意思的开源项目。
 
-## c#
+## C#
 1. [copy-dialog-lunar-lander](https://github.com/Sanakan8472/copy-dialog-lunar-lander) 在Windows复制文件的进度条里嵌入一个小游戏，WPF。
 2. [rainmeter](https://github.com/rainmeter/rainmeter) 桌面贴纸，插件化，Winforms程序。
 1. [SophiApp](https://github.com/Sophia-Community/SophiApp) 基于WPF的Widow设置工具，现代UI。
@@ -29,11 +29,12 @@ layout: page
 1. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
    
 ## Python
-2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 基于AI的算法，将图片转换为Latex公式。
+2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 基于AI的算法，将图片转换为Latex公式，console应用直接读取剪贴板图像。
+3. [PhoneSploit-Pro](https://github.com/AzeemIdrisi/PhoneSploit-Pro) 利用Adb Hack安卓设备，基于Metasploit框架。
 
 ## Rust
 1. [Spacedrive](https://github.com/spacedriveapp/spacedrive) UI非常漂亮的现代分布式文件管理器。
-2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具。
+2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具，基于QT的UI。
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 网盘工具，支持挂载。
