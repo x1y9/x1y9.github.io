@@ -24,6 +24,8 @@ layout: page
 4. [simplewall](https://github.com/henrypp/simplewall) 用C实现的超轻量Windows Filtering Platform配置工具，不到1M。
 5. [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 任务栏或悬浮窗监测CPU/Memory/Traffic，C++实现，不到1M。
 6. [winfsp](https://github.com/winfsp/winfsp) 定义了一个用户态文件系统的接口，方便给windows开发新文件系统，比如sshfs。
+7. [StarViewer](https://github.com/starviewer-medical/starviewer) Dicom查看工具，有3D视图。
+8. [System Informer](https://github.com/winsiderss/systeminformer) 开源的ProcExploere，支持文件/网络监控，很小巧，2M。
 
 ## Java
 1. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
