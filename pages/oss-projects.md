@@ -27,6 +27,7 @@ layout: page
 6. [winfsp](https://github.com/winfsp/winfsp) 定义了一个用户态文件系统的接口，方便给windows开发新文件系统，比如sshfs。
 7. [StarViewer](https://github.com/starviewer-medical/starviewer) Dicom查看工具，有3D视图。
 8. [System Informer](https://github.com/winsiderss/systeminformer) 开源的ProcExploere，支持文件/网络监控，很小巧，2M。
+9. [UPBGE](https://github.com/UPBGE/upbge) 基于Blender的游戏开发工具，脚本使用Python，265M。
 
 ## Java
 1. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
@@ -35,13 +36,16 @@ layout: page
 2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 基于AI的算法，将图片转换为Latex公式，console应用直接读取剪贴板图像。
 3. [PhoneSploit-Pro](https://github.com/AzeemIdrisi/PhoneSploit-Pro) 利用Adb Hack安卓设备，基于Metasploit框架。
 4. [upscayl](https://github.com/upscayl/upscayl) 图像高分增强，效果不错，带Python环境的安装包250M。
+5. [yt-dlp](https://github.com/yt-dlp/yt-dlp) Youtube下载命令行工具，Python封装成一个18m的exe。
 
 ## Rust
 1. [Spacedrive](https://github.com/spacedriveapp/spacedrive) UI非常漂亮的现代分布式文件管理器。
 2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具，基于QT的UI。
+3. [SquirrelDisk](https://github.com/adileo/squirreldisk) 目录大小分析工具，类似TreeSize，UI是用JS实现，安装包10M。
 
 ## Go
-1. [rclone](https://github.com/rclone/rclone) 多格式网盘工具，支持挂载（支持透明加密压缩），单exe文件，60M。
+1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
+2. [croc](https://github.com/schollz/croc) 跨局域网的文件传送命令行工具，10M。
 
 ## Dart
 1. [Localsend](https://github.com/localsend/localsend) 非常好用的局域网文件/文本传递工具，30M。
