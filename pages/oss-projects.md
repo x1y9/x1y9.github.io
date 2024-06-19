@@ -16,6 +16,7 @@ layout: page
 2. [WGestures](https://github.com/yingDev/WGestures) 检测鼠标轨迹手势并执行动作，Winforms程序。
    
 ## JavaScript/TypeScript
+1. [Deskreen](https://github.com/pavlobu/deskreen) 将桌面窗口投到局域网内另一个设备的浏览器上，扩展屏幕，安卓设备要使用支持WebRTC的浏览器。
 1. [Map of Github](https://github.com/anvaka/map-of-github) 通过一些算法将所有github项目分类，并给出关联性，算法和render部分很有意思。
 3. [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 使用windows内置的OCR引擎来复制图片里的文字，执行文件45M。
 4. [Immersive-Translate](https://github.com/immersive-translate/old-immersive-translate) chrome插件，支持PDF对照翻译，新版本不再开源了。
