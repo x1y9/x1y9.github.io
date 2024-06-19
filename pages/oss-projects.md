@@ -14,7 +14,7 @@ layout: page
 3. [privatezilla](https://github.com/builtbybel/privatezilla) windows隐私优化工具，不到1M的windforms程序。
 4. [Sharp-keys](https://github.com/randyrants/sharpkeys) 通过Windows注册表重映射键盘按键，无需后台运行，小巧的Winforms程序。
 2. [WGestures](https://github.com/yingDev/WGestures) 检测鼠标轨迹手势并执行动作，Winforms程序。
-3. [Flow Launcher](github.com/Flow-Launcher/Flow.Launcher) 插件化的启动器，支持集成Everything。
+3. [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) 插件化的启动器，支持集成Everything。
    
 ## JavaScript/TypeScript
 1. [Deskreen](https://github.com/pavlobu/deskreen) 将桌面窗口投到局域网内另一个设备的浏览器上，扩展屏幕，安卓设备要使用支持WebRTC的浏览器。
