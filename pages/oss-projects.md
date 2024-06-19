@@ -33,18 +33,20 @@ layout: page
 ## Python
 2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 基于AI的算法，将图片转换为Latex公式，console应用直接读取剪贴板图像。
 3. [PhoneSploit-Pro](https://github.com/AzeemIdrisi/PhoneSploit-Pro) 利用Adb Hack安卓设备，基于Metasploit框架。
+4. [upscayl](https://github.com/upscayl/upscayl) 图像高分增强，效果不错，带Python环境的安装包250M。
 
 ## Rust
 1. [Spacedrive](https://github.com/spacedriveapp/spacedrive) UI非常漂亮的现代分布式文件管理器。
 2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具，基于QT的UI。
 
 ## Go
-1. [rclone](https://github.com/rclone/rclone) 网盘工具，支持挂载。
+1. [rclone](https://github.com/rclone/rclone) 多格式网盘工具，支持挂载（支持透明加密压缩），单exe文件，60M。
 
 ## Dart
-1. [Localsend](https://github.com/localsend/localsend) 非常好用的局域网文件/文本传递工具。
+1. [Localsend](https://github.com/localsend/localsend) 非常好用的局域网文件/文本传递工具，30M。
 1. [keyviz](https://github.com/mulaRahul/keyviz) 演示中实时显示按键和鼠标点击，12M。
 
 ## 其他
 1. [Windows-ahk](https://github.com/arlbibek/windows-ahk) 一个增强Windows操作的AutoHotHey脚本，比如输入自动扩展，大小写转换等。
+1. [privacy.sexy](https://github.com/undergroundwires/privacy.sexy) 一组修复各种隐私问题的脚本，包括windows/linux/mac系统。
 
