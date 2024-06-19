@@ -49,6 +49,7 @@ layout: page
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
 2. [croc](https://github.com/schollz/croc) 跨局域网的文件传送命令行工具，10M。
+3. [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 一个DNS服务器，可以过滤网址，有一个漂亮的webui，30M。
 
 ## Dart
 1. [Localsend](https://github.com/localsend/localsend) 非常好用的局域网文件/文本传递工具，30M。
