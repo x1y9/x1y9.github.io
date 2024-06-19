@@ -41,3 +41,6 @@ layout: page
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 网盘工具，支持挂载。
 
+## 其他
+1. [Windows-ahk](https://github.com/arlbibek/windows-ahk) 一个增强Windows操作的AutoHotHey脚本，比如输入自动扩展，大小写转换等。
+
