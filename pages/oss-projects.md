@@ -33,6 +33,7 @@ layout: page
 
 ## Rust
 1. [Spacedrive](https://github.com/spacedriveapp/spacedrive) UI非常漂亮的现代分布式文件管理器。
+2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具。
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 网盘工具，支持挂载。
