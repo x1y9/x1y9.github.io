@@ -14,12 +14,14 @@ layout: page
 3. [privatezilla](https://github.com/builtbybel/privatezilla) windows隐私优化工具，不到1M的windforms程序。
 4. [Sharp-keys](https://github.com/randyrants/sharpkeys) 通过Windows注册表重映射键盘按键，无需后台运行，小巧的Winforms程序。
 2. [WGestures](https://github.com/yingDev/WGestures) 检测鼠标轨迹手势并执行动作，Winforms程序。
+3. [Flow Launcher](github.com/Flow-Launcher/Flow.Launcher) 插件化的启动器，支持集成Everything。
    
 ## JavaScript/TypeScript
 1. [Deskreen](https://github.com/pavlobu/deskreen) 将桌面窗口投到局域网内另一个设备的浏览器上，扩展屏幕，安卓设备要使用支持WebRTC的浏览器。
 1. [Map of Github](https://github.com/anvaka/map-of-github) 通过一些算法将所有github项目分类，并给出关联性，算法和render部分很有意思。
 3. [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 使用windows内置的OCR引擎来复制图片里的文字，执行文件45M。
 4. [Immersive-Translate](https://github.com/immersive-translate/old-immersive-translate) chrome插件，支持PDF对照翻译，新版本不再开源了。
+5. [Micro Studio](https://github.com/pmgl/microstudio/) 全在线的游戏引擎和开发工具，官网上也有很多非常不错的游戏示例。
 
 ## C/C++
 4. [simplewall](https://github.com/henrypp/simplewall) 用C实现的超轻量Windows Filtering Platform配置工具，不到1M。
@@ -42,6 +44,7 @@ layout: page
 1. [Spacedrive](https://github.com/spacedriveapp/spacedrive) UI非常漂亮的现代分布式文件管理器。
 2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具，基于QT的UI。
 3. [SquirrelDisk](https://github.com/adileo/squirreldisk) 目录大小分析工具，类似TreeSize，UI是用JS实现，安装包10M。
+4. [czkawka](https://github.com/qarmin/czkawka) 重复文件，大文件，垃圾文件查找，多个GUI客户端，20M，性能非常棒。
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
