@@ -8,7 +8,7 @@ layout: page
 
 ## AI
 1. [Poe](https://poe.com/) 可以免费访问大部分高级模型，比如GPT4-o，但是有每日次数限制。
-1. [Coze](https://www.coze.com/) 类似Poe，虽然可用的模型较少，但完全免费。
+2. [Coze](https://www.coze.com/) 类似Poe，但可用的模型较少。
    
 ## 新闻
 1. [观察者](https://www.guancha.cn/)
