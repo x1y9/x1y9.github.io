@@ -22,6 +22,7 @@ layout: page
 3. [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 使用windows内置的OCR引擎来复制图片里的文字，执行文件45M。
 4. [Immersive-Translate](https://github.com/immersive-translate/old-immersive-translate) chrome插件，支持PDF对照翻译，新版本不再开源了。
 5. [Micro Studio](https://github.com/pmgl/microstudio/) 全在线的游戏引擎和开发工具，官网上也有很多非常不错的游戏示例。
+6. [WebGL Shooter](https://github.com/hvidal/WebGL-Shooter) 使用TypeScript/Three.js开发的小巧的3d游戏。
 
 ## C/C++
 4. [simplewall](https://github.com/henrypp/simplewall) 用C实现的超轻量Windows Filtering Platform配置工具，不到1M。
