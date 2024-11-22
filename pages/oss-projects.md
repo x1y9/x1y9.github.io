@@ -48,6 +48,7 @@ layout: page
 2. [Gyroflow](https://github.com/gyroflow) 基于陀螺仪的视频防抖工具，基于QT的UI。
 3. [SquirrelDisk](https://github.com/adileo/squirreldisk) 目录大小分析工具，类似TreeSize，UI是用JS实现，安装包10M。
 4. [czkawka](https://github.com/qarmin/czkawka) 重复文件，大文件，垃圾文件查找，多个GUI客户端，20M，性能非常棒。
+5. [screenpipe](https://github.com/mediar-ai/screenpipe) 24小时录音和录屏，并作AI提取，具体的提取可以用插件完成。
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
