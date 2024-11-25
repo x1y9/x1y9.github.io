@@ -49,6 +49,10 @@ layout: page
 3. [SquirrelDisk](https://github.com/adileo/squirreldisk) 目录大小分析工具，类似TreeSize，UI是用JS实现，安装包10M。
 4. [czkawka](https://github.com/qarmin/czkawka) 重复文件，大文件，垃圾文件查找，多个GUI客户端，20M，性能非常棒。
 5. [screenpipe](https://github.com/mediar-ai/screenpipe) 24小时录音和录屏，并作AI提取，具体的提取可以用插件完成。
+6. [Pot](https://github.com/pot-app/pot-desktop) 划词/OCR/翻译，居然用tauri做到，50M。
+7. [NeoHtop](https://github.com/Abdenasser/neohtop) 又一个HTop，这个8M，但内存占用比较大。
+8. [padloc](https://github.com/padloc/padloc) 多端密码本，3M，UI很专业了。
+9. [lettura](https://github.com/zhanglun/lettura) UI不错的RSS阅读器。
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
