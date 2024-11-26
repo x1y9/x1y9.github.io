@@ -1,10 +1,10 @@
 <table>
 <tr>
 <td>
-![Metrics](https://beta-metrics.lecoq.io/x1y9)
+<img src="https://beta-metrics.lecoq.io/x1y9"/>
 </td>
 <td>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=x1y9)
+<img src="https://github-readme-stats.vercel.app/api?username=x1y9"/>
 </td>
 </tr>
 </table>
