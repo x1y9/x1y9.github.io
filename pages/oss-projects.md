@@ -33,7 +33,7 @@ layout: page
 9. [UPBGE](https://github.com/UPBGE/upbge) 基于Blender的游戏开发工具，脚本使用Python，265M。
 10. [Magpie](https://github.com/Blinue/Magpie) 窗口全屏工具，内置很多超分算法让放大后的画面更清晰，30M。
 11. [Video2x](https://github.com/k4yt3x/video2x) 多个视频AI超分算法，有一个c++/qt的界面。
-12. [Transfer.zip](https://github.com/robinkarlberg/transfer.zip-web) 使用WebRTC端到端传递文件。
+12. [Transfer.zip](https://github.com/robinkarlberg/transfer.zip-web) 使用WebRTC端到端传递文件，WebRTC可以方便支持P2P，类似的还有[peertransfer](https://github.com/perguth/peertransfer)
 
 ## Java
 1. [SikuliX](https://github.com/RaiMan/SikuliX1/) GUI自动测试，通过Java Robot实现，内置了OpenCV算法和Jython。
@@ -57,7 +57,7 @@ layout: page
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
-2. [croc](https://github.com/schollz/croc) 跨局域网的文件传送命令行工具，10M。
+2. [croc](https://github.com/schollz/croc) 跨局域网的文件传送命令行工具，使用Relay解决P2P连接，多线程下载，但实测不太稳定，10M。
 3. [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 一个DNS服务器，可以过滤网址，有一个漂亮的webui，30M。
 
 ## Dart
