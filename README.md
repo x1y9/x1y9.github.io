@@ -1,4 +1,10 @@
-<table>
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
+<table border="0" style="border-collapse:collapse;" cellspacing="0" cellpadding="0">
 <tr>
 <td>
 <img src="https://beta-metrics.lecoq.io/x1y9"/>
