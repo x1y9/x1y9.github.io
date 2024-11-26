@@ -1,4 +1,4 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=x1y9)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=x1y9)
 
 ## My projects
 * [Micro Gesture](https://play.google.com/store/apps/details?id=me.i38.gesture) - Innovative Android motion gesture navigation.
