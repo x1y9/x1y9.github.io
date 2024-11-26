@@ -1,6 +1,14 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=x1y9)
-
+<table>
+<tr>
+<td>
 ![Metrics](https://beta-metrics.lecoq.io/x1y9)
+</td>
+<td>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=x1y9)
+</td>
+</tr>
+</table>
+
 
 ## My projects
 * [Micro Gesture](https://play.google.com/store/apps/details?id=me.i38.gesture) - Innovative Android motion gesture navigation.
