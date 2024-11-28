@@ -1,3 +1,9 @@
+---
+published: false
+title: 开发库
+layout: page
+---
+
 ## web-ui
 * vue可以用 [PrimeVue](https://primevue.org/)
 * 表单
