@@ -31,6 +31,7 @@ layout: page
 15. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
 16. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
 17. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
+18. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
 
 
 ## 媒体
