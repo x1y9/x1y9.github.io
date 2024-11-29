@@ -51,7 +51,7 @@ layout: page
 
 ## 设计
 1. [photopea](https://www.photopea.com/) 在线的photoshop替代者，和ps非常接近，比很多本地软件做的都好。
-2. [BeFunky](https://www.befunky.com/) BeFunky也是一个图片编辑工具，但更简单和只能，比如超分，背景去除，风格转换等。
+2. [BeFunky](https://www.befunky.com/) BeFunky也是一个图片编辑工具，但更简单和智能，比如超分，背景去除，风格转换等。
 1. [tinypng](https://tinypng.com/) png和jpeg压缩工具，对png压缩效果很棒。
 1. [iconvert](https://iconverticons.com/online/) png转换到icon。
 1. [diagrams](https://app.diagrams.net/) 流程图工具。
