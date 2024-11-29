@@ -1,6 +1,6 @@
 ---
 published: true
-title: Kindle应用
+title: Kindle工具箱
 layout: page
 ---
 
