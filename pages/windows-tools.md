@@ -59,7 +59,9 @@ layout: page
 1. [git](https://git-scm.com/) 版本控制和linux工具集
 1. [Sikulix](https://sikulix.github.io/) 最好的GUI自动化工具，通过图片识别来支持包括网页在内的任意GUI应用。
 1. [gitui](https://github.com/extrawurst/gitui) 命令行下的git客户端，浏览版本历史挺好用的。
-2. [stdump](https://github.com/odinserj/stdump) .net程序dump工具
+2. [stdump](https://github.com/odinserj/stdump) .net程序dump工具。
+3. [CPU Grab Ex](https://www.the-sz.com/products/cpugrabex/) 模拟CPU占用的工具，精确到指定的核。
+4. [RamMap](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) 内存工具，可以清理Windows缓存。
 
 ## 设计
 1. [Just Color Picker](http://annystudio.com/software/colorpicker/) 取色工具。
