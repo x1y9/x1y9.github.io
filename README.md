@@ -1,9 +1,4 @@
-<table border="0">
-<tr>
-<td><img src="https://beta-metrics.lecoq.io/x1y9"/></td>
-<td><img src="https://github-readme-stats.vercel.app/api?username=x1y9"/></td>
-</tr>
-</table>
+![](https://github-readme-stats.vercel.app/api?username=x1y9)
 
 
 ## My projects
