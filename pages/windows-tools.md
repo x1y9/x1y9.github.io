@@ -71,14 +71,15 @@ layout: page
 
 ## 网络
 1. [LocalSend](https://localsend.org) 局域网文件分享
-1. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
-1. [ipScan](http://angryip.org/)  IP搜索
-1. [Putty](http://www.putty.org/)  SSH/串口客户端
-1. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
-1. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
-2. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
-3. [syncthing](https://syncthing.net/) 多服务器同步
-4. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+2. [tailscale](https://tailscale.com/) 神器，跨网直连，全平台客户端。
+3. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
+4. [ipScan](http://angryip.org/)  IP搜索
+5. [Putty](http://www.putty.org/)  SSH/串口客户端
+6. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
+7. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
+8. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
+9. [syncthing](https://syncthing.net/) 多服务器同步
+10. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端

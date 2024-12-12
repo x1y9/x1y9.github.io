@@ -25,14 +25,15 @@ layout: page
 1. [droplr](https://d.pr/) 临时中转文件。
 1. [urlgot](https://v.urlgot.cn/) 下载某些视频网站的视频。
 1. [itellyou](https://msdn.itellyou.cn/) 微软资源下载检索。
-1. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
-1. [Anna's Archive](https://annas-archive.org/) 电子书
+2. [OS.click](https://os.click/) Windows/Linux镜像直接下载，速度快
+3. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
+4. [Anna's Archive](https://annas-archive.org/) 电子书
 
 ## 网络服务
 1. [NameCheap](https://www.namecheap.com/) 一直在用的域名服务，支持动态域名。
 1. [Dynv6](https://dynv6.com/) 免费动态域名。
 1. [Vultr](https://www.vultr.com/) VPS服务。
-1. [RackNerd](https://racknerd.com/) 另一个VPS，支持换IP(收费)。
+1. [RackNerd](https://racknerd.com/) 另一个VPS，换IP需收费。
     
 ## 对比和评测
 1. [GSMArena](https://www.gsmarena.com/) 丰富且准确的手机数据库。
