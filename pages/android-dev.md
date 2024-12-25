@@ -3,6 +3,7 @@ published: false
 title: 安卓开发
 tagline: 
 layout: page
+order: 1
 ---
 
 安卓的后台机制既是安卓的一个优势，也是碎片化很严重的一个特性，作为三款依赖安卓后台服务的App的开发者，写下这篇文章来比较一下EMUI和MIUI这两个最常见的安卓系统的后台处理逻辑，先把要比较的系统列一下：

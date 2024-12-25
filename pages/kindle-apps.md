@@ -2,6 +2,7 @@
 published: true
 title: Kindle工具箱
 layout: page
+order: 3
 ---
 
 手持Kindle电子书，看了不少书，记录一下心得。

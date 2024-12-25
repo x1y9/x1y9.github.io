@@ -2,6 +2,7 @@
 published: true
 title: 开发者工具箱
 layout: page
+order: 5
 ---
 
 ## Hybrid desktop 

@@ -2,6 +2,7 @@
 published: false
 title: 鸿蒙OS
 layout: page
+order: 1
 ---
 
 因为要验证我的几个应用能否移植到鸿蒙，仔细看了下鸿蒙，当然作为开发者，肯定要从开发环境看起。
