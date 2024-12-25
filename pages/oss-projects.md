@@ -54,10 +54,11 @@ layout: page
 7. [NeoHtop](https://github.com/Abdenasser/neohtop) 又一个HTop，这个8M，但内存占用比较大。
 8. [padloc](https://github.com/padloc/padloc) 多端密码本，3M，UI很专业了。
 9. [lettura](https://github.com/zhanglun/lettura) UI不错的RSS阅读器。
+10. [qft](https://github.com/tudbut/qft) 类似下面的croc，但更多依靠p2p。
 
 ## Go
 1. [rclone](https://github.com/rclone/rclone) 多格式网盘命令行工具，支持挂载（支持透明加密压缩），单exe文件，60M。
-2. [croc](https://github.com/schollz/croc) 跨局域网的文件传送命令行工具，使用Relay解决P2P连接，多线程下载，但实测不太稳定，10M。
+2. [croc](https://github.com/schollz/croc) 跨局域网的文件传送命令行工具，使用Relay解决P2P连接，有时不太稳定，10M。
 3. [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 一个DNS服务器，可以过滤网址，有一个漂亮的webui，30M。
 
 ## Dart

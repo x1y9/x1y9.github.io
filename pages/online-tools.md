@@ -22,12 +22,14 @@ layout: page
 ## 文件和下载
 1. [ApkMirror](https://www.apkmirror.com/) 下载apk
 1. [maildrop](https://maildrop.cc/) 给你一个临时邮箱，用来注册一些暂时用的服务。
-1. [droplr](https://d.pr/) 临时中转文件。
-1. [urlgot](https://v.urlgot.cn/) 下载某些视频网站的视频。
-1. [itellyou](https://msdn.itellyou.cn/) 微软资源下载检索。
-2. [OS.click](https://os.click/) Windows/Linux镜像直接下载，速度快
-3. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
-4. [Anna's Archive](https://annas-archive.org/) 电子书
+2. [Wormhole App](https://wormhole.app/) 一个点到点文件传输工具，易用性超棒，但速度一般。
+3. [droplr](https://d.pr/) 临时中转文件。
+4. [urlgot](https://v.urlgot.cn/) 下载某些视频网站的视频。
+5. [itellyou](https://msdn.itellyou.cn/) 微软资源下载检索。
+6. [OS.click](https://os.click/) Windows/Linux镜像直接下载，速度快
+7. [Unattend Generator](https://schneegans.de/windows/unattend-generator/) Windows安装盘的应答文件生成器，可以发现很多windows的tips
+8. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
+9. [Anna's Archive](https://annas-archive.org/) 电子书
 
 ## 网络服务
 1. [NameCheap](https://www.namecheap.com/) 一直在用的域名服务，支持动态域名。
