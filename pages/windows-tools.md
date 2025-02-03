@@ -7,6 +7,8 @@ order: 1
 
 记录了我在Windows下收集的工具，我偏爱portable的软件，这些基本都是free且portable的工具。这样重装windows的时候不需要再安装这些工具了，换电脑的时候，一个目录复制过去就可以了。
 
+## AI
+1. [Ollama](https://github.com/ollama/ollama) 本地运行DeepSeek等开源AI模型。
 
 ## 工具
 1. [Clink](https://github.com/chrisant996/clink) 支持CMD记录历史，可以和Windows Terminal集成。

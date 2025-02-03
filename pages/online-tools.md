@@ -8,8 +8,9 @@ order: 2
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子。
 
 ## AI
-1. [Poe](https://poe.com/) 可以免费访问大部分高级模型，比如GPT4-o，但是有每日次数限制。
-2. [Coze](https://www.coze.com/) 类似Poe，但可用的模型较少。
+1. [DeepSeek](https://www.deepseek.com/) DeepSeek AI，免费可用。
+1. [Poe](https://poe.com/) 可以免费访问大部分高级模型，比如GPT4o，但是有每日次数限制。
+2. [ChatGPT](https://chatgpt.com/) ChatGPT。
 3. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。
    
 ## 新闻
