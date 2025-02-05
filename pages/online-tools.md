@@ -9,9 +9,10 @@ order: 2
 
 ## AI
 1. [DeepSeek](https://www.deepseek.com/) DeepSeek AI，免费可用。
-1. [Poe](https://poe.com/) 可以免费访问大部分高级模型，比如GPT4o，但是有每日次数限制。
-2. [ChatGPT](https://chatgpt.com/) ChatGPT。
-3. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。
+2. [秘塔](https://metaso.cn/) 基于AI的搜索。
+3. [OpenRouter](https://openrouter.ai/) 一个AI模型的API聚合平台。
+4. [ChatGPT](https://chatgpt.com/) ChatGPT，免费版已经落后DeepSeek了。
+5. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。
    
 ## 新闻
 1. [观察者](https://www.guancha.cn/)
