@@ -35,3 +35,7 @@ Web UI的选择太多：
 
 * Go有[fyne](https://fyne.io/)，但缺少Common Dialog等关键特性，也不好看，基础版本也不小（22M），好处是可以兼容更多的系统，比如win7、移动端。
 * .Net主要是Winform和WPF，总体上Winform轻量，WPF更强大，比如独立线程UI，高速绘图，但WPF有不少小坑。
+
+## PDF提取
+* [pdftotext](https://www.xpdfreader.com/) 单exe，1M，提取中文要加-enc UTF-8参数，表格/图片/公式都不支持，其他没问题。
+* [docling](https://github.com/DS4SD/docling) IBM开源的工具，基于AI，表格/图片/公式统统支持，但中文稍有瑕疵（比如数字一很容易识别为连字符)，比marker效果好不少。
