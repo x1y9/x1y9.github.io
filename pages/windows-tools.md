@@ -69,9 +69,9 @@ order: 1
 ## 设计
 1. [Just Color Picker](http://annystudio.com/software/colorpicker/) 取色工具。
 2. [draw.io](https://www.drawio.com/) 通用矢量图工具，对Latex/SVG支持非常好。
-3. [yed](https://www.yworks.com/products/yed) 轻量流程图制作，内置的自动排版算法非常棒。
+3. [OpenSCAD](https://openscad.org/) 通过简单的脚本编程设计3D模型。
+4. [yed](https://www.yworks.com/products/yed) 轻量流程图制作，内置的自动排版算法非常棒。
    
-
 ## 网络
 1. [LocalSend](https://localsend.org) 局域网文件分享
 2. [tailscale](https://tailscale.com/) 神器，跨网直连，全平台客户端。
