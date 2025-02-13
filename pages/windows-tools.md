@@ -16,7 +16,6 @@ order: 1
 1. [Google password](https://passwords.google.com/) 和Chrome和指纹集成后，管理密码变得非常方便和安全。
 1. [7Zip](http://www.7-zip.org/) 压缩工具，高级用户推荐[zstd](https://github.com/mcmilk/7-Zip-zstd)扩展版本，zstd算法非常快。
 1. [Everything](https://www.voidtools.com/) 快速文件搜索，内置的HttpServer也很好用。
-1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文件内容搜索，支持指定目录做索引。
 1. [F2](https://github.com/ayoisaiah/f2) 最好的命令行批量改名工具，支持预览和正则表达式。
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义。 
 3. [HxD](https://mh-nexus.de/en/hxd/) 十六进制编辑器
@@ -36,10 +35,14 @@ order: 1
 17. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
 18. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
 
+## 文档
+1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
+1. [DocFetcher](https://http://docfetcher.sourceforge.net/) 文档内容搜索，支持指定目录做索引。
+1. [cpdf](https://github.com/coherentgraphics/cpdf-binaries): PDF命令行工具，比如拆分、合并、增加页码等功能。
+1. [XpdfReader](https://www.xpdfreader.com/) 一个阅读器，但包括一组高质量的pdf提取工具，比如pdftotext转文本，pdftopng转图片，非常轻量。
+1. [Docling](https://github.com/DS4SD/docling): 基于AI的PDF/WORD文档提取工具，支持公式，表格。
 
 ## 媒体
-1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
-1. [cpdf](https://github.com/coherentgraphics/cpdf-binaries): PDF命令行工具，比如拆分、合并、增加页码等功能。
 1. [MPC-HC](https://mpc-hc.org/) 非常轻量的播放器，CPU占用极低，适合笔记本使用。
 1. [Vlc](http://www.videolan.org/vlc/) 兼容性很好的播放器
 1. [IrfanView](http://www.irfanview.com/) 超轻量且支持格式极多的图片查看器。
@@ -69,7 +72,7 @@ order: 1
 ## 设计
 1. [Just Color Picker](http://annystudio.com/software/colorpicker/) 取色工具。
 2. [draw.io](https://www.drawio.com/) 通用矢量图工具，对Latex/SVG支持非常好。
-3. [OpenSCAD](https://openscad.org/) 通过简单的脚本编程设计3D模型。
+3. [OpenSCAD](https://openscad.org/) 通过简单的脚本编程设计3D模型，也有一个简易的[在线](https://github.com/openscad/openscad-playground)版本。
 4. [yed](https://www.yworks.com/products/yed) 轻量流程图制作，内置的自动排版算法非常棒。
    
 ## 网络
@@ -90,7 +93,7 @@ order: 1
 
 ## 数据处理
 1. [SciDAVis](http://scidavis.sourceforge.net/) 数据处理，替代Origin
-2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 一个Python命令行工具，将图片转换到Latex，可以支持直接粘贴剪贴板图片。
+2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 一个Python命令行工具，将图片转换到Latex，可以支持直接粘贴剪贴板图片，比在线的Mathpix稍差一些。
 
 ## 娱乐
 1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序。
