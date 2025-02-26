@@ -34,6 +34,7 @@ order: 1
 16. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
 17. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
 18. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
+19. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
 
 ## 文档
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
@@ -85,7 +86,8 @@ order: 1
 7. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
 8. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
 9. [syncthing](https://syncthing.net/) 多服务器同步
-10. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+10. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
+11. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端
