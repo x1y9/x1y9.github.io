@@ -106,3 +106,4 @@ Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. [Classic Shell](http://www.classicshell.net/) Windows8下用来找回开始菜单，win10及以上可以不用了。
 1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次行全部安装。
 1. Windows11更新了微软输入法会导致很多键盘快捷键失效(比如Shift-F6), 要在输入法设置里兼容老版本才可以。
+1. Windows11的权限限制导致很多软件拖放失败，可以通过关闭LUA解决：`reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /t REG_DWORD /v EnableLUA /d 0 /f`
