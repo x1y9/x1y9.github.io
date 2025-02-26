@@ -37,6 +37,10 @@ Kindle底层是一套封闭的Linux系统，相对大部分安卓阅读器的优
 | Kindle Paperwhite 5     | October 27, 2021   | 6.8-inch, 1236x1648, 300 PPI, 16级灰度,LED  | Mediatek MT8110z                   | 512 MB | 8/16 GB     | 1,700 mAh | 210 g |
 | Kindle 11               | October 12, 2022   | 6-inch, 1072x1448, 300 PPI, 16级灰度,LED    | MediaTek MT8113                    | 512 MB | 16 GB       | 1,040 mAh | 158 g |
 | Kindle Scribe           | November 30, 2022  | 10.2-inch, 1860x2480, 300 PPI, 16级灰度,LED | MediaTek MT8113                    | 1G MB  | 16/32/64 GB | 3,000 mAh | 430 g |
+| Kindle 11(2024)         | 2024               | 6-inch, 1072x1448, 300 PPI, 16级灰度,LED    |                                    |        | 16 GB       |           | 158 g |
+| Kindle Paperwhite 6     | 2024               | 7-inch, 1264x1680, 300 PPI, 16级灰度,LED    |                                    |        | 16/32 GB    |           | 211 g |
+| Kindle Colorsoft        | 2024               | 7-inch, 1264x1680, 300 PPI, 彩色, LED       | MediaTek MT8113 2GHz               |        | 32 GB       | 2300 mAh  | 219 g |
+| Kindle Scribe(2024)     | 2024               | 10.2-inch, 1860x2480, 300 PPI, 16级灰度,LED |                                    |        | 16/32/64 GB |           | 433 g |
 
 ## 应用
 
