@@ -8,6 +8,6 @@
 ## My open source projects
 * [justmd](https://github.com/x1y9/justmd/) - A markdown editor for Windows/Linux/OSX
 * [ExWrapper](https://github.com/x1y9/ExWrapper) A Windows exe wrapper for launch other program
-* [kaixin](https://github.com/x1y9/kaixin) - A rapid full stack devloperment framework
+* [kaixin](https://github.com/x1y9/kaixin) - A Java rapid full stack devloperment framework
 
 See [here](https://x1y9.com) for other projects.
