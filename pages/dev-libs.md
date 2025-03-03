@@ -39,3 +39,7 @@ Web UI的选择太多：
 ## PDF提取
 * [pdftotext](https://www.xpdfreader.com/) 单exe，1M，提取中文要加-enc UTF-8参数，表格/图片/公式都不支持，其他没问题。
 * [docling](https://github.com/DS4SD/docling) IBM开源的工具，基于AI，表格/图片/公式统统支持，但中文稍有瑕疵（比如数字一很容易识别为连字符)，比marker效果好不少。
+
+## chrome
+* 禁用https证书检查，可以用：`--ignore-certificate-errors`
+* 禁用CORS，可以用：`--disable-site-isolation-trials --disable-web-security --user-data-dir="d:/temp"`
