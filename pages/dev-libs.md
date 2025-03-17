@@ -17,7 +17,7 @@ order: 5
 * [Flutter](https://flutter.dev/) 更成熟
 * [KMM](https://kotlinlang.org/docs/multiplatform.html) Jetbrain的全平台框架
   
-## Web 
+## Web框架 
 * [Vue](https://vuejs.org/)和[Svelte](https://svelte.dev/), 一般认为Svelte更简洁，Vue的第三方库更多（比如UI库）。
   
 ## Web UI
@@ -29,11 +29,16 @@ Web UI的选择太多：
 * 还有一些基于css的ui库通常可以和任何框架配合，比如[daisyUI](https://daisyui.com/) 
 
 ## TUI
-* Go有一个
+* Python有一个[Textual](https://github.com/textualize/textual/)
+
+## 即时UI
+即时UI是实时刷新的UI，适合于游戏，图表类应用。
+* [Dear ImGui](https://github.com/ocornut/imgui)
   
 ## 其他UI
-
 * Go有[fyne](https://fyne.io/)，但缺少Common Dialog等关键特性，也不好看，基础版本也不小（22M），好处是可以兼容更多的系统，比如win7、移动端。
+* Python有[CustomTkinter](https://github.com/tomschimansky/customtkinter) 比标准的Tk好看很多。
+* Python的[NiceGUI](https://github.com/zauberzeug/nicegui/) 基于Vue+Quasar但是做了python封装。
 * .Net主要是Winform和WPF，总体上Winform轻量，WPF更强大，比如独立线程UI，高速绘图，但WPF有不少小坑。
 
 ## PDF提取
