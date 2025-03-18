@@ -38,7 +38,8 @@ Web UI的选择太多：
 ## 其他UI
 * Go有[fyne](https://fyne.io/)，但缺少Common Dialog等关键特性，也不好看，基础版本也不小（22M），好处是可以兼容更多的系统，比如win7、移动端。
 * Python有[CustomTkinter](https://github.com/tomschimansky/customtkinter) 比标准的Tk好看很多。
-* Python的[NiceGUI](https://github.com/zauberzeug/nicegui/) 基于Vue+Quasar但是做了python封装。
+* Python的[NiceGUI](https://github.com/zauberzeug/nicegui/) 很有趣，基于Vue+Quasar，但是做了python封装，同时支持前后端开发。
+* Java的Swing，其实很好，并且[更好看](https://github.com/JFormDesigner/FlatLaf)，但和Python一样，发布要考虑jre的问题。
 * .Net主要是Winform和WPF，总体上Winform轻量，WPF更强大，比如独立线程UI，高速绘图，但WPF有不少小坑。
 
 ## PDF提取
