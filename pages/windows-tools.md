@@ -96,6 +96,7 @@ order: 1
 ## 数据处理
 1. [SciDAVis](http://scidavis.sourceforge.net/) 数据处理，替代Origin
 2. [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) 一个Python命令行工具，将图片转换到Latex，可以支持直接粘贴剪贴板图片，比在线的Mathpix稍差一些。
+3. [jq](https://jqlang.org/) json数据处理，也可以转换到csv
 
 ## 娱乐
 1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序。
@@ -104,8 +105,10 @@ order: 1
 ## Windows修补
 Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. [Windows11 安装](https://4sysops.com/archives/install-windows-10-11-22h2-without-microsoft-account/) 跳过安装时的微软账号登录，简单的说就是Shift-F10加一条命令`oobe\BypassNRO`。 
-1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) :简单的说就是一条命令: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` 
+1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) :简单的说就是一条命令: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+1. [关闭硬盘休眠] 硬盘从休眠启动会导致卡顿，如果不希望，可以这样关闭：`powercfg /change disk-timeout-ac 0`
+1. [关闭休眠] Windows的'快速启动'功能会使用注销+休眠代替关机，因此会带来一些稳定性问题，可以直接关闭系统休眠功能从而禁用快速启动: `powercfg /h off`
 1. [Classic Shell](http://www.classicshell.net/) Windows8下用来找回开始菜单，win10及以上可以不用了。
 1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次行全部安装。
 1. Windows11更新了微软输入法会导致很多键盘快捷键失效(比如Shift-F6), 要在输入法设置里兼容老版本才可以。
-1. Windows11的权限限制导致很多软件拖放失败，可以通过关闭LUA解决：`reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /t REG_DWORD /v EnableLUA /d 0 /f`
+1. 关闭LUA：一般不推荐，`reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /t REG_DWORD /v EnableLUA /d 0 /f`
