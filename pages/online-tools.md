@@ -21,6 +21,9 @@ order: 2
 
 ## 购物
 1. [孔夫子](https://www.kongfz.com/) 很棒的二手书市场。
+
+## 美食
+1. [米其林](https://guide.michelin.com/) 虽然App不好用，官网还可以。
    
 ## 文件和下载
 1. [ApkMirror](https://www.apkmirror.com/) 下载apk
