@@ -25,7 +25,7 @@ order: 1
 7. [Ditto](http://ditto-cp.sourceforge.net/) 多剪贴板，Windows10以后可以不需要了。
 8. [CCleaner](https://www.piriform.com/ccleaner) 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
 9. [AllDup](http://www.alldup.de) 免费portable的重复文件查找，功能强大，图像重复查找很棒。
-10. [TreeSizeFree](https://www.jam-software.com/treesize_free/) 磁盘空间管理，在shell:sendto下增加快捷方式后很好用。 
+10. [TreeSizeFree](https://www.jam-software.com/treesize_free/) 磁盘空间管理，在shell:sendto下增加快捷方式后很好用，[WizTree](https://diskanalyzer.com/)也不错。 
 11. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync
 12. [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 浮窗翻译，缺点是占用过多内存。
 13. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘。
@@ -35,6 +35,7 @@ order: 1
 17. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
 18. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
 19. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
+20. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
 
 ## 文档
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
@@ -61,7 +62,7 @@ order: 1
 1. [Eclipse](https://www.eclipse.org/) Java IDE，虽然IntelliJ很好用，这个胜在免费。
 1. [CodeBlocks](http://www.codeblocks.org/) 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
 1. [lazarus](https://www.lazarus-ide.org/) Delphi的开源版本，做GUI小工具不错。
-1. [Visual Studio Code](https://code.visualstudio.com/) 大部分项目的IDE，Markdown编辑也非常好用。
+1. [Visual Studio Code](https://code.visualstudio.com/) 大部分项目的IDE，Markdown编辑/AI插件Cline也非常好用。
 1. [DotPeek](https://www.jetbrains.com/decompiler/) Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
 1. [git](https://git-scm.com/) 版本控制和linux工具集
 1. [Sikulix](https://sikulix.github.io/) 最好的GUI自动化工具，通过图片识别来支持包括网页在内的任意GUI应用。
@@ -111,8 +112,7 @@ Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. Windows的'快速启动'功能会使用注销+休眠代替关机，因此会带来一些稳定性问题，可以直接关闭系统休眠功能从而禁用快速启动: `powercfg /h off`
 1. [Classic Shell](http://www.classicshell.net/) Windows8下用来找回开始菜单，win10及以上可以不用了。
 1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次行全部安装。
-1. Windows11更新了微软输入法会导致很多键盘快捷键失效(比如Shift-F6), 要在输入法设置里兼容老版本才可以。
-1. 关闭LUA：一般不推荐，`reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /t REG_DWORD /v EnableLUA /d 0 /f`
+1. Windows11更新了微软输入法会导致很多问题，比如键盘快捷键失效(比如Shift-F6), 远程时VSCode卡顿等，要在输入法设置里兼容老版本可以修复。
 
 ## Windows自定义安装
 现代Windows(10/11)的自定义安装主要通过应答文件，应答文件是一个xml文件，并支持调用脚本，标准的Windows安装盘iso文件中涉及自定义的文件如下：
