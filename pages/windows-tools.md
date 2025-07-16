@@ -26,7 +26,7 @@ order: 1
 8. [CCleaner](https://www.piriform.com/ccleaner) 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
 9. [AllDup](http://www.alldup.de) 免费portable的重复文件查找，功能强大，图像重复查找很棒。
 10. [TreeSizeFree](https://www.jam-software.com/treesize_free/) 磁盘空间管理，在shell:sendto下增加快捷方式后很好用，[WizTree](https://diskanalyzer.com/)也不错。 
-11. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync
+11. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync。
 12. [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 浮窗翻译，缺点是占用过多内存。
 13. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘。
 14. [nssm](https://nssm.cc/) 把任何程序转为Windows服务。
@@ -36,6 +36,7 @@ order: 1
 18. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
 19. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
 20. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
+21. [Windhawk](https://github.com/ramensoftware/windhawk) 一个windows扩展插件库，比如自定义任务栏时钟等。
 
 ## 文档
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
