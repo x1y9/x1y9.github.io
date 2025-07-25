@@ -8,11 +8,12 @@ order: 2
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子。
 
 ## AI
-1. [DeepSeek](https://www.deepseek.com/) DeepSeek AI，免费可用。
-2. [秘塔](https://metaso.cn/) 基于AI的搜索。
-3. [OpenRouter](https://openrouter.ai/) 一个AI模型的API聚合平台。
-4. [ChatGPT](https://chatgpt.com/) ChatGPT，免费版已经落后DeepSeek了。
-5. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。
+1. [DeepSeek](https://www.deepseek.com/) DeepSeek AI。
+2. [Gemini](https://aistudio.google.com/) Google的Gemini也挺好用。
+3. [秘塔](https://metaso.cn/) 基于AI的搜索。
+4. [OpenRouter](https://openrouter.ai/) 一个AI模型的API聚合平台。
+5. [ChatGPT](https://chatgpt.com/) ChatGPT，免费版已经落后DeepSeek了。
+6. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。
    
 ## 新闻
 1. [观察者](https://www.guancha.cn/)
