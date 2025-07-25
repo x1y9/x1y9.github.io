@@ -34,7 +34,7 @@ order: 2
 5. [itellyou](https://msdn.itellyou.cn/) 微软资源下载检索。
 6. [OS.click](https://os.click/) Windows/Linux镜像直接下载，速度快
 7. [Unattend Generator](https://schneegans.de/windows/unattend-generator/) Windows安装盘的应答文件生成器，可以发现很多windows的tips
-8. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用。
+8. [坚果云](https://www.jianguoyun.com) 一直在用的云盘，结合手机客户端很好用，[Mega](https://mega.nz/)也不错。
 9. [Anna's Archive](https://annas-archive.org/) 电子书
 
 ## 网络服务
