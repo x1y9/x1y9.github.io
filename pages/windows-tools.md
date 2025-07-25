@@ -79,17 +79,19 @@ order: 1
 4. [yed](https://www.yworks.com/products/yed) 轻量流程图制作，内置的自动排版算法非常棒。
    
 ## 网络
-1. [LocalSend](https://localsend.org) 局域网文件分享
-2. [tailscale](https://tailscale.com/) 神器，跨网直连，全平台客户端。
-3. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
-4. [ipScan](http://angryip.org/)  IP搜索
-5. [Putty](http://www.putty.org/)  SSH/串口客户端
-6. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
-7. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
-8. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
-9. [syncthing](https://syncthing.net/) 多服务器同步
-10. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
-11. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+1. [LocalSend](https://localsend.org) 局域网文件分享。
+2. [UU远程](https://uuyc.163.com/) 网易的远程控制工具，很流畅。
+3. [tailscale](https://tailscale.com/) 跨网直连，全平台客户端。
+4. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
+5. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
+6. [ipScan](http://angryip.org/)  IP搜索
+7. [Putty](http://www.putty.org/)  SSH/串口客户端
+8. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
+9. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
+10. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
+11. [syncthing](https://syncthing.net/) 多服务器同步
+12. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
+13. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端
