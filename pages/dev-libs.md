@@ -49,3 +49,7 @@ Web UI的选择太多：
 ## chrome
 * 禁用https证书检查，可以用：`--ignore-certificate-errors`
 * 禁用CORS，可以用：`--disable-site-isolation-trials --disable-web-security --user-data-dir="d:/temp"`
+
+## git
+* 如果有本地代理，可以加速github， `git config --global http.https://github.com.proxy socks5://127.0.0.1:8888`
+* 如果本地git库没有ssl证书，可以`git config --global http.sslVerify false`
