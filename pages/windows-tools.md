@@ -87,8 +87,8 @@ order: 1
 6. [ipScan](http://angryip.org/)  IP搜索
 7. [Putty](http://www.putty.org/)  SSH/串口客户端
 8. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
-9. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器
-10. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用。
+9. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
+10. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
 11. [syncthing](https://syncthing.net/) 多服务器同步
 12. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
 13. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
@@ -158,4 +158,5 @@ dism /Unmount-Wim /MountDir:wim-mount /commit
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是基本不修改wim（只加驱动）的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
