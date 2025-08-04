@@ -65,7 +65,7 @@ order: 1
 1. [lazarus](https://www.lazarus-ide.org/) Delphi的开源版本，做GUI小工具不错。
 1. [Visual Studio Code](https://code.visualstudio.com/) 大部分项目的IDE，Markdown编辑/AI插件Cline也非常好用。
 1. [DotPeek](https://www.jetbrains.com/decompiler/) Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
-1. [git](https://git-scm.com/) 版本控制和linux工具集
+1. [git](https://git-scm.com/) 版本控制和linux工具集，命令行下有个[lazygit](https://github.com/jesseduffield/lazygit)的TUI工具也还可以。
 1. [Sikulix](https://sikulix.github.io/) 最好的GUI自动化工具，通过图片识别来支持包括网页在内的任意GUI应用。
 2. [stdump](https://github.com/odinserj/stdump) .net程序dump工具。
 3. [procdump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump) 可以强制dump的小工具，比如crash dump。
@@ -114,7 +114,7 @@ Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. 硬盘从休眠启动会导致系统正在运行时忽然的卡顿，如果不希望，可以这样关闭：`powercfg /change disk-timeout-ac 0`
 1. Windows的'快速启动'功能会使用注销+休眠代替关机，因此会带来一些稳定性问题，可以直接关闭系统休眠功能从而禁用快速启动: `powercfg /h off`
 1. [Classic Shell](http://www.classicshell.net/) Windows8下用来找回开始菜单，win10及以上可以不用了。
-1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次行全部安装。
+1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次性全部安装。
 1. Windows11更新了微软输入法会导致很多问题，比如键盘快捷键失效(比如Shift-F6), 远程时VSCode卡顿等，要在输入法设置里兼容老版本可以修复。
 
 ## Windows自定义安装
@@ -158,3 +158,4 @@ dism /Unmount-Wim /MountDir:wim-mount /commit
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是基本不修改wim（只加驱动）的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
