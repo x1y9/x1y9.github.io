@@ -9,6 +9,7 @@ order: 1
 
 ## AI
 1. [Ollama](https://github.com/ollama/ollama) 本地运行DeepSeek等开源AI模型。
+2. [Whisper Desktop](https://github.com/Const-me/Whisper) 本地运行的语音转文字模型，即使CPU也很快。
 
 ## 工具
 1. [Clink](https://github.com/chrisant996/clink) 支持CMD记录历史，可以和Windows Terminal集成。
@@ -158,5 +159,6 @@ dism /Unmount-Wim /MountDir:wim-mount /commit
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是基本不修改wim（只加驱动）的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
