@@ -111,12 +111,12 @@ order: 1
 Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. Windows更新虽然可以暂停，但时间太短，可以通过这个修改最长暂停时间：`reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 9999 /f`
 1. [Windows11 安装](https://4sysops.com/archives/install-windows-10-11-22h2-without-microsoft-account/) 跳过安装时的微软账号登录，简单的说就是Shift-F10加一条命令`oobe\BypassNRO`。 
-1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) :简单的说就是一条命令: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) : `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
 1. 硬盘从休眠启动会导致系统正在运行时忽然的卡顿，如果不希望，可以这样关闭：`powercfg /change disk-timeout-ac 0`
 1. Windows的'快速启动'功能会使用注销+休眠代替关机，因此会带来一些稳定性问题，可以直接关闭系统休眠功能从而禁用快速启动: `powercfg /h off`
-1. [Classic Shell](http://www.classicshell.net/) Windows8下用来找回开始菜单，win10及以上可以不用了。
 1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次性全部安装。
 1. Windows11更新了微软输入法会导致很多问题，比如键盘快捷键失效(比如Shift-F6), 远程时VSCode卡顿等，要在输入法设置里兼容老版本可以修复。
+1. Windows的远程桌面有时导致剪贴板失效，需要**远端**计算机上，重启rdpclip.exe进程。
 
 ## Windows自定义安装
 现代Windows(10/11)的自定义安装主要通过应答文件，应答文件是一个xml文件，并支持调用脚本，标准的Windows安装盘iso文件中涉及自定义的文件如下：
@@ -159,6 +159,7 @@ dism /Unmount-Wim /MountDir:wim-mount /commit
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是基本不修改wim（只加驱动）的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
 
