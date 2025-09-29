@@ -55,4 +55,4 @@ Web UI的选择太多：
 * 如果本地git库没有ssl证书，可以`git config --global http.sslVerify false`
 
 ## Windows
-* 启用LocalDump，创建 HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+* 启用LocalDump，`reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps" /f`
