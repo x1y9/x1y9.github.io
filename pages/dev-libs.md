@@ -54,5 +54,9 @@ Web UI的选择太多：
 * 如果有本地代理，可以加速github， `git config --global http.https://github.com.proxy socks5://127.0.0.1:8888`
 * 如果本地git库没有ssl证书，可以`git config --global http.sslVerify false`
 
+## Python
+* line_profiler 逐行性能分析，pip安装后，函数上加@profile，然后用`kernprof -l -v script.py`来分析代码耗时。
+* nuitka 最强python编译器。
+    
 ## Windows
 * 启用LocalDump，`reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps" /f`
