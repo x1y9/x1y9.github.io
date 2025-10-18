@@ -82,17 +82,18 @@ order: 1
 ## 网络
 1. [LocalSend](https://localsend.org) 局域网文件分享。
 2. [UU远程](https://uuyc.163.com/) 网易的远程控制工具，很流畅。
-3. [tailscale](https://tailscale.com/) 跨网直连，全平台客户端。
-4. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
-5. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
-6. [ipScan](http://angryip.org/)  IP搜索
-7. [Putty](http://www.putty.org/)  SSH/串口客户端
-8. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
-9. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
-10. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
-11. [syncthing](https://syncthing.net/) 多服务器同步
-12. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
-13. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+3. [tailscale](https://tailscale.com/) 跨网直连，全平台客户端，注意做site-to-site互联必须用linux。
+4. [softether](https://www.softether.org/) 免费VPN软件。
+5. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
+6. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
+7. [ipScan](http://angryip.org/)  IP搜索
+8. [Putty](http://www.putty.org/)  SSH/串口客户端
+9. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
+10. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
+11. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
+12. [syncthing](https://syncthing.net/) 多服务器同步
+13. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
+14. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端
@@ -135,17 +136,9 @@ Windows的初始镜像iso可以从微软下载，但旧版本的iso，微软网�
 * 优化windows操作体验
 * 运行指定的脚本
 
-下载得到的autounattend.xml，然后从原版iso中解出install.wim去集成想要的额外的驱动，驱动必须是inf格式的，但大部分exe格式的驱动直接解压缩就可以得到inf格式的驱动。下面的脚本完成驱动集成，第一步中index:4就表示要修改wim里的哪个windows版本，可以预先通过`dism /get-wiminfo /wimfile:install.wim`列举。 
-
-```
-dism /Mount-Wim /WimFile:install.wim /index:4 /MountDir:wim-mount
-dism /image:wim-mount /add-driver /driver:dell-drivers /recurse
-dism /Unmount-Wim /MountDir:wim-mount /commit
-```
-  
-执行完成后install.wim会被更新，现在就可以通过[Anyburn工具](https://www.anyburn.com/)生成自定义镜像iso了，打开原版iso，做以下修改：
-* 将sources下的install.wim替换
+下载得到的autounattend.xml，然后收集驱动到一个目录$WinpeDriver$，现在就可以通过[Anyburn工具](https://www.anyburn.com/)生成自定义镜像iso了，打开原版iso，做以下修改：
 * 在根目录下添加autounattend.xml
+* 在根目录下添加$WinpeDriver$
 * 修改卷标(可选)
 
 生成得到的这个镜像可以随时通过rufus制作可引导u盘来装机：
@@ -159,6 +152,7 @@ dism /Unmount-Wim /MountDir:wim-mount /commit
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是基本不修改wim（只加驱动）的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
 
