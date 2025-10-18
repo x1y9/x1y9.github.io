@@ -151,7 +151,8 @@ Windows的初始镜像iso可以从微软下载，但旧版本的iso，微软网�
 * 用diskpart工具，设置attributes volume readonly，但只对硬盘生效，u盘不能设置。
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
-上面的方法是基本不修改wim（只加驱动）的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+上面的方法是不修改wim的基础上做的，还有一个方法就完全自定义wim，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
 
