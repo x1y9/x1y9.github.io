@@ -14,7 +14,7 @@ order: 5
 
 ## Hybrid all
 移动平台，跨OS方案主要是
-* [Flutter](https://flutter.dev/) 更成熟
+* [Flutter](https://flutter.dev/) 更成熟，生态也比较成熟了。
 * [KMM](https://kotlinlang.org/docs/multiplatform.html) Jetbrain的全平台框架
   
 ## Web框架 
@@ -32,8 +32,9 @@ Web UI的选择太多：
 * Python有一个[Textual](https://github.com/textualize/textual/)
 
 ## 即时UI
-即时UI是实时刷新的UI，适合于游戏，图表类应用。
+即时UI是实时刷新的UI，易用，高性能，适合于游戏/图表类应用。
 * [Dear ImGui](https://github.com/ocornut/imgui)
+* 和vtk集成，可以提供[3d渲染](https://github.com/x1y9/imgui-vtk)。
   
 ## 其他UI
 * Go有[fyne](https://fyne.io/)，但缺少Common Dialog等关键特性，也不好看，基础版本也不小（22M），好处是可以兼容更多的系统，比如win7、移动端。
