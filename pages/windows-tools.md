@@ -84,16 +84,17 @@ order: 1
 2. [UU远程](https://uuyc.163.com/) 网易的远程控制工具，很流畅。
 3. [tailscale](https://tailscale.com/) 跨网直连，全平台客户端，注意做site-to-site互联必须用linux。
 4. [softether](https://www.softether.org/) 免费VPN软件。
-5. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
-6. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
-7. [ipScan](http://angryip.org/)  IP搜索
-8. [Putty](http://www.putty.org/)  SSH/串口客户端
-9. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
-10. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
-11. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
-12. [syncthing](https://syncthing.net/) 多服务器同步
-13. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
-14. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+5. [Hysteria](https://github.com/apernet/hysteria) 极高性能的udp proxy工具。
+6. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
+7. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
+8. [ipScan](http://angryip.org/)  IP搜索
+9. [Putty](http://www.putty.org/)  SSH/串口客户端
+10. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
+11. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
+12. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
+13. [syncthing](https://syncthing.net/) 多服务器同步
+14. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
+15. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端
@@ -152,6 +153,7 @@ Windows的初始镜像iso可以从微软下载，但旧版本的iso，微软网�
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是不修改install.wim的基础上做的，还有一个方法就完全自定义镜像，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
 
