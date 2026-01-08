@@ -65,6 +65,7 @@ order: 1
 1. [CodeBlocks](http://www.codeblocks.org/) 跨平台的c++ IDE，比visual studio小多了，做些小东西可以用。
 1. [lazarus](https://www.lazarus-ide.org/) Delphi的开源版本，做GUI小工具不错。
 1. [Visual Studio Code](https://code.visualstudio.com/) 大部分项目的IDE，Markdown编辑/AI插件Cline也非常好用。
+2. [Perfview](https://github.com/microsoft/perfview) Windows开发者必备诊断工具，尤其是对内存/GC相关问题的诊断。
 1. [DotPeek](https://www.jetbrains.com/decompiler/) Jetbrains的.net反编译器，对于小项目，[DnSpy](https://github.com/dnSpy/dnSpy)也很好用。
 1. [git](https://git-scm.com/) 版本控制和linux工具集，命令行下有个[lazygit](https://github.com/jesseduffield/lazygit)的TUI工具也还可以。
 1. [Sikulix](https://sikulix.github.io/) 最好的GUI自动化工具，通过图片识别来支持包括网页在内的任意GUI应用。
@@ -153,6 +154,7 @@ Windows的初始镜像iso可以从微软下载，但旧版本的iso，微软网�
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是不修改install.wim的基础上做的，还有一个方法就完全自定义镜像，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
 
