@@ -9,11 +9,11 @@ order: 2
 
 ## AI
 1. [DeepSeek](https://www.deepseek.com/) DeepSeek AI。
-2. [Gemini](https://aistudio.google.com/) Google的Gemini也挺好用。
+2. [Gemini](https://aistudio.google.com/) Google的Gemini。
 3. [秘塔](https://metaso.cn/) 基于AI的搜索。
 4. [OpenRouter](https://openrouter.ai/) 一个AI模型的API聚合平台。
-5. [ChatGPT](https://chatgpt.com/) ChatGPT，免费版已经落后DeepSeek了。
-6. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。
+5. [ChatGPT](https://chatgpt.com/) ChatGPT。
+6. [Gigantic Work](https://gigantic.work/) 提供StableDiffusion等AI模型的访问。，
    
 ## 新闻
 1. [观察者](https://www.guancha.cn/)
@@ -43,6 +43,7 @@ order: 2
 1. [Dynv6](https://dynv6.com/) 免费动态域名。
 1. [Vultr](https://www.vultr.com/) VPS服务。
 1. [RackNerd](https://racknerd.com/) 另一个VPS，换IP需收费。
+2. [轻松传](https://easychuan.cn/) 快速传递文件
     
 ## 对比和评测
 1. [GSMArena](https://www.gsmarena.com/) 丰富且准确的手机数据库。
@@ -89,3 +90,4 @@ order: 2
 ## 其他
 1. [soopat](http://www.soopat.com/) 专利检索，看专利内容的话，Goolge就挺好。
 2. [Mathpix](https://snip.mathpix.com/) 将图片转换为Latex的在线工具，免费版有次数限制。
+
