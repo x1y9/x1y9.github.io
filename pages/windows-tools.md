@@ -79,6 +79,7 @@ order: 1
 2. [draw.io](https://www.drawio.com/) 通用矢量图工具，对Latex/SVG支持非常好。
 3. [OpenSCAD](https://openscad.org/) 通过简单的脚本编程设计3D模型，也有一个简易的[在线](https://github.com/openscad/openscad-playground)版本。
 4. [yed](https://www.yworks.com/products/yed) 轻量流程图制作，内置的自动排版算法非常棒。
+5. [XnConvert](https://www.xnview.com/en/xnconvert/) 批量图片处理功能
    
 ## 网络
 1. [LocalSend](https://localsend.org) 局域网文件分享。
@@ -154,6 +155,7 @@ Windows的初始镜像iso可以从微软下载，但旧版本的iso，微软网�
 * 用NTFS文件系统，取消everyone的写权限（可能会报一个System Volume Information的错误，忽略就好）。
 
 上面的方法是不修改install.wim的基础上做的，还有一个方法就完全自定义镜像，通过虚拟机裁剪好所有windows内容，再封装为wim，灵活性高，但可维护性差，我不是很推荐。
+
 
 
 
