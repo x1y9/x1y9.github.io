@@ -38,6 +38,7 @@ order: 1
 19. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
 20. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
 21. [Windhawk](https://github.com/ramensoftware/windhawk) 一个windows扩展插件库，比如自定义任务栏时钟等。
+22. [微信输入法](https://z.weixin.qq.com/) Windows自带的输入法还是没有这个好用。
 
 ## 文档
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
@@ -119,7 +120,6 @@ Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. 硬盘从休眠启动会导致系统正在运行时忽然的卡顿，如果不希望，可以这样关闭：`powercfg /change disk-timeout-ac 0`
 1. Windows的'快速启动'功能会使用注销+休眠代替关机，因此会带来一些稳定性问题，可以直接关闭系统休眠功能从而禁用快速启动: `powercfg /h off`
 1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次性全部安装。
-1. Windows11更新了微软输入法会导致很多问题，比如键盘快捷键失效(比如Shift-F6), 远程时VSCode卡顿等，要在输入法设置里兼容老版本可以修复。
 1. Windows的远程桌面有时导致剪贴板失效，需要**远端**计算机上，重启rdpclip.exe进程。
 
 ## Windows自定义安装
