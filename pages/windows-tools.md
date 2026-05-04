@@ -9,7 +9,7 @@ order: 1
 
 ## AI
 1. [Ollama](https://github.com/ollama/ollama) 本地运行DeepSeek等开源AI模型。
-2. [Whisper Desktop](https://github.com/Const-me/Whisper) 本地运行的语音转文字模型，即使CPU也很快。
+2. [Zed](https://zed.dev/) 新一代的代码编辑器比 VS Code 的轻量很多。
 
 ## 工具
 1. [Clink](https://github.com/chrisant996/clink) 支持CMD记录历史，可以和Windows Terminal集成。
@@ -21,24 +21,25 @@ order: 1
 1. [AutoHotKey](https://autohotkey.com/) 键盘快捷键自定义。 
 3. [HxD](https://mh-nexus.de/en/hxd/) 十六进制编辑器
 4. [Emeditor](https://www.emeditor.com/download/) 最好的通用编辑器，免费版够用了，Portable版本要在shell:sendto下面增加它的快捷方式。
-5. [LibreOffice](https://www.libreoffice.org/) 代替微软Office，这个需要安装，不要用portable版本。
-6. [Insomnia](http://dlaa.me/blog/post/10104830) 防止休眠
-7. [Ditto](http://ditto-cp.sourceforge.net/) 多剪贴板，Windows10以后可以不需要了。
-8. [CCleaner](https://www.piriform.com/ccleaner) 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
-9. [AllDup](http://www.alldup.de) 免费portable的重复文件查找，功能强大，图像重复查找很棒。
-10. [TreeSizeFree](https://www.jam-software.com/treesize_free/) 磁盘空间管理，在shell:sendto下增加快捷方式后很好用，[WizTree](https://diskanalyzer.com/)也不错。 
-11. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync。
-12. [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 浮窗翻译，缺点是占用过多内存。
-13. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘。
-14. [nssm](https://nssm.cc/) 把任何程序转为Windows服务。
-15. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
-16. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
-17. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
-18. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
-19. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
-20. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
-21. [Windhawk](https://github.com/ramensoftware/windhawk) 一个windows扩展插件库，比如自定义任务栏时钟等。
-22. [微信输入法](https://z.weixin.qq.com/) Windows自带的输入法还是没有这个好用。
+5. [TrafficMonitor](https://github.com/zhongyang219/trafficmonitor) 内存/网速/CPU监测，可以直接在托盘区显示信息。
+6. [LibreOffice](https://www.libreoffice.org/) 代替微软Office，这个需要安装，不要用portable版本。
+7. [Insomnia](http://dlaa.me/blog/post/10104830) 防止休眠
+8. [Ditto](http://ditto-cp.sourceforge.net/) 多剪贴板，Windows10以后可以不需要了。
+9. [CCleaner](https://www.piriform.com/ccleaner) 垃圾文件清理，老版本很好用，新版嵌入了垃圾软件，但我暂时没找到更好的，姑且留在这里。
+10. [AllDup](http://www.alldup.de) 免费portable的重复文件查找，功能强大，图像重复查找很棒。
+11. [TreeSizeFree](https://www.jam-software.com/treesize_free/) 磁盘空间管理，在shell:sendto下增加快捷方式后很好用，[WizTree](https://diskanalyzer.com/)也不错。 
+12. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync。
+13. [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 浮窗翻译，缺点是占用过多内存。
+14. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘。
+15. [nssm](https://nssm.cc/) 把任何程序转为Windows服务。
+16. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
+17. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
+18. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
+19. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
+20. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
+21. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
+22. [Windhawk](https://github.com/ramensoftware/windhawk) 一个windows扩展插件库，比如自定义任务栏时钟等。
+23. [微信输入法](https://z.weixin.qq.com/) Windows自带的输入法还是没有这个好用，喜欢语音的可以用[push2talk](https://github.com/yyyzl/push-2-talk)。
 
 ## 文档
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
@@ -117,6 +118,7 @@ Windows总有一些用着不舒服的地方，可以找一些修补工具。
 1. Windows更新虽然可以暂停，但时间太短，可以通过这个修改最长暂停时间：`reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 9999 /f`
 1. [Windows11 安装](https://4sysops.com/archives/install-windows-10-11-22h2-without-microsoft-account/) 跳过安装时的微软账号登录，简单的说就是Shift-F10加一条命令`oobe\BypassNRO`。 
 1. [Windows11 恢复右键菜单](https://pureinfotech.com/bring-back-classic-context-menu-windows-11/) : `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+1. 不喜欢Windows Defender的可以考虑彻底[禁用](https://github.com/pgkt04/defender-control)它。
 1. 硬盘从休眠启动会导致系统正在运行时忽然的卡顿，如果不希望，可以这样关闭：`powercfg /change disk-timeout-ac 0`
 1. Windows的'快速启动'功能会使用注销+休眠代替关机，因此会带来一些稳定性问题，可以直接关闭系统休眠功能从而禁用快速启动: `powercfg /h off`
 1. [VC运行时](https://github.com/abbodi1406/vcredist) 很多软件都依赖VC运行时，因为版本非常多，常常漏掉，这个包一次性全部安装。
