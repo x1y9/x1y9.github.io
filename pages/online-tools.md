@@ -8,7 +8,7 @@ order: 2
 这里是我收藏的一些网页和工具，一些在线工具比本地工具还好用，但注意不少需要梯子。
 
 ## AI
-1. [https://deepswe.datacurve.ai/] Deep-SWE我认为是AI编程能力比较公平的评测，目前最佳应该是GPT-5.6-sol和Opus5。
+1. [Deep-SWE](https://deepswe.datacurve.ai/) 我认为是AI编程能力比较公平的评测，目前最佳应该是GPT-5.6-sol和Opus5。
 2. [DeepSeek](https://www.deepseek.com/) DeepSeek AI。
 3. [ChatGPT](https://chatgpt.com/) ChatGPT。
 4. [Gemini](https://aistudio.google.com/) Google的Gemini。
