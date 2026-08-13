@@ -31,15 +31,16 @@ order: 1
 12. [Unison](http://unison-binaries.inria.fr/) 文件目录同步, 双向rsync。
 13. [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 浮窗翻译，缺点是占用过多内存。
 14. [rufus](https://rufus.akeo.ie/) 格式化usb启动盘。
-15. [nssm](https://nssm.cc/) 把任何程序转为Windows服务。
-16. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
-17. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
-18. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
-19. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
-20. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
-21. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
-22. [Windhawk](https://github.com/ramensoftware/windhawk) 一个windows扩展插件库，比如自定义任务栏时钟等。
-23. [微信输入法](https://z.weixin.qq.com/) Windows自带的输入法还是没有这个好用，喜欢语音的可以用[push2talk](https://github.com/yyyzl/push-2-talk)。
+15. [DMDE](https://dmde.com/) 强大的数据恢复工具，免费版有一个限制，只能一个一个目录恢复。
+16. [nssm](https://nssm.cc/) 把任何程序转为Windows服务。
+17. [Scrcpy](https://github.com/Genymobile/scrcpy) 用pc控制手机，也可以同步剪贴板。
+18. [Hourglass](https://chris.dziemborowicz.com/apps/hourglass/#downloads) 小巧的计时器
+19. [gImageReader](https://github.com/manisandro/gImageReader) 也许比商用OCR软件差一点，但在开源OCR里，这个算很好的。
+20. [NTop](https://github.com/gsass1/NTop) 开源的控制台HTop工具，非常轻量。
+21. [Deskreen](https://github.com/pavlobu/deskreen) 将手机或其他pc上的浏览器变成扩展屏。
+22. [HWiNFO](https://www.hwinfo.com/) 硬件检测。
+23. [Windhawk](https://github.com/ramensoftware/windhawk) 一个windows扩展插件库，比如自定义任务栏时钟等。
+24. [微信输入法](https://z.weixin.qq.com/) Windows自带的输入法还是没有这个好用。
 
 ## 文档
 1. [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): 轻量PDF/EPUB阅读工具，多标签页。
@@ -149,6 +150,7 @@ Windows的初始镜像iso可以从微软下载，但旧版本的iso，微软网�
 生成得到的这个镜像可以随时通过rufus制作可引导u盘来装机：
 * U盘分区可以用MBR或GPT格式，有些电脑可以用MBR格式U盘启动，但有些则必须用GPT格式，比如微软surface。如果无法做到U盘启动，也可以在原windows下启动安装，速度稍慢。
 * rufus自己也可以设置应答文件，但我们已经设置过了，所以rufus的应答文件选项全部不选即可。
+* 很多新的主板自动ntfs驱动，不用rufus，直接解压缩到U盘也可以用。
 
 如果想将最终U盘设为只读，有几个方法：
 * 用U盘量产工具分只读区或CDROM区，但很难找工具。
