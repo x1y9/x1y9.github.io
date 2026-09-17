@@ -58,6 +58,7 @@ Web UI的选择太多：
 
 ## Python
 * line_profiler 逐行性能分析，pip安装后，函数上加@profile，然后用`kernprof -l -v script.py`来分析代码耗时。
+* Viztracer 最强python时序分析器，定位性能问题的神器，事件多时要加--tracer_entries增大缓冲区
 * nuitka 最强python编译器。
     
 ## Windows
