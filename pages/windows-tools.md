@@ -8,8 +8,9 @@ order: 1
 记录了我在Windows下收集的工具，我偏爱portable的软件，这些基本都是free且portable的工具。这样重装windows的时候不需要再安装这些工具了，换电脑的时候，一个目录复制过去就可以了。
 
 ## AI
-1. [Ollama](https://github.com/ollama/ollama) 本地运行DeepSeek等开源AI模型。
-2. [Zed](https://zed.dev/) 新一代的代码编辑器比 VS Code 的轻量很多。
+1. [OpenChamber](https://github.com/openchamber/openchamber) 基于OpenCode的更好UI，全平台。
+2. [Ollama](https://github.com/ollama/ollama) 本地运行AI模型。
+3. [Zed](https://zed.dev/) 新一代的代码编辑器比 VS Code 轻量很多。
 
 ## 工具
 1. [Clink](https://github.com/chrisant996/clink) 支持CMD记录历史，可以和Windows Terminal集成。
@@ -87,19 +88,21 @@ order: 1
 ## 网络
 1. [LocalSend](https://localsend.org) 局域网文件分享。
 2. [UU远程](https://uuyc.163.com/) 网易的远程控制工具，很流畅。
-3. [tailscale](https://tailscale.com/) 跨网直连，全平台客户端，注意做site-to-site互联必须用linux。
-4. [softether](https://www.softether.org/) 免费VPN软件。
-5. [Hysteria](https://github.com/apernet/hysteria) 极高性能的udp proxy工具。
-6. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
-7. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
-8. [ipScan](http://angryip.org/)  IP搜索
-9. [Putty](http://www.putty.org/)  SSH/串口客户端
-10. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
-11. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
-12. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
-13. [syncthing](https://syncthing.net/) 多服务器同步
-14. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
-15. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
+3. [tailscale](https://tailscale.com/) 跨网直连，全平台客户端，但在国内p2p成功率低，注意做site-to-site互联必须用linux。
+4. [EasyTier](https://github.com/EasyTier/EasyTier) 国内版的tailscale，p2p成功率高，有鸿蒙原生版本，但是手机版过于耗电。
+5. [softether](https://www.softether.org/) 免费VPN软件。
+6. [ddns-go](https://github.com/jeessy2/ddns-go) 动态域名客户端。
+7. [Hysteria](https://github.com/apernet/hysteria) 极高性能的udp proxy工具。
+8. [rclone](https://rclone.org/) 网盘命令行工具或挂载到本地使用。
+9. [Aria2](https://github.com/aria2/aria2) 命令行下载工具
+10. [ipScan](http://angryip.org/)  IP搜索
+11. [Putty](http://www.putty.org/)  SSH/串口客户端
+12. [MobaXTerm](http://mobaxterm.mobatek.net/)  SSH客户端，支持Mosh，以及一套cygwin工具集（rsync等）
+13. [mongoose](https://www.cesanta.com/products/binary) 超轻量的Http服务器。
+14. [FileBrowser](https://filebrowser.org/) Go开发的单exe文件管理web服务，在Kindle上也很好用，更轻量的[dufs](https://github.com/sigoden/dufs)也很不错。
+15. [syncthing](https://syncthing.net/) 多服务器同步
+16. [mitmproxy](https://mitmproxy.org/) Http代理，用来抓包非常好用。
+17. [eMule](https://www.emule-project.net) 下载非常冷门的资源 
 
 ## 数据库
 1. [HeidiSql](https://www.heidisql.com/) Mysql/mariadb 客户端
