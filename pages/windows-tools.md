@@ -8,6 +8,7 @@ order: 1
 记录了我在Windows下收集的工具，我偏爱portable的软件，这些基本都是free且portable的工具。这样重装windows的时候不需要再安装这些工具了，换电脑的时候，一个目录复制过去就可以了。
 
 ## AI
+1. [OpenCode](https://github.com/anomalyco/opencode) 开放的AI Agent，下载一个exe即可，扩展性强。
 1. [OpenChamber](https://github.com/openchamber/openchamber) 基于OpenCode的更好UI，全平台。
 2. [Ollama](https://github.com/ollama/ollama) 本地运行AI模型。
 3. [Zed](https://zed.dev/) 新一代的代码编辑器比 VS Code 轻量很多。
