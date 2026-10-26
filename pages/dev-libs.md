@@ -5,6 +5,17 @@ layout: page
 order: 5
 ---
 
+## AI Agent
+* [OpenCode](https://github.com/anomalyco/opencode)，和一般Agent不一样，OpenCode是一个agent service，如果只用OpenCode自己的client，无论是TUI、Desktop、Web，它都会自启Service，但如果用其他client，比如OpenChamber，可以共享预启动的OpenCode service，这个Service有很多参数可以配，比如proxy/host/password，通过命令行设置。
+* 远程开发时，可以用OpenCode自己的Web或者第三方的OpenChamber，如果用后者，也是先在服务器上启动服务，可以和OpenCode service一起启动：
+```
+call opencode service start
+set OPENCODE_SKIP_START=true
+set OPENCODE_HOST="http://127.0.0.1:4095"
+call OpenChamber serve --host 0.0.0.0  --port 4096 --ui-password xxxx
+```
+* vps因为配置有限，可以考虑安装一个hermes，而不是OpenChamber。
+  
 ## Hybrid desktop 
 桌面普通应用，不和OS紧密集成，可以考虑下面两个方案：
 * [Wails](https://wails.io/) Webview+Go
