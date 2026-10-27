@@ -117,6 +117,7 @@ order: 1
 ## 娱乐
 1. [dosbox](https://sourceforge.net/projects/dosbox/) dos模拟器，玩老游戏和程序。
 2. [BizHawk](https://github.com/TASEmulators/BizHawk) NES等模拟器，对蓝牙手柄支持相对较好。
+3. [PPSSPP](https://www.ppsspp.org/) 神级PSP模拟器，性能优化炸裂。
 
 ## Windows修补
 Windows总有一些用着不舒服的地方，可以找一些修补工具。
